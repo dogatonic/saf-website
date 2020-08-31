@@ -38,19 +38,30 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 			</div>
 		</div>
 
+		<!-- BEGIN: Div for In Person meeting schedule -->
 		<div id='divMeetingsIP' class="container my-1" style='border:0px solid #00f;'>
+			<div class="col-12 text-center bodydiv">
+				<h1 class="text-dark pt-4">In Person Meetings</h1>
+				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+				<p class="lead_x">
+				(C) - Closed Meetings: Attendance is limited to persons who have a desire to stop drinking.<br>
+				(O) - Open Meetings: Welcome to all.
+				</p>
+				<!-- We ask that when discussing our problems, we confine ourselves to those problems as they relate to alcoholism. -->
+			</div>
 			<div id="accordion">
-			<div class="card">
-					<div class="card-header card-header-meetings" id="headingOne" data-toggle="collapse" data-target="#collapseOne">
+
+				<!-- <div class="card">
+					<div class="card-header card-header-meetings" id="headingOne" data-toggle="collapse" data-target="#collapseSunday">
 						<h2 class="mb-0">Sunday</h2>
 					</div>
-					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					<div id="collapseSunday" class="collapse show" data-parent="#accordion">
 
 						<div class="card-body">
 							<div class='meetingCard'>
 								<span class='meetingCardTime' style=''>9:30 am</span>&nbsp;&nbsp;
 								<span class='meetingCardTitle'>Beginner's Meeting</span>
-								<span class='meetingCardType'>(&nbsp;C&nbsp;)</span>
+								<span class='meetingCardType'>(&nbsp;C&nbsp;)</span><br>
 								<span class='meetingCardDesc'>This meeting is for people with LESS THAN one year of sobriety only. This meeting is closed discussion.</span>
 								<span class='meetingCardRoom'>Big Room.</span>
 							</div>
@@ -58,7 +69,7 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 							<div class='meetingCard'>
 								<span class='meetingCardTime' style=''>9:30 am</span>&nbsp;&nbsp;
 								<span class='meetingCardTitle'>Over 1 Year Meeting</span>
-								<span class='meetingCardType'>(&nbsp;C&nbsp;)</span>
+								<span class='meetingCardType'>(&nbsp;C&nbsp;)</span><br>
 								<span class='meetingCardDesc'>This meeting is for people with OVER one year of sobriety only. This meeting is closed discussion.</span>
 								<span class='meetingCardRoom'>Big Room.</span>
 							</div>
@@ -66,52 +77,64 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 							<div class='meetingCard'>
 								<span class='meetingCardTime' style=''>12:00 pm</span>&nbsp;&nbsp;
 								<span class='meetingCardTitle'>Noon Discussion Meeting</span>
-								<span class='meetingCardType'>(&nbsp;C&nbsp;)</span>
+								<span class='meetingCardType'>(&nbsp;C&nbsp;)</span><br>
 								<span class='meetingCardDesc'>This meeting is closed discussion.</span>
 								<span class='meetingCardRoom'>Big Room.</span>
 							</div>
 						</div>
+					</div>
+				</div> -->
 
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-header card-header-meetings" id="headingOne" data-toggle="collapse" data-target="#collapseOne">
-						<h2 class="mb-0">Monday</h2>
-					</div>
-					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-					<div class="card-body">
-							<div class='meetingCard'>
-								<span class='meetingCardTime' style=''>7:30 am</span>
-								<span class='meetingCardTitle'>Morning Discussion Meeting</span>
-								<span class='meetingCardType'>( Open )</span>
-								<span class='meetingCardDesc'>This meeting is open discussion.</span>
-								<span class='meetingCardDesc'>Big Room</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-header card-header-meetings" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo">
-						<h2 class="mb-0">Tuesday</h2>
-					</div>
-					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-						<div class="card-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
-					</div>
-				</div>
-				<div class="card">
-				<div class="card-header card-header-meetings" id="headingThree" data-toggle="collapse" data-target="#collapseThree">
-						<h2 class="mb-0">Wednesday</h2>
-					</div>
-					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-						<div class="card-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. </div>
-					</div>
-				</div>
+<?php
+// this section will show a list of the In-Person Meetings. The data is in a separate file called "/content_php/meetings_info.php"
+$arrDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+foreach($arrDays as $sEachDay){
+	$sShowStartingCard = ($sEachDay == 'Sunday') ? 'show' : '';// this class will allow Sunday to be visible on pageload
+	echo '<div class="card">';
+	echo '<div class="card-header card-header-meetings" id="heading' . $sEachDay . '" data-toggle="collapse" data-target="#collapse' . $sEachDay . '">';
+		echo '<h2 class="mb-0">' . $sEachDay . '</h2>';
+	echo '</div>' . "\n";
+	echo '<div id="collapse' . $sEachDay . '" class="collapse ' . $sShowStartingCard . '" data-parent="#accordion">';
+	echo '<div class="card-body">';
+	foreach($arrMeetingsData as $thisDayData){
+		if($thisDayData['day'] != $sEachDay)continue; //skip rows that don't match the day we are currently working with
+		echo "<div class='meetingCard'>" . "\n";
+		echo "<span class='meetingCardTime'>". $thisDayData['time'] . "</span>&nbsp;&nbsp;" . "\n";
+		echo "<span class='meetingCardTitle'>" . $thisDayData['title'] . "</span>" . "\n";
+		echo "<span class='meetingCardType'>(" . $thisDayData['type'] . ")</span><br>" . "\n";
+		echo "<span class='meetingCardDesc'>" . $thisDayData['desc'] . "</span>" . "\n";
+		echo "<span class='meetingCardRoom'>" . $thisDayData['room'] . ".</span>" . "\n";
+		echo '</div><!-- END: class="meetingCard" -->' . "\n";
+	}
+	echo '</div><!-- END: class="card-body" -->' . "\n";
+	echo '</div><!-- END: day collapse section -->' . "\n";
+	echo '</div><!-- END: day card -->' . "\n\n\n";
+}
+
+?>
+			</div><!-- id='accordion' -->
+		</div><!-- id='divMeetingsIP' -->
+		<!-- END: Div for In Person meeting schedule -->
+
+		<!-- BEGIN: Div for Online meeting schedule -->
+		<div id='divMeetingsOL' class="container" style='border:0px solid #0f0;'>
+			<div class="col-12 text-center bodydiv">
+				<h1 class="text-dark pt-4">Online Meetings</h1>
+				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+				<p class="lead">Northland AA Group online meetings are held on Zoom everyday. For online meetings and other information, visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website.</a></p>
+				
 			</div>
 		</div>
 
-		<div id='divMeetingsOL' class="container my-1" style='border:1px solid #0f0;'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus totam ea sit perferendis vero commodi qui architecto ipsa eius! Ut est vero ipsum ipsam sequi consequatur nisi earum praesentium dignissimos?</div>
-
-		<div id='divMeetingsEV' class="container my-1" style='border:1px solid #f00;'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus totam ea sit perferendis vero commodi qui architecto ipsa eius! Ut est vero ipsum ipsam sequi consequatur nisi earum praesentium dignissimos?</div>
+		<div id='divMeetingsEV' class="container my-1" style='border:0px solid #f00;'>
+			<div class="col-12 text-center bodydiv">
+				<h1 class="text-dark pt-4">Events</h1>
+				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+				<p class="lead">Birthday Night is the last Friday of every month at 7:30 pm. Currently, this event is being held in a Zoom meeting -
+				visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information.</p>
+				
+			</div>
+			</div>
 
 
 		<!-- Start Footer -->
