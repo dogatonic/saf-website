@@ -51,41 +51,8 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 			</div>
 			<div id="accordion">
 
-				<!-- <div class="card">
-					<div class="card-header card-header-meetings" id="headingOne" data-toggle="collapse" data-target="#collapseSunday">
-						<h2 class="mb-0">Sunday</h2>
-					</div>
-					<div id="collapseSunday" class="collapse show" data-parent="#accordion">
-
-						<div class="card-body">
-							<div class='meetingCard'>
-								<span class='meetingCardTime' style=''>9:30 am</span>&nbsp;&nbsp;
-								<span class='meetingCardTitle'>Beginner's Meeting</span>
-								<span class='meetingCardType'>(&nbsp;C&nbsp;)</span><br>
-								<span class='meetingCardDesc'>This meeting is for people with LESS THAN one year of sobriety only. This meeting is closed discussion.</span>
-								<span class='meetingCardRoom'>Big Room.</span>
-							</div>
-
-							<div class='meetingCard'>
-								<span class='meetingCardTime' style=''>9:30 am</span>&nbsp;&nbsp;
-								<span class='meetingCardTitle'>Over 1 Year Meeting</span>
-								<span class='meetingCardType'>(&nbsp;C&nbsp;)</span><br>
-								<span class='meetingCardDesc'>This meeting is for people with OVER one year of sobriety only. This meeting is closed discussion.</span>
-								<span class='meetingCardRoom'>Big Room.</span>
-							</div>
-
-							<div class='meetingCard'>
-								<span class='meetingCardTime' style=''>12:00 pm</span>&nbsp;&nbsp;
-								<span class='meetingCardTitle'>Noon Discussion Meeting</span>
-								<span class='meetingCardType'>(&nbsp;C&nbsp;)</span><br>
-								<span class='meetingCardDesc'>This meeting is closed discussion.</span>
-								<span class='meetingCardRoom'>Big Room.</span>
-							</div>
-						</div>
-					</div>
-				</div> -->
-
 <?php
+$sOnlineMessage = 'Visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information.';
 // this section will show a list of the In-Person Meetings. The data is in a separate file called "/content_php/meetings_info.php"
 $arrDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 foreach($arrDays as $sEachDay){
@@ -98,12 +65,19 @@ foreach($arrDays as $sEachDay){
 	echo '<div class="card-body">';
 	foreach($arrMeetingsData as $thisDayData){
 		if($thisDayData['day'] != $sEachDay)continue; //skip rows that don't match the day we are currently working with
+
+		$bShowType = ($thisDayData['type'] != 'X')? true : false;
+		$sStrikeThroughClass = ($thisDayData['type'] == 'X')? 'strikeThrough' : '';
+
 		echo "<div class='meetingCard'>" . "\n";
-		echo "<span class='meetingCardTime'>". $thisDayData['time'] . "</span>&nbsp;&nbsp;" . "\n";
-		echo "<span class='meetingCardTitle'>" . $thisDayData['title'] . "</span>" . "\n";
-		echo "<span class='meetingCardType'>(" . $thisDayData['type'] . ")</span><br>" . "\n";
+		echo "<span class='meetingCardTime $sStrikeThroughClass'>". $thisDayData['time'] . "</span>&nbsp;&nbsp;" . "\n";
+		echo "<span class='meetingCardTitle $sStrikeThroughClass'>" . $thisDayData['title'] . "</span>" . "\n";
+		if(!$bShowType)echo "<span class='meetingCanceled'>This meeting is online only at this time.</span>" . "\n";
+		if($bShowType)echo "<span class='meetingCardType'>(" . $thisDayData['type'] . ")</span>" . "\n";
+		echo "<br>";
 		echo "<span class='meetingCardDesc'>" . $thisDayData['desc'] . "</span>" . "\n";
 		echo "<span class='meetingCardRoom'>" . $thisDayData['room'] . ".</span>" . "\n";
+		if(!$bShowType)echo '<br>' . $sOnlineMessage;
 		echo '</div><!-- END: class="meetingCard" -->' . "\n";
 	}
 	echo '</div><!-- END: class="card-body" -->' . "\n";
@@ -122,8 +96,14 @@ foreach($arrDays as $sEachDay){
 				<h1 class="text-dark pt-4">Online Meetings</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
 				<p class="lead">Northland AA Group online meetings are held on Zoom everyday. For online meetings and other information, visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website.</a></p>
+				<div class="container my-1" style=''>
+					<a href="http://www.northlandgroup.org" target="_blank">
+						<img src="/img/northland_mini.png" alt="Northland Group Site" style='border: 1px solid #888;' class='faux_northland'>
+					</a>
+				</div> 
 				
 			</div>
+			<div class="container my-1" style='border:0px solid #f00; padding:20px 0px;'>&nbsp;</div>
 		</div>
 
 		<div id='divMeetingsEV' class="container my-1" style='border:0px solid #f00;'>

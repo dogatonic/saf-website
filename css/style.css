@@ -8,6 +8,9 @@ body {
 	background-color: #555;
 }
 
+.strikeThrough {
+	text-decoration: line-through;
+}
 .big-div {
 	background-color: #fff;
 }
@@ -33,6 +36,9 @@ h1.clubhouseHeading {
 	line-height: 2.2rem;
 	text-shadow: 2px 2px #000;
 }
+
+.faux_northland {
+}
 /*============= TOP BAR HEADER =============*/
 .top-bar {
 	background-color: #8c0806; /* 8c0806 630802*/
@@ -51,7 +57,9 @@ h1.clubhouseHeading {
 .logolink:visited,
 .logolink:hover {
 	/* font-family: 'Libre Caslon Display', serif; */
-	font-family: "Libre Baskerville", serif;
+	/* font-family: "Libre Baskerville", serif; */
+	/* font-family: "Spartan", sans-serif; */
+	font-family: "Oswald", sans-serif;
 	color: #000;
 	font-size: 2.6rem;
 	text-decoration: none;
@@ -195,6 +203,9 @@ h1.clubhouseHeading {
 	font-size: 1.2rem;
 	color: #0062cc;
 }
+.meetingCanceled {
+	color: #f00;
+}
 /*============= FOOTER =============*/
 
 footer {
@@ -275,6 +286,9 @@ p.footer-links a:hover {
 @media (max-width: 500.98px) {
 	.logolink {
 		font-size: 1.2rem;
+	}
+	.faux_northland {
+		width: 300px;
 	}
 }
 /*============ BOOTSTRAP BREAK POINTS:
