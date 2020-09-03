@@ -8,25 +8,11 @@
 		<?php require_once(__ROOT__ . "/includes/nav_bar.php"); ?>
 		<!-- End Navigation -->
 
-		<!-- Image Carousel -->
-		<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
-			<!-- Carousel Content -->
-			<div class="carousel-inner">
-				<div class="home-carousel carousel-item active"> <img src="/img/carousel/saf_front.png" alt="saf_front" class="w-100"> </div>
-				<div class="home-carousel  carousel-item"> <img src="/img/carousel/saf_inner.png" alt="saf_front" class="w-100"> </div>
-			</div>
-			<!-- End Carousel Content -->
-
-			<!-- Previous & Next Buttons -->
-			<a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev"> <span class="fas fa-chevron-left fa-2x"></span> </a>
-			<a href="#carousel" class="carousel-control-next" role="button" data-slide="next"> <span class="fas fa-chevron-right fa-2x"></span> </a>
-			<!-- End Previous & Next Buttons -->
-		</div>
-		<!-- End Image Carousel -->
+		
 
 		<!-- Main Page Heading -->
 		<div class="col-12 text-center mt-5 bodydiv">
-			<h1 class="text-dark pt-4">Now Open, 7 Days a Week</h1>
+			<h1 class="text-dark pt-4">Membership</h1>
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"><?php //echo $sTitle; ?>The SAF facility is open for in-person meetings everyday. Check the <a class="blue-link" href="/meetings">Meetings page</a> for scheduled times.</p>
 		</div>
@@ -39,11 +25,11 @@
 		<!-- END: Main Page Heading -->
 
 		<!-- Three Column Section -->
-		<?php require_once(__ROOT__ . "/content_php/3columnEvents.php"); ?>
+	
 		<!-- End Three Column Section -->
 
 		<!-- Start Fixed Background IMG -->
-		<div class="fixed-background fixed-background-home">
+		<div class="fixed-background">
 			<div class="row text-light py-5">
 				<div class="col-12 text-center clubmessage">
 					<h1 class="clubhouseHeading">A Permanent Home</h1>
@@ -51,7 +37,7 @@
 				</div>
 			</div>
 			<div class="fixed-wrap">
-				<div class="fixed fixed-home"></div>
+				<div class="fixed"></div>
 			</div>
 		</div>
 		<!-- End Fixed Background IMG -->

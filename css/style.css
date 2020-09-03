@@ -39,6 +39,10 @@ h1.clubhouseHeading {
 
 .faux_northland {
 }
+
+#meetingsLinkDivButton {
+	cursor: pointer;
+}
 /*============= TOP BAR HEADER =============*/
 .top-bar {
 	background-color: #8c0806; /* 8c0806 630802*/
@@ -56,14 +60,21 @@ h1.clubhouseHeading {
 .logolink,
 .logolink:visited,
 .logolink:hover {
-	/* font-family: 'Libre Caslon Display', serif; */
-	/* font-family: "Libre Baskerville", serif; */
+	/* font-family: "Libre Caslon Display", serif; */
+	font-family: "Libre Baskerville", serif;
 	/* font-family: "Spartan", sans-serif; */
-	font-family: "Oswald", sans-serif;
+	/* font-family: "Oswald", sans-serif; */
 	color: #000;
 	font-size: 2.6rem;
 	text-decoration: none;
 }
+
+#navbarResponsive {
+}
+
+/* ul > li:nth-child(4) {
+	background: red;
+} */
 
 .navbar {
 	font-size: 1.2rem;
@@ -160,8 +171,20 @@ h1.clubhouseHeading {
 	will-change: transform;
 }
 
-.bannerOpaqueLayer {
+.bannerOpaqueLayerGreen {
 	background-color: rgba(20, 100, 10, 0.5);
+}
+
+.bannerOpaqueLayerRed {
+	background-color: rgba(100, 20, 10, 0.5);
+}
+
+.bannerOpaqueLayerGold {
+	background-color: rgba(129, 112, 12, 0.493);
+}
+
+.bannerOpaqueLayerCyan {
+	background-color: rgba(16, 113, 126, 0.5);
 }
 
 .clubmessage {
@@ -175,8 +198,9 @@ h1.clubhouseHeading {
 }
 
 .fixed-nothome {
-	background-image: url("../img/saf_inner_bw.png");
+	background-image: url("../img/hiw_blur_bw.jpg");
 	position: fixed;
+	background-position: -50px -50px;
 }
 
 .fixed-background-home {
@@ -189,6 +213,10 @@ h1.clubhouseHeading {
 /*============= Meetings Buttons =============*/
 .card-header-meetings {
 	cursor: pointer;
+}
+
+.bMeetingsGroup {
+	/* width: 100%; */
 }
 /*============= Meetings Cards =============*/
 .meetingCard {
@@ -206,6 +234,31 @@ h1.clubhouseHeading {
 .meetingCanceled {
 	color: #f00;
 }
+
+/*============= GOOGLE MAP =============*/
+
+.contact-map {
+	max-height: 400px !important;
+	padding: 0 !important;
+	overflow: hidden;
+	background-color: #5291c9;
+}
+.responsive-map {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+	opacity: 0.8;
+}
+.responsive-map iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	max-height: 400px;
+	min-width: 100%;
+	position: absolute;
+}
+
 /*============= FOOTER =============*/
 
 footer {
@@ -269,6 +322,9 @@ p.footer-links a:hover {
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
+	.nav-item {
+		padding: 0px;
+	}
 }
 
 /* Devices under 901px (md) */

@@ -22,6 +22,10 @@ switch($sApex){
         $sTitle = "SAF - Resources";
         $sPageInclude = $sApex;
     break;
+    case 'membership':
+        $sTitle = "SAF - Membership";
+        $sPageInclude = $sApex;
+    break;
     case 'find_us':
         $sTitle = "SAF - Find Us";
         $sPageInclude = $sApex;

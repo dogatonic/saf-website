@@ -11,9 +11,9 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 		<?php require_once(__ROOT__ . "/includes/nav_bar.php"); ?>
 		<!-- End Navigation -->
 
-				<!-- Start Fixed Background IMG -->
+		<!-- Start Fixed Background IMG -->
 		<div class="fixed-background fixed-background-nothome">
-			<div class="row text-light bannerOpaqueLayer" style="height: 6rem; padding-top: 20px;">
+			<div class="row text-light bannerOpaqueLayerGreen" style="height: 6rem; padding-top: 20px;">
 				<div class="col-12 text-center ">
 					<h1 class="clubhouseHeading">Meetings & Events</h1>
 				</div>
@@ -31,7 +31,7 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 		<!-- END: Main Page Heading -->
 
 		<div class="container my-1  text-center ">
-			<div class="btn-group buttonGroupMeetings" role="group" aria-label="meetings">
+			<div class="btn-group buttonGroupMeetings" role="group" aria-label="meetings" style="width: 100%; max-width: 40rem;">
 				<button type="button" id="bMeetingsIP" class="btn bMeetingsGroup btn-secondary">In Person</button>
 				<button type="button" id="bMeetingsOL" class="btn bMeetingsGroup btn-secondary-2">Online</button>
 				<button type="button" id="bMeetingsEV" class="btn bMeetingsGroup btn-secondary">Events</button>
@@ -41,7 +41,9 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 		<!-- BEGIN: Div for In Person meeting schedule -->
 		<div id='divMeetingsIP' class="container my-1" style='border:0px solid #00f;'>
 			<div class="col-12 text-center bodydiv">
-				<h1 class="text-dark pt-4">In Person Meetings</h1>
+			<h1 class="text-dark pt-4">
+
+				In Person Meetings</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
 				<p class="lead_x">
 				(C) - Closed Meetings: Attendance is limited to persons who have a desire to stop drinking.<br>

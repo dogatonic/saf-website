@@ -10,6 +10,7 @@ $(document).ready(function () {
 	//bMeetingsGroup
 	$(".bMeetingsGroup").click(doMeetingsButtonClick);
 	$("#bMeetingsIP").click();
+	$("#meetingsLinkDivButton").click(gotoMeetingsPage);
 });
 
 const objMeetingsButtons = {
@@ -33,4 +34,8 @@ function doMeetingsButtonClick() {
 	// $(".bMeetingsGroup").removeClass().addClass("btn bMeetingsGroup btn-secondary");
 	$(this).removeClass(objMeetingsButtons[thisId]["offClass"]).addClass("btn-primary active");
 	$("#" + objMeetingsButtons[thisId]["contentDiv"]).show();
+}
+
+function gotoMeetingsPage() {
+	window.location = "/meetings";
 }
