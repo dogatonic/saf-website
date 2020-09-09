@@ -25,15 +25,16 @@
 		<!-- End Image Carousel -->
 
 		<!-- Main Page Heading -->
-		<div class="col-12 text-center mt-5 bodydiv">
+		<div class="col-12 text-center mt-3 bodydiv">
 			<h1 class="text-dark pt-4">Now Open, 7 Days a Week</h1>
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
-			<p class="lead"><?php //echo $sTitle; ?>The SAF facility is open for in-person meetings everyday. Check the <a class="blue-link" href="/meetings">Meetings page</a> for scheduled times.</p>
+			<p class="lead"><?php //echo $sTitle; ?>Covid-19 Update: The SAF facility is open for in-person meetings everyday. We are following City Guidelines for safety.<br>Check the <a class="blue-link" href="/meetings">Meetings page</a> for scheduled times.</p>
 		</div>
 		<div class="container my-5 bodydiv">
 			<p class="statement">The <strong>Suburban Alcoholic Foundation</strong> (SAF) was established as a non profit corporation in 1955 to be a permanent home for the Northland Group of Alcoholics Anonymous in Austin, Texas. 
 			The SAF Facility is open for scheduled meetings. Masks are required at all times inside the building. 
 			A maximum of 31 people are allowed in the big room, and 16 people in the small room. 
+			Chairs are "socially distanced", and masks are available.
 			To find Northland Group online meetings and other information, visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website.</a></p>
 		</div>
 		<!-- END: Main Page Heading -->

@@ -21,67 +21,54 @@
 		</div>
 		<!-- End Fixed Background IMG -->		
 
-		<!-- Three Column Section -->
-		<div class="container mt-4 mb-5 bodydiv">
-			<div class="row">
-				<div class="col-sm-6 col-md-4">
-					<div class="row services">
-						<div class="col-lg-4 col-xl-3">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-circle fa-stack-2x" style="color: #2abc68;"></i>
-								<i class="fas fa-handshake fa-inverse fa-stack-1x"></i>
-							</span>
-						</div>
-						<div class="col-lg-8 col-xl-9">
-							<h4 class="text-dark text-uppercase">Meetings</h4>
-							<p>The Northland Group is having meetings everyday, both in-person on online. Check the Meetings page for more.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="row services">
-						<div class="col-lg-4 col-xl-3">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-circle fa-stack-2x" style="color: #ffbf00;"></i>
-								<i class="fas fa-calendar-alt fa-inverse fa-stack-1x"></i>
-							</span>
-						</div>
-						<div class="col-lg-8 col-xl-9">
-							<h4 class="text-dark text-uppercase">Events</h4>
-							<p>At this time, all SAF events are on hold while adhering to current COVID-19 guidelines for the city of Austin.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<div class="row services">
-						<div class="col-lg-4 col-xl-3">
-							<span class="fa-stack fa-2x">
-								<i class="fas fa-circle fa-stack-2x" style="color: #bd0202;"></i>
-								<i class="fas fa-bullhorn fa-inverse fa-stack-1x"></i>
-							</span>
-						</div>
-						<div class="col-lg-8 col-xl-9">
-							<h4 class="text-dark text-uppercase">Announcements</h4>
-							<p>Birthday Night is being held on ZOOM on the the last Friday of every month. If you have an annual length of sobriety to celebrate, come join us!</p>
-						</div>
-					</div>
-				</div>
-			</div><!--- End Row -->
+		<div class="col-12 text-center mt-2 bodydiv">
+			<h1 class="text-dark pt-4">History & Philosophy</h1>
+			<div class="border-top border-primary w-25 mx-auto my-3"></div>
+			<p class="lead"></p>
 		</div>
-		<!-- End Three Column Section -->
 
-		<!-- Start Fixed Background IMG -->
-		<div class="fixed-background">
-			<div class="row text-light py-5">
-				<div class="col-12 text-center clubmessage">
-					<h1 class="clubhouseHeading">A Permanent Home</h1>
-					<p class="clubhouse">The SAF Clubhouse was built more than 50 years ago to provide a permanent home for AA in Austin. The Northland AA Group meets here seven days a week. If you would like to be a part of the Suburban Alcoholic Foundation's effort to preserve and maintain this clubhouse, we welcome you to join our foundation. You need not be a member of the Foundation to attend Northland AA Group meetings. We are glad you are here!</p>
-				</div>
-			</div>
-			<div class="fixed-wrap">
-				<div class="fixed"></div>
-			</div>
+		<div class="container my-5 bodydiv">
+			<p class="statement">The suburban alcoholic foundation was established by the Suburban (Northland) group in 1955 and "Owner and Landlord" of the premises and equipment. The SAF is a nonprofit corporation operated by a board of trustees and it is an entirely separate entity. Operation of the premises, in line with AA traditions, is conducted by a special worker employed as the Manager. Since the Manager is also a member of the group, he/she is ever mindful of the group conscience.
+					<br><br>
+Experience has taught us that the successful operation of the Premises depends to a large extent upon monies received from the Foundation Members. Each new member of the group shall be given a copy of our brochure. The Manager will always be available to inform group members or the groups' Secretary of the need for Foundation Membership and support.
+<br><br>
+The purpose of the Foundation is to help the sick alcoholic recover if he so desires. Any sober member of the Northland Group may join the Foundation for the monthly contribution currently in effect.</p>
 		</div>
+		
+		<div class="col-12 text-center mt-2 bodydiv">
+					<h1 class="text-dark pt-4">Service Opportunities</h1>
+					<div class="border-top border-primary w-25 mx-auto my-3"></div>
+					<p class="lead"></p>
+		</div>
+		<div class="container my-5 bodydiv">
+			<ul class="statement">
+				<li>Financial support in itself is a great service. We use these contributions for the maintenance and upkeep of our meeting facility. </li>
+				<li>Eligibility to vote on foundation issues. </li>
+				<li>Eligibility to serve on the board of trustees. </li>
+				<li>Eligibility for office management.</li>
+			</ul>
+		</div>
+
+		<div class="col-12 text-center mt-2 bodydiv">
+					<h1 class="text-dark pt-4">Our Founders</h1>
+					<div class="border-top border-primary w-25 mx-auto my-3"></div>
+					<p class="lead"></p>
+		</div>
+		<div class="container my-5 " style="max-width: 700px;">
+			
+				<div class="image-scale">
+					<div class="image-scale-img">
+					<img src="/img/founders.jpg" alt="Our Founders" style='border: 1px solid #888;' class='faux_northland'>
+					</div>
+				</div>
+			
+		
+		</div>
+
+
+		
+		<!-- Start Fixed Background IMG -->
+
 		<!-- End Fixed Background IMG -->
 
 		<!-- Start Footer -->

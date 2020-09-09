@@ -8,38 +8,44 @@
 		<?php require_once(__ROOT__ . "/includes/nav_bar.php"); ?>
 		<!-- End Navigation -->
 
-		
-
-		<!-- Main Page Heading -->
-		<div class="col-12 text-center mt-5 bodydiv">
-			<h1 class="text-dark pt-4">Membership</h1>
-			<div class="border-top border-primary w-25 mx-auto my-3"></div>
-			<p class="lead"><?php //echo $sTitle; ?>The SAF facility is open for in-person meetings everyday. Check the <a class="blue-link" href="/meetings">Meetings page</a> for scheduled times.</p>
-		</div>
-		<div class="container my-5 bodydiv">
-			<p class="statement">The <strong>Suburban Alcoholic Foundation</strong> (SAF) was established as a non profit corporation in 1955 to be a permanent home for the Northland Group of Alcoholics Anonymous in Austin, Texas. 
-			The SAF Facility is open for scheduled meetings. Masks are required at all times inside the building. 
-			A maximum of 31 people are allowed in the big room, and 16 people in the small room. 
-			To find Northland Group online meetings and other information, visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website.</a></p>
-		</div>
-		<!-- END: Main Page Heading -->
-
-		<!-- Three Column Section -->
-	
-		<!-- End Three Column Section -->
-
 		<!-- Start Fixed Background IMG -->
-		<div class="fixed-background">
-			<div class="row text-light py-5">
-				<div class="col-12 text-center clubmessage">
-					<h1 class="clubhouseHeading">A Permanent Home</h1>
-					<p class="clubhouse">The SAF Clubhouse was built more than 50 years ago to provide a permanent home for AA in Austin. The Northland AA Group meets here seven days a week. If you would like to be a part of the Suburban Alcoholic Foundation's effort to preserve and maintain this clubhouse, we welcome you to join our foundation. You need not be a member of the Foundation to attend Northland AA Group meetings. We are glad you are here!</p>
+		<div class="fixed-background fixed-background-nothome">
+			<div class="row text-light bannerOpaqueLayerRed" style="height: 6rem; padding-top: 20px;">
+				<div class="col-12 text-center ">
+					<h1 class="clubhouseHeading">Membership</h1>
 				</div>
 			</div>
 			<div class="fixed-wrap">
-				<div class="fixed"></div>
+				<div class="fixed fixed-nothome"></div>
 			</div>
 		</div>
+		<!-- End Fixed Background IMG -->		
+
+		<div class="col-12 text-center mt-2 bodydiv">
+			<h1 class="text-dark pt-4">Why Join?</h1>
+			<div class="border-top border-primary w-25 mx-auto my-3"></div>
+			<p class="lead"></p>
+		</div>
+
+		<div class="container my-5 bodydiv">
+		<h2>Gratitude</h2>
+		<p class="statement">Signify your gratitude for the beautiful facility we have in which to recover and provide a place for the newcomer to achieve sobriety.</p><br>
+
+		<h2>Financial Support</h2>
+<p class="statement">Financial support helps defray the cost of expenses such as utilities, building and grounds maintenance, insurance and special events events.</p><br>
+
+<h2>Service</h2>
+<p class="statement">Foundation members in good standing are eligible to serve on the board of trustees and vote at foundation meetings. </p><br>
+
+<p class="statement" style='font-style:italic;'>The board of trustees of the foundation encourages and welcomes your membership and participation in the foundation</p><br>
+			<p class="statement"></p>
+		</div>
+
+
+
+		
+		<!-- Start Fixed Background IMG -->
+
 		<!-- End Fixed Background IMG -->
 
 		<!-- Start Footer -->

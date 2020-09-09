@@ -114,6 +114,8 @@ foreach($arrDays as $sEachDay){
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
 				<p class="lead">Birthday Night is the last Friday of every month at 7:30 pm. Currently, this event is being held in a Zoom meeting -
 				visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information.</p>
+				<img src="/img/cake.png" alt="Birthday Night" style='' class=''>
+				<h1>Next Birthday Night: September 25</h1>
 				
 			</div>
 			</div>

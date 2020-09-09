@@ -43,6 +43,21 @@ h1.clubhouseHeading {
 #meetingsLinkDivButton {
 	cursor: pointer;
 }
+
+/* IMG */
+img {
+	max-width: 100%;
+}
+.image-scale-img {
+	overflow: hidden;
+}
+.image-scale-img img {
+	/* transition: 0.7s; */
+}
+.image-scale:hover img {
+	/* transform: scale(1.08); */
+}
+
 /*============= TOP BAR HEADER =============*/
 .top-bar {
 	background-color: #8c0806; /* 8c0806 630802*/

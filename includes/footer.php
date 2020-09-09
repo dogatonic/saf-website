@@ -11,6 +11,7 @@
 							<p><a href="/about"><i class="fas fa-address-card mr-3"></i>About</a></p>
 							<p><a href="/meetings"><i class="fas fa-globe mr-3"></i>Meetings</a></p>
 							<p><a href="/resources"><i class="fas fa-project-diagram mr-3"></i>Resources</a></p>
+							<p><a href="/membership"><i class="fas fa-users mr-3"></i>Membership</a></p>
 							<p><a href="/find_us"><i class="fas fa-paper-plane mr-3"></i>Find Us</a></p>
 						</div>
 					</div>

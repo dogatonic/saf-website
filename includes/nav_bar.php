@@ -11,7 +11,7 @@
 			<li class="nav-item"><a href="/about" class="nav-link <?= setActiveNav('about'); ?>">About</a></li>
 			<li class="nav-item"><a href="/meetings" class="nav-link <?= setActiveNav('meetings'); ?>">Meetings</a></li>
 			<li class="nav-item"><a href="/resources" class="nav-link <?= setActiveNav('resources'); ?>">Resources</a></li>
-			<!-- <li class="nav-item"><a href="/membership" class="nav-link <?= setActiveNav('membership'); ?>">Membership</a></li> -->
+			<li class="nav-item"><a href="/membership" class="nav-link <?= setActiveNav('membership'); ?>">Membership</a></li>
 			<li class="nav-item"><a href="/find_us" class="nav-link <?= setActiveNav('find_us'); ?>">Find&nbsp;Us</a></li>
 		</ul>
 	</div>
