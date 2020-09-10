@@ -30,7 +30,7 @@
 		<!-- Three Column Section -->
 		<div class="container mt-4 mb-5 bodydiv">
 			<div class="row">
-				<div class="col-sm-6 col-md-4">
+				<div class="col-sm-6 col-md-4" style='padding-right: 0px;'>
 					<div class="row services">
 						<div class="col-lg-4 col-xl-3">
 							<span class="fa-stack fa-2x">
@@ -40,12 +40,13 @@
 						</div>
 						<div class="col-lg-8 col-xl-9">
 							<h4 class="text-dark text-uppercase">Membership</h4>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat atque quod facere voluptatum eos quia? Eveniet aut est ab natus omnis cumque deserunt nesciunt, necessitatibus nihil perferendis architecto. Quos, saepe.</p>
+							<p>Become a Foundation Member today!<br>
+						<a href='/membership' style='font-size:1.3rem;'>Click Here</a></p>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-sm-6 col-md-4">
+				<div class="col-sm-6 col-md-4" style='padding-right: 0px; padding-left:0px;'>
 					<div class="row services">
 						<div class="col-lg-4 col-xl-3">
 							<span class="fa-stack fa-2x">
@@ -55,7 +56,17 @@
 						</div>
 						<div class="col-lg-8 col-xl-9">
 							<h4 class="text-dark text-uppercase">Links</h4>
-							<p>Sed perspiciatis dolorem neque in deleniti reprehenderit, eum dolor obcaecati eaque nesciunt coe. Perferendis error soluta cumque dolorum nemo laborum?</p>
+							<p>
+								<a href="https://www.northlandgroup.org/" class='linkMainTitle'>Northland AA Group</a><br>
+								<a href="https://www.northlandgroup.org/">northlandgroup.org</a>
+</p>
+
+								<p><a href="https://austinaa.org/" class='linkMainTitle'>Hill Country Intergroup</a><br>
+								<a href="https://austinaa.org/">austinaa.org</a></p>
+
+								<p><a href="https://www.aa.org/" class='linkMainTitle'>AA - Alcoholics Anonymous</a><br>
+								<a href="https://www.aa.org/">aa.org</a></p>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -77,6 +88,7 @@
 		</div>
 		<!-- End Three Column Section -->
 
+		<?php require_once(__ROOT__ . "/content_php/3columnEvents.php"); ?>
 
 		<!-- Start Footer -->
 		<?php

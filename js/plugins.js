@@ -498,6 +498,9 @@ $(document).ready(function () {
 });
 
 /*========== PROJECTS FILTER (ISOTOPE) INITIALIZATION ==========*/
+
+// TUCKER: I was going to comment out the isotope section to stop a console error, but it made a new error
+
 var $grid = $(".grid").isotope({
 	filter: ".web-design", //class for active filter menu link,"is-checked" class needed in nav item.
 	itemSelector: ".element-item",

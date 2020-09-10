@@ -116,6 +116,7 @@ foreach($arrDays as $sEachDay){
 				visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information.</p>
 				<img src="/img/cake.png" alt="Birthday Night" style='' class=''>
 				<h1>Birthday Night: September 25</h1>
+				<br><br>
 				
 			</div>
 			</div>
