@@ -44,6 +44,16 @@ h1.clubhouseHeading {
 	cursor: pointer;
 }
 
+.payDues {
+	color: #000;
+}
+
+.payDues li {
+	margin-bottom: 1rem;
+}
+
+#donateButton {
+}
 /* IMG */
 img {
 	max-width: 100%;
