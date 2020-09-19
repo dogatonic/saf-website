@@ -5,7 +5,7 @@
 		<!-- End Top Bar -->
 
 		<!-- Navigation -->
-		<?php require_once(__ROOT__ . "/includes/nav_bar.php"); ?>
+		<?php require_once(__ROOT__ . "/includes/nav_bar.php"); //echo date('l jS \of F Y h:i:s A');?>
 		<!-- End Navigation -->
 
 		<!-- Image Carousel -->

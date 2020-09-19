@@ -72,10 +72,13 @@ a.linkMainTitle {
 	font-size: 1.3rem;
 	color: #00f;
 }
+.with-errors {
+	color: #d81310;
+}
 /*============= TOP BAR HEADER =============*/
 .top-bar {
 	background-color: #8c0806; /* 8c0806 630802*/
-	height: 2.8rem;
+	min-height: 2.8rem;
 	padding: 0.5rem 0;
 }
 

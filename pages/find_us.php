@@ -34,7 +34,7 @@
 			<div class="os-animation" data-animation="animate__animated animate__fadeInUp">
 				<div class="row mb-4">
 
-					<div class="col-md-5 contact-social">
+					<div class="col-md-5 contact-social"><?php echo date('l jS \of F Y h:i:s A') . "<br>"; ?>
 						<strong>Connect With Us</strong>
 						<p>Have questions? We have answers. Send us a message directly and someone will get back to you right away.</p>
 						<strong>Our Location</strong>
@@ -46,22 +46,25 @@
 
 					<div class="col-md-7" style="background: #ddd; border-radius: 8px;">
 
-						<form id="contact-form" method="post" action="/includes/contact_process.php">
+						<form id="contact-form" method="post" action="/process/contact_process.php">
 							<div>&nbsp;</div>
 							<div class="messages">Send us a message directly...</div>
 							<div class="controls">
 
 								<div class="form-group">
 
-									<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required="required">
+									<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required>
+									<div class="help-block with-errors"></div>
 								</div>
 
 								<div class="form-group">
-									<input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email." required="required">
+									<input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email." data-error="Please enter a valid email address." required=>
+									<div class="help-block with-errors"></div>
 								</div>
 
 								<div class="form-group">
 									<textarea id="form_message" name="message" class="form-control" placeholder="Add your message." rows="4" required="required"></textarea>
+									<div class="help-block with-errors"></div>
 								</div>
 
 								<input type="submit" class="btn btn-outline-dark btn-md" value="Send message">

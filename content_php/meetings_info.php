@@ -278,6 +278,16 @@ $arrMeetingsData[] = [
 
 $arrMeetingsData[] = [
 	'day'=>"Thursday",
+	'order'=>35,
+	'time'=>"5:30 pm",
+	'title'=>"Beginner's Meeting",
+	'type'=>"O",
+	'desc'=>"This meeting is for people with LESS THAN one year of sobriety only. This meeting is open discussion.",
+	'room'=>"Small room"
+];
+
+$arrMeetingsData[] = [
+	'day'=>"Thursday",
 	'order'=>40,
 	'time'=>"5:30 pm",
 	'title'=>"Discussion Meeting",

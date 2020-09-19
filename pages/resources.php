@@ -71,7 +71,7 @@
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-4">
-					<div class="row services">
+					<div class="row services">	
 						<div class="col-lg-4 col-xl-3">
 							<span class="fa-stack fa-2x">
 								<i class="fas fa-circle fa-stack-2x" style="color: #8f32a8;"></i>
