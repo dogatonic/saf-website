@@ -11,6 +11,10 @@ $(document).ready(function () {
 	$(".bMeetingsGroup").click(doMeetingsButtonClick);
 	$("#bMeetingsIP").click();
 	$("#meetingsLinkDivButton").click(gotoMeetingsPage);
+
+	// About Us page buttons
+	$(".bAboutGroup").click(doAboutButtonClick);
+	$("#bAboutPhilosophy").click();
 });
 
 const objMeetingsButtons = {
@@ -34,6 +38,28 @@ function doMeetingsButtonClick() {
 	// $(".bMeetingsGroup").removeClass().addClass("btn bMeetingsGroup btn-secondary");
 	$(this).removeClass(objMeetingsButtons[thisId]["offClass"]).addClass("btn-primary active");
 	$("#" + objMeetingsButtons[thisId]["contentDiv"]).show();
+}
+
+const objAboutButtons = {
+	bAboutPhilosophy: { offClass: "btn-secondary", contentDiv: "divAboutPhilosophy" },
+	bAboutHistory: { offClass: "btn-secondary", contentDiv: "divAboutHistory" },
+};
+
+function doAboutButtonClick() {
+	// console.log($(this).attr("id"));
+	const thisId = $(this).attr("id");
+	console.log(objAboutButtons[thisId]["offClass"]);
+
+	$.each(objAboutButtons, function (key, value) {
+		$("#" + key)
+			.removeClass()
+			.addClass("btn bAboutGroup " + objAboutButtons[key]["offClass"]);
+		$("#" + objAboutButtons[key]["contentDiv"]).hide();
+	});
+
+	// $(".bMeetingsGroup").removeClass().addClass("btn bMeetingsGroup btn-secondary");
+	$(this).removeClass(objAboutButtons[thisId]["offClass"]).addClass("btn-primary active");
+	$("#" + objAboutButtons[thisId]["contentDiv"]).show();
 }
 
 function gotoMeetingsPage() {

@@ -45,7 +45,7 @@
 
 				<div class="col-md-7" >
 					<div style="background: #ddd; border-radius: 8px; padding:10px; margin: 0px 0px 20px 0px;">
-						<form id="membership-form" method="post" action="/includes/membership_process.php">
+						<form id="membership-form" method="post" action="/process/membership_process.php">
 						<div class="messages"></div>
 							<div class="" style="margin: 2px 0px; font-size: 1.3rem;">Become a Foundation Member Today!</div>
 							<div class="form-group">

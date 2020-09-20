@@ -119,7 +119,7 @@ foreach($arrDays as $sEachDay){
 				<br><br>
 				
 			</div>
-			</div>
+		</div>
 
 
 		<!-- Start Footer -->

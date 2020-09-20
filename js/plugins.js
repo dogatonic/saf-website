@@ -185,7 +185,7 @@ $(function () {
 	$("#membership-form").on("submit", function (e) {
 		// if the validator does not prevent form submit
 		if (!e.isDefaultPrevented()) {
-			var url = "/includes/membership_process.php";
+			var url = "/process/membership_process.php";
 
 			// POST values in the background the the script URL
 			$.ajax({

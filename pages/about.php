@@ -21,14 +21,40 @@
 		</div>
 		<!-- End Fixed Background IMG -->		
 
-		<div class="col-12 text-center mt-2 bodydiv">
+		<!-- <div class="col-12 text-center mt-2 bodydiv">
 			<h1 class="text-dark pt-4">History & Philosophy</h1>
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"></p>
+		</div> -->
+
+		<div class="container my-4  text-center ">
+		
+			<div class="btn-group buttonGroupAbout" role="group" aria-label="meetings" style="width: 100%; max-width: 40rem;">
+				<button type="button" id="bAboutPhilosophy" class="btn bAboutGroup btn-secondary" style="font-size: 1.2rem;">The Foundation</button>
+				<button type="button" id="bAboutHistory" class="btn bAboutGroup btn-secondary-2" style=" font-size: 1.2rem;">History of SAF</button>
+			</div>
 		</div>
 
-		<div class="container my-5 bodydiv">
-			<p class="statement">
+		<!-- BEGIN: Div for Online meeting schedule -->
+		<div id='divAboutHistory' class="container" style='border:0px solid #0f0;'>
+			<div class="col-12 text-center bodydiv">
+				<h1 class="text-dark pt-4">Our History</h1>
+				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+			</div>
+			<div class="container my-1" style='border:0px solid #f00; padding:20px 0px;'>
+				<p class="statement">
+				<?php require_once(__ROOT__ . "/content_php/history.php"); ?>
+				</p>
+			</div>
+		</div>
+
+		<div id='divAboutPhilosophy' class="container" style='border:0px solid #0f0;'>
+		<div class="col-12 text-center bodydiv">
+				<h1 class="text-dark pt-4">Our Philosophy</h1>
+				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+			</div>
+			<div class="container my-5 bodydiv">
+				<p class="statement">
 The SUBURBAN ALCOHOLIC FOUNDATION (SAF) was
 incorporated by members of the Suburban (Northland)
 group in 1955. SAF was established to provide a
@@ -51,37 +77,35 @@ The purpose of the Foundation is to help the sick alcoholic
 recover if he so desires. Any sober member of the
 Northland Group may join the Foundation for the monthly
 contribution currently in effect.
-			</p>
-		</div>
-		
-		<div class="col-12 text-center mt-2 bodydiv">
-					<h1 class="text-dark pt-4">Service Opportunities</h1>
-					<div class="border-top border-primary w-25 mx-auto my-3"></div>
-					<p class="lead"></p>
-		</div>
-		<div class="container my-5 bodydiv">
-			<ul class="statement">
-				<li>Financial support in itself is a great service. We use these contributions for the maintenance and upkeep of our meeting facility. </li>
-				<li>Eligibility to vote on foundation issues. </li>
-				<li>Eligibility to serve on the board of trustees. </li>
-				<li>Eligibility for office management.</li>
-			</ul>
-		</div>
+				</p>
+			</div>	
+			<div class="col-12 text-center mt-2 bodydiv">
+						<h1 class="text-dark pt-4">Service Opportunities</h1>
+						<div class="border-top border-primary w-25 mx-auto my-3"></div>
+						<p class="lead"></p>
+			</div>
+			<div class="container my-5 bodydiv">
+				<ul class="statement">
+					<li>Financial support in itself is a great service. We use these contributions for the maintenance and upkeep of our meeting facility. </li>
+					<li>Eligibility to vote on foundation issues. </li>
+					<li>Eligibility to serve on the board of trustees. </li>
+					<li>Eligibility for office management.</li>
+				</ul>
+			</div>
 
-		<div class="col-12 text-center mt-2 bodydiv">
-					<h1 class="text-dark pt-4">Our Founders</h1>
-					<div class="border-top border-primary w-25 mx-auto my-3"></div>
-					<p class="lead"></p>
-		</div>
-		<div class="container my-5 " style="max-width: 700px;">
-			
-				<div class="image-scale">
-					<div class="image-scale-img">
-					<img src="/img/founders.jpg" alt="Our Founders" style='border: 1px solid #888;' class='faux_northland'>
+			<div class="col-12 text-center mt-2 bodydiv">
+						<h1 class="text-dark pt-4">Our Founders</h1>
+						<div class="border-top border-primary w-25 mx-auto my-3"></div>
+						<p class="lead"></p>
+			</div>
+			<div class="container my-5 " style="max-width: 700px;">
+				
+					<div class="image-scale">
+						<div class="image-scale-img">
+						<img src="/img/founders.jpg" alt="Our Founders" style='border: 1px solid #888;' class='faux_northland'>
+						</div>
 					</div>
-				</div>
-			
-		
+			</div>
 		</div>
 
 
