@@ -1,104 +1,104 @@
 /*-- Body Reset --*/
 body {
-	overflow-x: hidden;
-	font-family: "Montserrat", sans-serif;
-	color: #616971;
-	max-width: 90rem;
-	margin: 0px auto;
-	background-color: #555;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  color: #616971;
+  max-width: 90rem;
+  margin: 0px auto;
+  background-color: #555;
 }
 
 .strikeThrough {
-	text-decoration: line-through;
+  text-decoration: line-through;
 }
 .big-div {
-	background-color: #fff;
+  background-color: #fff;
 }
 
 .statement {
-	font-size: 1.5rem;
-	color: #444 !important;
-	line-height: 2.2rem;
+  font-size: 1.5rem;
+  color: #444 !important;
+  line-height: 2.2rem;
 }
 
 .statement2 {
-	font-size: 1.2rem;
-	color: #444 !important;
-	line-height: 2rem;
+  font-size: 1.2rem;
+  color: #444 !important;
+  line-height: 2rem;
 }
 
 h1.clubhouseHeading {
-	text-shadow: 3px 3px #444 !important;
+  text-shadow: 3px 3px #444 !important;
 }
 .clubhouse {
-	font-size: 1.5rem;
-	color: #fff !important;
-	line-height: 2.2rem;
-	text-shadow: 2px 2px #000;
+  font-size: 1.5rem;
+  color: #fff !important;
+  line-height: 2.2rem;
+  text-shadow: 2px 2px #000;
 }
 
 .faux_northland {
 }
 
 #meetingsLinkDivButton {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .payDues {
-	color: #000;
+  color: #000;
 }
 
 .payDues li {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 #donateButton {
 }
 /* IMG */
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 .image-scale-img {
-	overflow: hidden;
+  overflow: hidden;
 }
 .image-scale-img img {
-	/* transition: 0.7s; */
+  /* transition: 0.7s; */
 }
 .image-scale:hover img {
-	/* transform: scale(1.08); */
+  /* transform: scale(1.08); */
 }
 
 a.linkMainTitle {
-	font-size: 1.3rem;
-	color: #00f;
+  font-size: 1.3rem;
+  color: #00f;
 }
 .with-errors {
-	color: #d81310;
+  color: #d81310;
 }
 /*============= TOP BAR HEADER =============*/
 .top-bar {
-	background-color: #8c0806; /* 8c0806 630802*/
-	min-height: 2.8rem;
-	padding: 0.5rem 0;
+  background-color: #8c0806; /* 8c0806 630802*/
+  min-height: 2.8rem;
+  padding: 0.5rem 0;
 }
 
 .top-bar a {
-	color: #fff;
-	font-size: 1.1rem;
-	text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
 }
 /*============= NAVIGATION =============*/
 
 .logolink,
 .logolink:visited,
 .logolink:hover {
-	/* font-family: "Libre Caslon Display", serif; */
-	font-family: "Libre Baskerville", serif;
-	/* font-family: "Spartan", sans-serif; */
-	/* font-family: "Oswald", sans-serif; */
-	color: #000;
-	font-size: 2.6rem;
-	text-decoration: none;
+  /* font-family: "Libre Caslon Display", serif; */
+  font-family: "Libre Baskerville", serif;
+  /* font-family: "Spartan", sans-serif; */
+  /* font-family: "Oswald", sans-serif; */
+  color: #000;
+  font-size: 2.6rem;
+  text-decoration: none;
 }
 
 #navbarResponsive {
@@ -109,59 +109,59 @@ a.linkMainTitle {
 } */
 
 .navbar {
-	font-size: 1.2rem;
-	font-weight: 600;
-	letter-spacing: 0.1rem;
-	box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
-	z-index: 1;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
 .nav-item {
-	padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 .nav-link {
-	color: #5b5555 !important;
+  color: #5b5555 !important;
 }
 
 .nav-link.active,
 .nav-link:hover {
-	color: #8c0806 !important;
+  color: #8c0806 !important;
 }
 .buttonGroupMeetings button {
-	width: 8rem;
+  width: 8rem;
 }
 
 .btn-secondary-2 {
-	color: #fff;
-	background-color: #888 !important;
+  color: #fff;
+  background-color: #888 !important;
 }
 .btn-secondary-2:hover,
 .btn-secondary-2:active,
 .btn-secondary-2:focus,
 .btn-secondary-2:visited {
-	color: #fff;
-	background-color: #42a5f5 !important;
-	border-color: #0062cc !important;
-	background-image: none !important;
-	border: 1 !important;
+  color: #fff;
+  background-color: #42a5f5 !important;
+  border-color: #0062cc !important;
+  background-image: none !important;
+  border: 1 !important;
 }
 
 .btn-secondary:hover {
-	background-color: #42a5f5 !important;
+  background-color: #42a5f5 !important;
 }
 
 /*============= CAROUSEL =============*/
 #carousel {
-	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
 }
 
 .carousel-inner {
-	max-height: 28rem !important;
+  max-height: 28rem !important;
 }
 
 .home-carousel {
-	/* height: 25rem; */
+  /* height: 25rem; */
 }
 
 /*---Change Carousel Transition Speed --*/
@@ -169,201 +169,203 @@ a.linkMainTitle {
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
-	transition: transform 1.2s ease;
+  transition: transform 1.2s ease;
 }
 /*-- Carousel Content --*/
 
 /*===== FIXED BACKGROUND IMG =====*/
 /*-- Fixed Background Image --*/
 .fixed-background {
-	position: relative;
-	width: 100%;
-	z-index: 1000 !important;
+  position: relative;
+  width: 100%;
+  z-index: 1000 !important;
 }
 .fixed-wrap {
-	clip: rect(0, auto, auto, 0);
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -999 !important;
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
 }
 .fixed {
-	z-index: -999 !important;
-	display: block;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-position: center center;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	will-change: transform;
+  z-index: -999 !important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .bannerOpaqueLayerGreen {
-	background-color: rgba(20, 100, 10, 0.5);
+  background-color: rgba(20, 100, 10, 0.5);
 }
 
 .bannerOpaqueLayerRed {
-	background-color: rgba(100, 20, 10, 0.5);
+  background-color: rgba(100, 20, 10, 0.5);
 }
 
 .bannerOpaqueLayerGold {
-	background-color: rgba(129, 112, 12, 0.493);
+  background-color: rgba(129, 112, 15, 0.493);
 }
 
 .bannerOpaqueLayerCyan {
-	background-color: rgba(16, 113, 126, 0.5);
+  background-color: rgba(16, 113, 126, 0.5);
 }
 
 .clubmessage {
-	background-color: rgba(20, 50, 100, 0.5);
-	border-radius: 9px;
+  background-color: rgba(20, 50, 100, 0.5);
+  border-radius: 9px;
 }
 
 .fixed-home {
-	background-image: url("../img/saf_inner_bw.png");
-	position: fixed;
+  background-image: url("../img/saf_inner_bw.png");
+  position: fixed;
+  z-index: 1000 !important;
 }
 
 .fixed-nothome {
-	background-image: url("../img/hiw_blur_bw.jpg");
-	position: fixed;
-	background-position: -50px -50px;
+  background-image: url("../img/hiw_blur_bw.jpg");
+  position: fixed;
+  background-position: -50px -50px;
+  z-index: 1000 !important;
 }
 
 .fixed-background-home {
-	padding: 5rem 1rem;
+  padding: 5rem 1rem;
 }
 
 .fixed-background-nothome {
-	padding: 0rem;
+  padding: 0rem;
 }
 /*============= Meetings Buttons =============*/
 .card-header-meetings {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .bMeetingsGroup {
-	/* width: 100%; */
+  /* width: 100%; */
 }
 /*============= Meetings Cards =============*/
 .meetingCard {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .meetingCardTime {
-	font-size: 1rem;
-	font-weight: 900;
+  font-size: 1rem;
+  font-weight: 900;
 }
 .meetingCardTitle {
-	font-size: 1.2rem;
-	color: #0062cc;
+  font-size: 1.2rem;
+  color: #0062cc;
 }
 .meetingCanceled {
-	color: #f00;
+  color: #f00;
 }
 
 /*============= GOOGLE MAP =============*/
 
 .contact-map {
-	max-height: 400px !important;
-	padding: 0 !important;
-	overflow: hidden;
-	background-color: #5291c9;
+  max-height: 400px !important;
+  padding: 0 !important;
+  overflow: hidden;
+  background-color: #5291c9;
 }
 .responsive-map {
-	overflow: hidden;
-	padding-bottom: 56.25%;
-	position: relative;
-	height: 0;
-	opacity: 0.8;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  opacity: 0.8;
 }
 .responsive-map iframe {
-	left: 0;
-	top: 0;
-	height: 100%;
-	max-height: 400px;
-	min-width: 100%;
-	position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  max-height: 400px;
+  min-width: 100%;
+  position: absolute;
 }
 
 /*============= FOOTER =============*/
 
 footer {
-	background-color: #383838;
+  background-color: #383838;
 }
 footer {
-	padding: 1rem 2rem 3rem;
+  padding: 1rem 2rem 3rem;
 }
 img.logo {
-	height: 8.5rem;
-	margin: 1.5rem 0;
+  height: 8.5rem;
+  margin: 1.5rem 0;
 }
 footer a {
-	color: white;
-	text-decoration: none !important;
-	display: inline;
-	transition: all 0.5s ease 0s;
+  color: white;
+  text-decoration: none !important;
+  display: inline;
+  transition: all 0.5s ease 0s;
 }
 footer a:hover {
-	color: #5291c9;
-	transition: all 0.5s ease 0s;
+  color: #5291c9;
+  transition: all 0.5s ease 0s;
 }
 footer .svg-inline--fa.fa-w-14 {
-	color: white;
-	font-size: 1.6rem;
-	transition: all 0.5s ease 0s;
+  color: white;
+  font-size: 1.6rem;
+  transition: all 0.5s ease 0s;
 }
 footer .svg-inline--fa.fa-w-14:hover {
-	color: #5291c9;
+  color: #5291c9;
 }
 .footer-links p a {
-	transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 p.footer-links a:hover {
-	color: #5291c9 !important;
-	transition: all 0.5s ease;
+  color: #5291c9 !important;
+  transition: all 0.5s ease;
 }
 .footer-projects img {
-	max-height: 6rem;
+  max-height: 6rem;
 }
 .footer-projects p {
-	font-size: 0.8rem;
-	color: #999999;
+  font-size: 0.8rem;
+  color: #999999;
 }
 .footer-projects p:hover {
-	color: #5291c9;
+  color: #5291c9;
 }
 
 /*============= SOCKET =============*/
 
 .socket {
-	background-color: #3d0302;
-	border-top: 0.1rem solid #666b71;
-	width: 100%;
+  background-color: #3d0302;
+  border-top: 0.1rem solid #666b71;
+  width: 100%;
 }
 .socket a {
-	color: white;
+  color: white;
 }
 
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
-	.nav-item {
-		padding: 0px;
-	}
+  .nav-item {
+    padding: 0px;
+  }
 }
 
 /* Devices under 901px (md) */
 @media (max-width: 900.98px) {
-	.logolink {
-		font-size: 1.9rem;
-	}
+  .logolink {
+    font-size: 1.9rem;
+  }
 }
 
 /* Devices under 768px (md) */
@@ -372,12 +374,12 @@ p.footer-links a:hover {
 
 /* Devices under 501px (md) */
 @media (max-width: 500.98px) {
-	.logolink {
-		font-size: 1.2rem;
-	}
-	.faux_northland {
-		width: 300px;
-	}
+  .logolink {
+    font-size: 1.2rem;
+  }
+  .faux_northland {
+    width: 300px;
+  }
 }
 /*============ BOOTSTRAP BREAK POINTS:
 
@@ -401,6 +403,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
 /*-- Bootstrap Mobile Gutter Fix --*/
 .row,
 .container-fluid {
-	margin-left: 0px !important;
-	margin-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }

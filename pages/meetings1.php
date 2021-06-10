@@ -26,7 +26,7 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 
 		<!-- Main Page Heading -->
 		<div class="container my-1 ">
-			<p class="statement2" style='text-align: center;'>In person meetings are open! The SAF facility has opened it's doors.<br>Masks are required, unless you have been fully vaccinated, and meeting rooms are at full capacity.</p>
+			<p class="statement2">In person meetings are open! The SAF facility has opened it's doors - Masks are required and capacity is limited.</p>
 		</div>
 		<!-- END: Main Page Heading -->
 
@@ -112,10 +112,10 @@ foreach($arrDays as $sEachDay){
 			<div class="col-12 text-center bodydiv">
 				<h1 class="text-dark pt-4">Events</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
-				<p class="lead">Birthday Night is the last Friday of every month at 7:30 pm. Currently, this event is being held in a Zoom meeting -
-				visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information.</p>
+				<p class="lead">Birthday Night is the last Friday of every month at 7:30 pm. Currently, this event is being held in person at the SAF Clubhouse!
+				Visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information.</p>
 				<img src="/img/cake.png" alt="Birthday Night" style='' class=''>
-				<h1>Birthday Night: May 28</h1>
+				<h1>Birthday Night: May 28<br>Live In-Person Event!</h1>
 				<br><br>
 				
 			</div>

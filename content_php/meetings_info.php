@@ -204,6 +204,15 @@ $arrMeetingsData[] = [
 	'desc'=>"This meeting is closed discussion.",
 	'room'=>"Big room"
 ];
+$arrMeetingsData[] = [
+	'day'=>"Wednesday",
+	'order'=>35,
+	'time'=>"2:00 pm",
+	'title'=>"Big Book Study",
+	'type'=>"C",
+	'desc'=>"Read and discuss the Big Book. This meeting is closed discussion.",
+	'room'=>"Small room"
+];
 
 $arrMeetingsData[] = [
 	'day'=>"Wednesday",
@@ -213,16 +222,7 @@ $arrMeetingsData[] = [
 	'type'=>"C",
 	'desc'=>"This meeting is closed discussion.",
 	'room'=>"Big room"
-];
 
-$arrMeetingsData[] = [
-	'day'=>"Wednesday",
-	'order'=>40,
-	'time'=>"8:00 pm",
-	'title'=>"Discussion Meeting",
-	'type'=>"O",
-	'desc'=>"This meeting is open discussion.",
-	'room'=>"Big room"
 ];
 
 $arrMeetingsData[] = [
@@ -230,7 +230,7 @@ $arrMeetingsData[] = [
 	'order'=>50,
 	'time'=>"8:00 pm",
 	'title'=>"Speaker Meeting",
-	'type'=>"X",
+	'type'=>"O",
 	'desc'=>"This meeting is an open Speaker Meeting. Speakers have 1-10 years of sobriety.",
 	'room'=>"Big room"
 ];
@@ -262,7 +262,7 @@ $arrMeetingsData[] = [
 	'order'=>20,
 	'time'=>"10:00 am",
 	'title'=>"Women's Meeting",
-	'type'=>"X",
+	'type'=>"C",
 	'desc'=>"This meeting is closed discussion.",
 	'room'=>"Small room"
 ];
@@ -350,20 +350,10 @@ $arrMeetingsData[] = [
 
 $arrMeetingsData[] = [
 	'day'=>"Friday",
-	'order'=>30,
-	'time'=>"8:00 pm",
-	'title'=>"Discussion Meeting",
-	'type'=>"O",
-	'desc'=>"This meeting is open discussion.",
-	'room'=>"Big room"
-];
-
-$arrMeetingsData[] = [
-	'day'=>"Friday",
 	'order'=>50,
 	'time'=>"7:30 pm",
 	'title'=>"Birthday Night!",
-	'type'=>"X",
+	'type'=>"O",
 	'desc'=>"Last Friday of each month, come celebrate annual lengths of sobriety!",
 	'room'=>"Big room"
 ];
@@ -373,7 +363,7 @@ $arrMeetingsData[] = [
 	'order'=>60,
 	'time'=>"8:00 pm",
 	'title'=>"Speaker Meeting",
-	'type'=>"X",
+	'type'=>"O",
 	'desc'=>"This meeting is an open Speaker Meeting. Speakers have 10 or more years of sobriety.",
 	'room'=>"Big room"
 ];

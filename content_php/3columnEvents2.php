@@ -27,7 +27,7 @@
 						</div>
 						<div class="col-lg-8 col-xl-9">
 							<h4 class="text-dark text-uppercase">Events</h4>
-							<p>Coming soon, Fourth of July Picnic. More details to come.</p>
+							<p>At this time, all SAF events are on hold while adhering to current COVID-19 guidelines for the city of Austin.</p>
 						</div>
 					</div>
 				</div>
@@ -41,7 +41,7 @@
 						</div>
 						<div class="col-lg-8 col-xl-9">
 							<h4 class="text-dark text-uppercase">Announcements</h4>
-							<p><strong>Birthday Night is being held live in person! </strong>On the the last Friday of every month. There is also a zoom meeting. If you have an annual length of sobriety to celebrate, come join us!</p>
+							<p>Birthday Night is being held on ZOOM on the the last Friday of every month. If you have an annual length of sobriety to celebrate, come join us!</p>
 						</div>
 					</div>
 				</div>

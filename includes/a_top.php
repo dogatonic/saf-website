@@ -5,8 +5,10 @@ error_reporting(E_ALL);
 
 date_default_timezone_set('America/Chicago');
 
-$sIP = $_SERVER['REMOTE_ADDR'];
-$bDebug = ($sIP == '24.28.67.98') ? true : false;
+// $sIP = $_SERVER['REMOTE_ADDR'];
+$sIP = $_SERVER['HTTP_X_FORWARDED_FOR'];
+
+$bDebug = ($sIP == '72.177.25.181') ? true : false;//  24.28.67.98
 
 $sPageInclude = 'home';// set this as the default right away
 parse_str($_SERVER['QUERY_STRING'], $arrPex);
