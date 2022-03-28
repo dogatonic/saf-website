@@ -67,7 +67,7 @@
 					</div>
 					<div class="payDues">
 						<h2>Pay Your Dues</h2>
-						<p style='font-size:1.4rem;'>Dues for the SAF are $20 per month. <br>
+						<p style='font-size:1.4rem;'>Dues for the SAF are $25 per month. <br>
 						You can pay for whatever amount you like: <br>
 						1 Month, 3 months, a Year, your choice.</p>
 						<ol>

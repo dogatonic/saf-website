@@ -45,4 +45,20 @@ function setActiveNav($sThisNavItemName){
     $sResult = ($sThisNavItemName == $sApex)? 'active' : '';
     echo $sResult;
 }
+
+// Birthday Night dates
+$arrBDnights[1] = 'January 25th';
+$arrBDnights[2] = 'February 25th';
+$arrBDnights[3] = 'March 25th';
+$arrBDnights[4] = 'April 29th';
+$arrBDnights[5] = 'May 27th';
+
+$arrBDnights[6] = 'June 25th';
+$arrBDnights[7] = 'July 29th';
+$arrBDnights[8] = 'August 26th';
+$arrBDnights[9] = 'September 30th';
+$arrBDnights[10] = 'October 28th';
+$arrBDnights[11] = 'November 25th';
+$arrBDnights[12] = 'December 30st';
+
 ?>

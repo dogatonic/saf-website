@@ -6,7 +6,11 @@ function misc() {
 }
 
 $(document).ready(function () {
-	console.log("ready! >>>>>>>>>>>>>>>>>>>>>>>>>>");
+	console.log("ready! >>>>>>>>>>>>>>>>>>>>>>>>>>!");
+	const urlParams = new URLSearchParams(window.location.search);
+	//const myParam = urlParams.get('myParam');
+	console.log(divIdClickQuery);
+	
 	//bMeetingsGroup
 	$(".bMeetingsGroup").click(doMeetingsButtonClick);
 	$("#bMeetingsIP").click();
@@ -15,6 +19,11 @@ $(document).ready(function () {
 	// About Us page buttons
 	$(".bAboutGroup").click(doAboutButtonClick);
 	$("#bAboutPhilosophy").click();
+
+	if(divIdClickQuery !== false){
+		console.log("whgat is divIdClickQuery: ",divIdClickQuery);
+		$("#" + divIdClickQuery).click();
+	}
 });
 
 const objMeetingsButtons = {
@@ -63,5 +72,6 @@ function doAboutButtonClick() {
 }
 
 function gotoMeetingsPage() {
+	console.log('click meeting 3 column')
 	window.location = "/meetings";
 }

@@ -16,7 +16,16 @@
 <script src="/js/owl.carousel.min.js"></script>
 <!-- <script src="/js/isotope.pkgd.min.js"></script> -->
 <script src="/js/validator.min.js"></script>
-<script src="/js/saf.js"></script>    
+<script>
+<?php
+echo "let divIdClickQuery = false";
+if($arrPex['bpex'] == '/events'){
+	echo "divIdClickQuery = 'bMeetingsEV';";
+}
+
+?>
+</script>
+<script src="/js/saf.js?v=<?=time();?>"></script>    
 </html>
 
 

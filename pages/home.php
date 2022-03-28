@@ -14,6 +14,7 @@
 			<div class="carousel-inner">
 				<div class="home-carousel carousel-item active"> <img src="/img/carousel/saf_front.png" alt="saf_front" class="w-100"> </div>
 				<div class="home-carousel  carousel-item"> <img src="/img/carousel/saf_inner.png" alt="saf_front" class="w-100"> </div>
+				<!-- <div class="home-carousel carousel-item"><a href='/meetings/events'><img src="/img/carousel/july4banner.png" alt="saf_front" class="w-100"></a> </div> -->
 			</div>
 			<!-- End Carousel Content -->
 

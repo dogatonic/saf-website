@@ -209,8 +209,8 @@ $arrMeetingsData[] = [
 	'order'=>35,
 	'time'=>"2:00 pm",
 	'title'=>"Big Book Study",
-	'type'=>"C",
-	'desc'=>"Read and discuss the Big Book. This meeting is closed discussion.",
+	'type'=>"X",
+	'desc'=>"Read and discuss the Big Book. This meeting is open discussion.",
 	'room'=>"Small room"
 ];
 
@@ -262,9 +262,9 @@ $arrMeetingsData[] = [
 	'order'=>20,
 	'time'=>"10:00 am",
 	'title'=>"Women's Meeting",
-	'type'=>"C",
+	'type'=>"X",
 	'desc'=>"This meeting is closed discussion.",
-	'room'=>"Small room"
+	'room'=>"Big room"
 ];
 $arrMeetingsData[] = [
 	'day'=>"Thursday",
@@ -423,11 +423,23 @@ $arrMeetingsData[] = [
 	'day'=>"Saturday",
 	'order'=>50,
 	'time'=>"8:00 pm",
-	'title'=>"Discussion Meeting",
+	'title'=>"Discussion Meeting (except on Family Night)",
 	'type'=>"O",
 	'desc'=>"This meeting is open discussion.",
 	'room'=>"Big room"
 ];
+
+$arrMeetingsData[] = [
+	'day'=>"Saturday",
+	'order'=>60,
+	'time'=>"8:00 pm",
+	'title'=>"Family Night - Speaker Night",
+	'type'=>"O",
+	'desc'=>"The first Saturday of each month. AA & Al Anon speakers from various groups sharing how recovery supports their relationship. This meeting will also be available on Zoom. <a href=''>Click here for more info</a><br>",
+	'room'=>"Big room"
+];
+
+
 
 
 

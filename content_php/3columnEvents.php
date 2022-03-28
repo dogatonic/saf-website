@@ -27,7 +27,11 @@
 						</div>
 						<div class="col-lg-8 col-xl-9">
 							<h4 class="text-dark text-uppercase">Events</h4>
-							<p>Coming soon, Fourth of July Picnic. More details to come.</p>
+							<!-- <p>Fourth of July Celebration.<br>
+								<a href="/meetings/events">Click here for more details!</a> </p> -->
+								<p>Family Night - Speaker Night<br>
+								<a href="/meetings/events">Click here for more details!</a> </p>
+							<p>Birthday Night: <?php echo  $arrBDnights[date("n")]; ?></p>
 						</div>
 					</div>
 				</div>

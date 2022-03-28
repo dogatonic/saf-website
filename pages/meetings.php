@@ -1,5 +1,7 @@
 <?php 
 require_once(__ROOT__ . "/content_php/meetings_info.php");
+
+
 ?>
 <body>
 	<div class="big-div">
@@ -110,12 +112,32 @@ foreach($arrDays as $sEachDay){
 
 		<div id='divMeetingsEV' class="container my-1" style='border:0px solid #f00;'>
 			<div class="col-12 text-center bodydiv">
+
 				<h1 class="text-dark pt-4">Events</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
-				<p class="lead">Birthday Night is the last Friday of every month at 7:30 pm. Currently, this event is being held in a Zoom meeting -
-				visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information.</p>
+				<h1>Family Night - Speaker Night </h1>
+				<p>The 1st Saturday of every month is Family Night with two speakers. 
+				AA & Al Anon speakers from various groups sharing how recovery supports their relationship. 
+				This speaker meeting is held in the Big Room at Northland and will also be available on Zoom.<br>
+				<a href='https://us02web.zoom.us/j/8991484991?pwd=eG5JNzdydnQrM2duQ3MwMHorOXFZdz09'>Click here to Join Zoom Meeting, Saturday September 4th at 8:00 pm</a><br>
+				Meeting ID: 899 148 4991<br>
+				Passcode: w5UZru</p>
+
+
+
+				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+
+				<h1>Next Birthday Night: <br> <?php 
+				$n = date("n");
+				echo  $arrBDnights[$n ];
+				?> - In Person!
+				</h1>
+				<p class="lead">Birthday Night is the last Friday of every month at 7:30 pm. 
+					<!-- Currently, this event is being held in a Zoom meeting -
+				visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information. -->
+			</p>
 				<img src="/img/cake.png" alt="Birthday Night" style='' class=''>
-				<h1>Birthday Night: May 28</h1>
+
 				<br><br>
 				
 			</div>
