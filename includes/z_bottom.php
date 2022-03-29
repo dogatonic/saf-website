@@ -1,7 +1,9 @@
 <?php
 
-echo "<pre>";
-print_r($_SERVER);
-echo "</pre>";
 
+if($bDebug){
+	echo "<pre>";
+	print_r($_SERVER);
+	echo "</pre>";
+}
 ?>
