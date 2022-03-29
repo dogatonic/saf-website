@@ -60,21 +60,20 @@ incorporated by members of the Suburban (Northland)
 group in 1955. SAF was established to provide a
 permanent home for Alcoholic Anonymous in Austin.
 SAF is a nonprofit corporation operated by a Board of
-Trustees. The Board of Trustee are the owner and
+Trustees. The Board of Trustees are the owner and
 operators of the facility. In line with AA traditions, the
 Foundation Manager is employed as a special worker.
-Since the Manager is also a member of the group, he/she
-is ever mindful of the group conscience.
+Since the Manager is also a member of the group, they are ever mindful of the group conscience.
 <br><br>
 Experience has taught us that the successful operation of
 the Premises depends to a large extent upon monies
 received from the Foundation Members. The Manager will
 always be available to inform group members or the
-groups&#39; Secretary of the need for Foundation Membership
-and support. Fix typos. Where typos? Getting Closer. Web edit here! Closer?
+group's Secretary of the need for Foundation Membership
+and support.
 <br><br>
 The purpose of the Foundation is to help the sick alcoholic
-recover if he so desires. Any sober member of the
+recover if they so desire. Any sober member of the
 Northland Group may join the Foundation for the monthly
 contribution currently in effect.
 				</p>
