@@ -71,7 +71,7 @@ the Premises depends to a large extent upon monies
 received from the Foundation Members. The Manager will
 always be available to inform group members or the
 groups&#39; Secretary of the need for Foundation Membership
-and support. Fix typos. Where typos? Getting Closer.
+and support. Fix typos. Where typos? Getting Closer. Web edit here!
 <br><br>
 The purpose of the Foundation is to help the sick alcoholic
 recover if he so desires. Any sober member of the
