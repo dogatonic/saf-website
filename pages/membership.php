@@ -34,7 +34,7 @@
 					<p class="statement">Signify your gratitude for the beautiful facility we have in which to recover and provide a place for the newcomer to achieve sobriety.</p><br>
 
 					<h2>Financial Support</h2>
-					<p class="statement">Financial support helps defray the cost of expenses such as utilities, building and grounds maintenance, insurance and special events events.</p><br>
+					<p class="statement">Financial support helps defray the cost of expenses such as utilities, building and grounds maintenance, insurance and special events.</p><br>
 
 					<h2>Service</h2>
 					<p class="statement">Foundation members in good standing are eligible to serve on the board of trustees and vote at foundation meetings. </p><br>

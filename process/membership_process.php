@@ -1,7 +1,7 @@
 <?php
 
 date_default_timezone_set('America/Chicago');
-define("FILE_MEMBERSHIP_FORM", 'membershipForm.txt');
+define("FILE_MEMBERSHIP_FORM", '/noncom/membershipForm.txt');
 
 // response is sent with AJAX/JSON
 $okMessage = "Thank you! Your information has been received.";

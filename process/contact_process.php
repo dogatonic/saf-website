@@ -1,7 +1,7 @@
 <?php
 
 date_default_timezone_set('America/Chicago');
-define("FILE_CONTACT_FORM", 'contactForm.txt');
+define("FILE_CONTACT_FORM", '/noncom/contactForm.txt');
 
 $okMessage = "Thank you! Message sent.";
 $responseArray = array('type' => 'success', 'message' => $okMessage);
