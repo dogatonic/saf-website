@@ -22,7 +22,10 @@
 		<!-- End Fixed Background IMG -->		
 
 		<div class="col-12 text-center mt-2 bodydiv">
-			<h1 class="text-dark pt-4">Join Today / Pay Dues</h1>
+			<h1 class="text-dark pt-4">Join Today / Pay Dues</h1><?php
+			echo __ROOT__;
+			$stmt = $mysqli->prepare("INSERT INTO webform_data(type, name, email, phone, message) VALUES (?, ?)");
+			?>
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"></p>
 		</div>
@@ -45,7 +48,8 @@
 
 				<div class="col-md-7" >
 					<div style="background: #ddd; border-radius: 8px; padding:10px; margin: 0px 0px 20px 0px;">
-						<form id="membership-form" method="post" action="/process/membership_process.php">
+						<form id="membership-form" method="post" action="/process/user_form_process.php">
+						<input id="form_type" type="hidden" name="type" class="form-control" value="member">
 						<div class="messages"></div>
 							<div class="" style="margin: 2px 0px; font-size: 1.3rem;">Become a Foundation Member Today!</div>
 							<div class="form-group">
@@ -60,7 +64,7 @@
 								<input id="form_phone" type="phone" name="phone" class="form-control" placeholder="Enter your phone number." required="required">
 							</div>
 							<div class="form-group">
-								<textarea id="form_message" name="message" class="form-control" placeholder="Add a message to us. (Optional)" rows="4"></textarea>
+								<textarea id="form_message" name="message" class="form-control" placeholder="Add a message to us. (Optional)" rows="4" maxlength="1000"></textarea>
 							</div>
 							<input type="submit" class="btn btn-outline-dark btn-md" value="Submit info">
 						</form>

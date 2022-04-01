@@ -46,7 +46,8 @@
 
 					<div class="col-md-7" style="background: #ddd; border-radius: 8px;">
 
-						<form id="contact-form" method="post" action="/process/contact_process.php">
+						<form id="contact-form" method="post" action="/process/user_form_process.php">
+							<input id="form_type" type="hidden" name="type" class="form-control" value="contact">
 							<div>&nbsp;</div>
 							<div class="messages">Send us a message directly...</div>
 							<div class="controls">
@@ -63,7 +64,7 @@
 								</div>
 
 								<div class="form-group">
-									<textarea id="form_message" name="message" class="form-control" placeholder="Add your message." rows="4" required="required"></textarea>
+									<textarea id="form_message" name="message" class="form-control" placeholder="Add your message." rows="4" required="required" maxlength="1000"></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 
