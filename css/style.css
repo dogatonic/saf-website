@@ -37,8 +37,6 @@ h1.clubhouseHeading {
   text-shadow: 2px 2px #000;
 }
 
-.faux_northland {
-}
 
 #meetingsLinkDivButton {
   cursor: pointer;
@@ -97,7 +95,7 @@ a.linkMainTitle {
   /* font-family: "Spartan", sans-serif; */
   /* font-family: "Oswald", sans-serif; */
   color: #000;
-  font-size: 2.6rem;
+  font-size: 1.6rem;
   text-decoration: none;
 }
 
@@ -355,31 +353,40 @@ p.footer-links a:hover {
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
-@media (max-width: 1199.98px) {
+@media (max-width: 1199px) {
   .nav-item {
     padding: 0px;
   }
 }
 
 /* Devices under 901px (md) */
-@media (max-width: 900.98px) {
+@media (max-width: 900px) {
   .logolink {
     font-size: 1.9rem;
   }
 }
 
 /* Devices under 768px (md) */
-@media (max-width: 767.98px) {
+@media (max-width: 767px) {
 }
 
 /* Devices under 501px (md) */
-@media (max-width: 500.98px) {
+@media (max-width: 500px) {
   .logolink {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+  }
+  h1{
+	font-size: 2rem;
   }
   .faux_northland {
     width: 300px;
   }
+}
+
+@media (max-width: 400px) {
+	.top_bar_zip{
+		display: none;
+	}
 }
 /*============ BOOTSTRAP BREAK POINTS:
 

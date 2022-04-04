@@ -1,7 +1,6 @@
 <nav class="navbar bg-light navbar-light navbar-expand-lg">
 	<div class="container">
 	<a href="/" class="logolink">Suburban Alcoholic Foundation</a>
-	
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 		<span class="navbar-toggler-icon"></span>
 	</button>
