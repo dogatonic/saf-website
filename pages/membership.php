@@ -22,10 +22,7 @@
 		<!-- End Fixed Background IMG -->		
 
 		<div class="col-12 text-center mt-2 bodydiv">
-			<h1 class="text-dark pt-4">Join Today / Pay Dues</h1><?php
-			echo __ROOT__;
-			$stmt = $mysqli->prepare("INSERT INTO webform_data(type, name, email, phone, message) VALUES (?, ?)");
-			?>
+			<h1 class="text-dark pt-4">Join Today / Pay Dues</h1>
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"></p>
 		</div>

@@ -5,7 +5,6 @@ if($bDebug && 1){
 	echo "<pre class='text-left' style='color: #f00;'>";
 
 	echo $sIP . '<br>';
-	echo $DB_DATABASE . "<br>";
 	echo "<<<<< " . $sApex . " >>>>>>><br><br>";
 	print_r($_SERVER);
 	print_r($arrPex);
