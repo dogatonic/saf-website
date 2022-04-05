@@ -45,7 +45,7 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 			<div class="col-12 text-center bodydiv">
 			<h1 class="text-dark pt-4">
 
-				In Person Meetings</h1>
+				In Person AA Meetings</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
 				<p class="lead_x">
 				(C) - Closed Meetings: Attendance is limited to persons who have a desire to stop drinking.<br>
@@ -97,7 +97,7 @@ foreach($arrDays as $sEachDay){
 		<!-- BEGIN: Div for Online meeting schedule -->
 		<div id='divMeetingsOL' class="container" style='border:0px solid #0f0;'>
 			<div class="col-12 text-center bodydiv">
-				<h1 class="text-dark pt-4">Online Meetings</h1>
+				<h1 class="text-dark pt-4">Online AA Meetings</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
 				<p class="lead">Northland AA Group online meetings are held on Zoom everyday. For online meetings and other information, visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website.</a></p>
 				<div class="container my-1" style=''>
