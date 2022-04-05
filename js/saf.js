@@ -24,7 +24,13 @@ $(document).ready(function () {
 		console.log("whgat is divIdClickQuery: ",divIdClickQuery);
 		$("#" + divIdClickQuery).click();
 	}
+
+	$(".whosWhere").click(openMail);
 });
+
+function openMail() {
+    window.location = "mai" + "lto:" + "info" + "@" + "safaustin." + "org";
+}
 
 const objMeetingsButtons = {
 	bMeetingsIP: { offClass: "btn-secondary", contentDiv: "divMeetingsIP" },
@@ -48,6 +54,9 @@ function doMeetingsButtonClick() {
 	$(this).removeClass(objMeetingsButtons[thisId]["offClass"]).addClass("btn-primary active");
 	$("#" + objMeetingsButtons[thisId]["contentDiv"]).show();
 }
+
+
+
 
 const objAboutButtons = {
 	bAboutPhilosophy: { offClass: "btn-secondary", contentDiv: "divAboutPhilosophy" },

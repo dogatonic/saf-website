@@ -37,7 +37,9 @@ h1.clubhouseHeading {
   text-shadow: 2px 2px #000;
 }
 
-
+.whosWhere{
+	cursor: pointer;
+}
 #meetingsLinkDivButton {
   cursor: pointer;
 }

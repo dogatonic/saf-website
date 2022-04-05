@@ -41,7 +41,8 @@
 						<p>2809 Northland Drive<br>	
 						Austin, TX 78757</p>
 						<strong>Contact Info</strong>
-						<p><a class="blue-link" href="tel:15124526784">(512) 452-6784</a><br><a class="blue-link" href="mailto:info@saffoundation.com">info@saffoundation.com</a></p>
+						<p><a class="blue-link" href="tel:15124526784">(512) 452-6784</a></p>
+						<p><img class="whosWhere" src="./img/saf_whos.png"/></p>
 					</div>
 
 					<div class="col-md-7" style="background: #ddd; border-radius: 8px;">
@@ -64,7 +65,7 @@
 								</div>
 
 								<div class="form-group">
-									<textarea id="form_message" name="message" class="form-control" placeholder="Add your message." rows="4" required="required" maxlength="1000"></textarea>
+									<textarea id="form_message" name="message" class="form-control" placeholder="Add your message." rows="4" required="required" ></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 
