@@ -116,23 +116,22 @@ foreach($arrDays as $sEachDay){
 				<h1 class="text-dark pt-4">Events</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
 				<h1>Family Night - Speaker Night </h1>
-				<p>The 1st Saturday of every month is Family Night with two speakers. 
+				<p class='statement'>The 1st Saturday of every month is Family Night with two speakers. 
 				AA & Al Anon speakers from various groups sharing how recovery supports their relationship. 
-				This speaker meeting is held in the Big Room at Northland and will also be available on Zoom.<br>
-				<a href='https://us02web.zoom.us/j/8991484991?pwd=eG5JNzdydnQrM2duQ3MwMHorOXFZdz09'>Click here to Join Zoom Meeting, Saturday September 4th at 8:00 pm</a><br>
-				Meeting ID: 899 148 4991<br>
-				Passcode: w5UZru</p>
+				This speaker meeting is held in the Big Room at Northland.</p>
 
 
 
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
 
-				<h1>Next Birthday Night: <br> <?php 
+				<h1>Next Birthday Night:</h1>
+				<h1 class="" style="margin-top: 5px; color: #0000ff">
+				<?php 
 				$n = date("n");
 				echo  $arrBDnights[$n ];
-				?> - In Person!
+				?>
 				</h1>
-				<p class="lead">Birthday Night is the last Friday of every month at 7:30 pm. 
+				<p class="statement">Birthday Night is the last Friday of every month at 7:30 pm. 
 					<!-- Currently, this event is being held in a Zoom meeting -
 				visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information. -->
 			</p>

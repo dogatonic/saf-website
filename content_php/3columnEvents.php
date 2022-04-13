@@ -31,7 +31,8 @@
 								<a href="/meetings/events">Click here for more details!</a> </p> -->
 								<p>Family Night - Speaker Night<br>
 								<a href="/meetings/events">Click here for more details!</a> </p>
-							<p>Birthday Night: <?php echo  $arrBDnights[date("n")]; ?></p>
+							<!-- <p>Birthday Night: <?php echo  $arrBDnights[date("n")]; ?></p> -->
+							<p>The anual July 4th Picnic is right around the corner! Stay tuned for more details.
 						</div>
 					</div>
 				</div>
@@ -45,7 +46,7 @@
 						</div>
 						<div class="col-lg-8 col-xl-9">
 							<h4 class="text-dark text-uppercase">Announcements</h4>
-							<p><strong>Birthday Night is being held live in person! </strong>On the the last Friday of every month. There is also a zoom meeting. If you have an annual length of sobriety to celebrate, come join us!</p>
+							<p><strong>Birthday Night is being held live in person! </strong>On the the last Friday of every month. If you have an annual length of sobriety to celebrate, come join us!</p>
 						</div>
 					</div>
 				</div>

@@ -8,7 +8,7 @@ $arrMeetingsData = [];
   \__ \/ / / /  |/ / / / / /| |\  / 
  ___/ / /_/ / /|  / /_/ / ___ |/ /  
 /____/\____/_/ |_/_____/_/  |_/_/   
-									  
+
 --*/
 
 
@@ -435,7 +435,7 @@ $arrMeetingsData[] = [
 	'time'=>"8:00 pm",
 	'title'=>"Family Night - Speaker Night",
 	'type'=>"O",
-	'desc'=>"The first Saturday of each month. AA & Al Anon speakers from various groups sharing how recovery supports their relationship. This meeting will also be available on Zoom. <a href=''>Click here for more info</a><br>",
+	'desc'=>"First Saturday of each month. AA & Al Anon speakers from various groups sharing how recovery supports their relationship.",
 	'room'=>"Big room"
 ];
 

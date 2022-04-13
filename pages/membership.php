@@ -72,9 +72,10 @@
 						You can pay for whatever amount you like: <br>
 						1 Month, 3 months, a Year, your choice.</p>
 						<ol>
-							<li>You can Pay via cash or check in the SAF office anytime.</li>
-							<li>Or like many members you can have your bank mail a check payable to, Suburban Alcoholic Foundation to:<br> 2809 Northland Drive, Austin TX, 78757</li>
+							<li>You can Pay via cash, check or credit card in the SAF office anytime.</li>
 							<li>Pay online: Click the donate link below to pay your Suburban Alcoholic Foundation Dues online with your Credit/Debit Card via PayPal</li>
+							<li>Pay by bank check: Have your bank mail a check payable to, Suburban Alcoholic Foundation to:<br> 2809 Northland Drive, Austin TX, 78757</li>
+							
 						</ol>
 						<div id='donateButton' class="container my-5 " style="text-align: center;">
 

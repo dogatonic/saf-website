@@ -50,32 +50,27 @@
 
 		<div id='divAboutPhilosophy' class="container" style='border:0px solid #0f0;'>
 		<div class="col-12 text-center bodydiv">
-				<h1 class="text-dark pt-4">Our Philosophy</h1>
+				<h1 class="text-dark pt-4">The Foundation</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			</div>
 			<div class="container my-5 bodydiv">
 				<p class="statement">
 The SUBURBAN ALCOHOLIC FOUNDATION (SAF) was
-incorporated by members of the Suburban (Northland)
-group in 1955. SAF was established to provide a
+incorporated by members of the Suburban Group in 1955. The Foundation was established to provide a
 permanent home for Alcoholic Anonymous in Austin.
-SAF is a nonprofit corporation operated by a Board of
-Trustees. The Board of Trustees are the owner and
-operators of the facility. In line with AA traditions, the
+SAF is a nonprofit 501c3 corporation operated by a Board of
+Trustees. The Board of Trustees is the owner and
+operator of the facility. In line with AA traditions, the
 Foundation Manager is employed as a special worker.
-Since the Manager is also a member of the group, they are ever mindful of the group conscience.
+<!-- Since the Manager is also a member of the group, they are ever mindful of the group conscience. -->
 <br><br>
 Experience has taught us that the successful operation of
 the Premises depends to a large extent upon monies
-received from the Foundation Members. The Manager will
-always be available to inform group members or the
-group's Secretary of the need for Foundation Membership
-and support.
+received from the Foundation Members. 
+<!-- The Manager willalways be available to inform group members or the group's Secretary of the need for Foundation Membership and support. -->
 <br><br>
-The purpose of the Foundation is to help the sick alcoholic
-recover if they so desire. Any sober member of the
-Northland Group may join the Foundation for the monthly
-contribution currently in effect.
+<!-- The purpose of the Foundation is to help the sick alcoholic recover if they so desire.  -->
+Any sober member of the Northland Group of Alcoholics Anonymous may join the Foundation for the monthly contribution currently in effect.
 				</p>
 			</div>	
 			<div class="col-12 text-center mt-2 bodydiv">
