@@ -28,7 +28,7 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 
 		<!-- Main Page Heading -->
 		<div class="container my-1 ">
-			<p class="statement2" style='text-align: center;'>In person meetings are open! The SAF facility has opened it's doors.<br>Masks are required, unless you have been fully vaccinated, and meeting rooms are at full capacity.</p>
+			<p class="statement2" style='text-align: center; display: none;'>In person meetings are open! The SAF facility has opened it's doors.</p>
 		</div>
 		<!-- END: Main Page Heading -->
 
@@ -112,8 +112,15 @@ foreach($arrDays as $sEachDay){
 
 		<div id='divMeetingsEV' class="container my-1" style='border:0px solid #f00;'>
 			<div class="col-12 text-center bodydiv">
-
+					<img src="/img/2022_Fourth_Flyer.png" alt="2022 July Fourth Celebration" style="border:1px solid #333;">
 				<h1 class="text-dark pt-4">Events</h1>
+				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+				<h1 style="color: red;">Fourth of July Celebration! </h1>
+				<p class='statement'>MONDAY July 4th, 2022 - Join us as we celebrate the 67th Anniversary of the Suburban Alcoholic Foundation!</p>
+				<p class='statement'>Special guest Speakers. BBQ Lunch. Raffle with prizes. Bake Sale, Volleyball, Horseshoes and Washers! Babysitting Available!</p>
+
+
+
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
 				<h1>Family Night - Speaker Night </h1>
 				<p class='statement'>The 1st Saturday of every month is Family Night with two speakers. 
