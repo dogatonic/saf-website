@@ -112,12 +112,12 @@ foreach($arrDays as $sEachDay){
 
 		<div id='divMeetingsEV' class="container my-1" style='border:0px solid #f00;'>
 			<div class="col-12 text-center bodydiv">
-					<img src="/img/2022_Fourth_Flyer.png" alt="2022 July Fourth Celebration" style="border:1px solid #333;">
+					<!-- <img src="/img/2022_Fourth_Flyer.png" alt="2022 July Fourth Celebration" style="border:1px solid #333;"> -->
 				<h1 class="text-dark pt-4">Events</h1>
-				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+				<!-- <div class="border-top border-primary w-25 mx-auto my-3"></div>
 				<h1 style="color: red;">Fourth of July Celebration! </h1>
 				<p class='statement'>MONDAY July 4th, 2022 - Join us as we celebrate the 67th Anniversary of the Suburban Alcoholic Foundation!</p>
-				<p class='statement'>Special guest Speakers. BBQ Lunch. Raffle with prizes. Bake Sale, Volleyball, Horseshoes and Washers! Babysitting Available!</p>
+				<p class='statement'>Special guest Speakers. BBQ Lunch. Raffle with prizes. Bake Sale, Volleyball, Horseshoes and Washers! Babysitting Available!</p> -->
 
 
 

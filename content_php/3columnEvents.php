@@ -31,8 +31,8 @@
 								<a href="/meetings/events">Click here for more details!</a> </p> -->
 								<p>Family Night - Speaker Night<br>
 								<a href="/meetings/events">Click here for more details!</a> </p>
-							<!-- <p>Birthday Night: <?php echo  $arrBDnights[date("n")]; ?></p> -->
-							<p>The anual July 4th Picnic is right around the corner! Stay tuned for more details.
+							<p>Birthday Night: <?php echo  $arrBDnights[date("n")]; ?></p>
+							<!-- <p>The anual July 4th Picnic is right around the corner! Stay tuned for more details.</p> -->
 						</div>
 					</div>
 				</div>
