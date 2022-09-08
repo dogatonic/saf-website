@@ -26,7 +26,7 @@
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"></p>
 		</div> -->
-		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Vote today!</div>
+		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 8 - 14, 2022</div>
 		<div class="container my-4  text-center " style="font-size: large; color: black;">
 		If you are a member in good standing you may vote online for the new members of the Board of Trustees. (eligibility requirements shown below)
 		</div>
