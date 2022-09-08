@@ -9,8 +9,13 @@ $(document).ready(function () {
 	console.log("ready! >>>>>>>>>>>>>>>>>>>>>>>>>>!");
 	const urlParams = new URLSearchParams(window.location.search);
 	//const myParam = urlParams.get('myParam');
-	console.log(divIdClickQuery);
-	
+	// console.log(divIdClickQuery);
+
+	// $("#submitVote").click(function () {
+	// 	let someDatem = $("#election-form").serialize();
+	// 	ajaxEmailCheck(someDatem);
+	// });
+
 	//bMeetingsGroup
 	$(".bMeetingsGroup").click(doMeetingsButtonClick);
 	$("#bMeetingsIP").click();
@@ -20,16 +25,34 @@ $(document).ready(function () {
 	$(".bAboutGroup").click(doAboutButtonClick);
 	$("#bAboutPhilosophy").click();
 
-	if(divIdClickQuery !== false){
-		console.log("whgat is divIdClickQuery: ",divIdClickQuery);
+	if (divIdClickQuery !== false) {
+		console.log("whgat is divIdClickQuery: ", divIdClickQuery);
 		$("#" + divIdClickQuery).click();
 	}
 
 	$(".whosWhere").click(openMail);
+
+	$("#2022_ballot").find("input:checkbox").on("click", ballotNameChecked);
+	ballotNameChecked();
 });
 
+function ballotNameChecked() {
+	let votesCast = $("#2022_ballot").find("input:checkbox:checked").length;
+	if (votesCast > 7) {
+		$("#toomany").show();
+	} else {
+		$("#toomany").hide();
+	}
+	if (votesCast < 1) {
+		$("#toofew").show();
+	} else {
+		$("#toofew").hide();
+	}
+	// console.log("heynow checked! ", votesCast);
+}
+
 function openMail() {
-    window.location = "mai" + "lto:" + "info" + "@" + "safaustin." + "org";
+	window.location = "mai" + "lto:" + "info" + "@" + "safaustin." + "org";
 }
 
 const objMeetingsButtons = {
@@ -55,9 +78,6 @@ function doMeetingsButtonClick() {
 	$("#" + objMeetingsButtons[thisId]["contentDiv"]).show();
 }
 
-
-
-
 const objAboutButtons = {
 	bAboutPhilosophy: { offClass: "btn-secondary", contentDiv: "divAboutPhilosophy" },
 	bAboutHistory: { offClass: "btn-secondary", contentDiv: "divAboutHistory" },
@@ -81,6 +101,35 @@ function doAboutButtonClick() {
 }
 
 function gotoMeetingsPage() {
-	console.log('click meeting 3 column')
+	console.log("click meeting 3 column");
 	window.location = "/meetings";
+}
+
+function ajaxEmailCheck(datam) {
+	// console.log(datam);
+	console.log("++++++");
+	let result = false;
+	$.ajax({
+		type: "POST",
+		url: "/process/email_check.php",
+		data: datam,
+		success: function (data) {
+			// data = JSON object that contact.php returns
+
+			// we recieve the type of the message: success x danger and apply it to the
+			// let messageAlert = "alert-" + data.type;
+			let messageText = data.message;
+			let num_rows = data.num_rows;
+			console.log("messageText", messageText);
+			console.log("num_rows", num_rows); //$stmt
+			if (messageText == "found_rows") {
+				console.log("return true found yo email!");
+				result = true;
+			} else {
+				result = false;
+				console.log("return false");
+			}
+		},
+	});
+	return result;
 }
