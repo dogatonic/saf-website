@@ -26,6 +26,9 @@
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"></p>
 		</div> -->
+
+		<?php if($sBpex == "" || $sBpex == "/"){
+			?>
 		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 8 - 14, 2022</div>
 		<div class="container my-4  text-center " style="font-size: large; color: black;">
 		If you are a member in good standing you may vote online for the new members of the Board of Trustees. (eligibility requirements shown below)
@@ -129,7 +132,80 @@
 You may check your voting status in the Foundation office or by calling (512) 452-6784.</i></p>
 		</div>
 		</div>
+			<?php
+		} elseif($sBpex == "/results" && $bOnDev) {
 
+			// BPEX: results
+			// BPEX: results
+			// BPEX: results
+
+			try {
+				$sMysql = "SELECT * FROM webform_data WHERE type = 'election2022_v1'";
+				$stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE type = 'election2022_v1' ");
+				if($stmt){
+					$stmt->execute();
+					$result = $stmt->get_result(); // get the mysqli result
+					$data = $result->fetch_all(MYSQLI_ASSOC);
+				} else {
+					// throw something?
+					echo "stmt error<br>"; print_r($stmt);
+				}
+			} catch (\Exception $e) {
+				$errMessage = "Error. There was a mysql problem.";
+				//$responseArray = array('type' => 'success', 'message' => $errMessage);
+			}
+
+			$arrCandidate = array();
+			foreach($data as $row){
+				$arrVotesFor = explode('&',$row['message']);
+				foreach($arrVotesFor as $name){
+					$arrCandidate[$name]+= 1;
+				}
+
+			}
+			arsort($arrCandidate);
+		?>
+		<div id='' class="container" style=''>
+		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting Results (<? echo count($data); ?> ballots to date)</div>
+		<?php
+			$arrCandidate = array();
+			foreach($data as $row){
+				$arrVotesFor = explode('&',$row['message']);
+				foreach($arrVotesFor as $name){
+					$arrCandidate[$name]+= 1;
+				}
+
+			}
+			arsort($arrCandidate);
+			$n = 1;
+			foreach($arrCandidate as $name=>$count){
+				$rowColor = ($n < 8) ? '#fff' : '#ffda73';
+				$rowColor = ($n == 8) ? '#d6f7a8' : $rowColor;
+				?>
+				<div class="row" style="background-color: <? echo $rowColor; ?>;">
+					<div class="col-1 votes_box"><? echo $n; ?></div>
+					<div class="col-2 votes_box" style="font-size: med; color: #000;"><? echo $name; ?></div>
+					<div class="col-9 votes_box" style="font-size: med; color: #00f;"><? echo $count ; ?></div>
+				</div>
+				<?php
+				// echo "<div style=''>";
+				// echo '<span>'.$n.'</span>';
+				// echo '<div style="width:200px; font-size: med; color: #000;">&nbsp;'.$name.'&nbsp;</div>';
+				// echo '<span style="font-size: med; color: #00f; font-weight: bold;">&nbsp;'.$count.'</span>';
+				// echo "</div>";
+				$n++;
+			}
+			echo "<div style=''><pre>";
+			// print_r($arrCandidate);
+			echo "</pre></div>";
+
+		?>
+		
+		</div>
+
+		<?
+		}
+		?>
 		
 
 

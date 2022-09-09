@@ -8,11 +8,14 @@ date_default_timezone_set('America/Chicago');
 $sIP = $_SERVER['REMOTE_ADDR'];
 // $sIP = $_SERVER['HTTP_X_FORWARDED_FOR'];
 
-$bDebug = ($_SERVER['SERVER_NAME'] == "dev.safaustin.org" && $sIP == '72.177.25.181') ? true : false;//  24.28.67.98
+$bOnDev = ($_SERVER['SERVER_NAME'] == "dev.safaustin.org") ? true : false;
+$bDebug = ($bOnDev && $sIP == '72.177.25.181') ? true : false;//  24.28.67.98
+
 
 $sPageInclude = 'home';// set this as the default right away
 parse_str($_SERVER['QUERY_STRING'], $arrPex);
 $sApex = (empty($arrPex['apex']))? 'home' : $arrPex['apex'];
+$sBpex = (empty($arrPex['bpex']))? '/' : $arrPex['bpex'];
 switch($sApex){
     case 'about':
         $sTitle = "SAF - About";

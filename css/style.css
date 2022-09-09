@@ -43,6 +43,10 @@ h1.clubhouseHeading {
 .candidate_box {
 	border: 1px solid rgb(148, 148, 148);
 }
+
+.votes_box {
+	border-bottom: 1px solid rgb(148, 148, 148);
+}
 .whosWhere {
 	cursor: pointer;
 }

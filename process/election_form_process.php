@@ -8,6 +8,7 @@ require_once "Mail.php";
 
 date_default_timezone_set('America/Chicago');
 define("FILE_ELECTION_FORM", '../noncom/electionBallots.txt');
+define("FILE_ELECTION_LOG", '../noncom/electionLog.txt');
 
 // DEFAULT message
 $okMessage = "Thank you for Voting!";
@@ -32,13 +33,19 @@ try {
 		$stmt->execute();
 		$stmt->store_result();
 		$sRowsFound = $stmt->num_rows;
-		$responseArray['num_rows'] = $sRowsFound;
-		$responseArray['mysql'] = $sMysql;
+		// $responseArray['num_rows'] = $sRowsFound;
+		// $responseArray['mysql'] = $sMysql;
 		if($sRowsFound > 0){
 			// TROUBLE!
 			$bPassesEmailTest = false;
 			$responseArray['type'] = 'danger';
+			$responseArray['email'] = $e;
 			$responseArray['message'] = 'The email address entered has already been used to cast a ballot! Please check with the SAF office.';
+
+			$formData = "\r\n" . date('l jS \of F Y h:i:s A') . "\r\n";
+			$formData .= print_r($responseArray,1);
+			$formData .= "========================\r\n";
+			file_put_contents(FILE_ELECTION_LOG, $formData, FILE_APPEND);
 		}
 		// printf("%d row inserted.\n", $stmt->affected_rows);
 	} else {
