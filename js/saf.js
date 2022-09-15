@@ -6,7 +6,7 @@ function misc() {
 }
 
 $(document).ready(function () {
-	console.log("ready! >>>>>>>>>>>>>>>>>>>>>>>>>>!");
+	console.log("ready2! >>>>>>>>>>>>>>>>>>>>>>>>>>!");
 	const urlParams = new URLSearchParams(window.location.search);
 	//const myParam = urlParams.get('myParam');
 	// console.log(divIdClickQuery);
@@ -34,7 +34,17 @@ $(document).ready(function () {
 
 	$("#2022_ballot").find("input:checkbox").on("click", ballotNameChecked);
 	ballotNameChecked();
+
+	$(".status").click(statusCheck);
 });
+
+function statusCheck() {
+	console.log(this.name);
+	console.log(this.value);
+	console.log(this.dataset.id);
+	ajaxSetVoterStatus(this.value, this.dataset.id);
+	// .is(':checked')
+}
 
 function ballotNameChecked() {
 	let votesCast = $("#2022_ballot").find("input:checkbox:checked").length;
@@ -103,6 +113,41 @@ function doAboutButtonClick() {
 function gotoMeetingsPage() {
 	console.log("click meeting 3 column");
 	window.location = "/meetings";
+}
+
+function ajaxSetVoterStatus(status, id) {
+	console.log("start ajaxSetVoterStatus");
+	let url = "/process/voter_status_set.php?status=" + status + "&id=" + id;
+	console.log(url);
+	$.ajax({
+		type: "GET",
+		url: url,
+		success: function (data) {
+			// data = JSON object that contact.php returns
+			// we recieve the type of the message: success x danger and apply it to the
+			// let messageAlert = "alert-" + data.type;
+			let messageText = data.message;
+			console.log("message", messageText);
+			console.dir(data);
+			// // let's compose Bootstrap alert box HTML
+			// let alertBox =
+			// 	'<div class="alert ' +
+			// 	messageAlert +
+			// 	' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' +
+			// 	messageText +
+			// 	"</div>";
+
+			// // If we have messageAlert and messageText
+			// if (messageAlert && messageText) {
+			// 	// inject the alert to .messages div in our form
+			// 	$(".messages").html(alertBox);
+			// 	// empty the form
+			// 	$("#election-form")[0].reset();
+			// 	$("#election-form").hide();
+			// }
+		},
+	});
+	console.log("end ajaxSetVoterStatus");
 }
 
 function ajaxEmailCheck(datam) {

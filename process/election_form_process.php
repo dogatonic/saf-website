@@ -102,9 +102,9 @@ if($bPassesEmailTest){
 
 	//  INSERT INTO webform_data(type, name, email, phone, message) VALUES ("membership", "namo","emailo","phoneo","messageo")
 	try {
-		$stmt = $mysqli->prepare("INSERT INTO webform_data (type, name, email, phone, message) VALUES (?, ?, ?, ?, ?)");
+		$stmt = $mysqli->prepare("INSERT INTO webform_data (type, name, email, phone, message, status) VALUES (?, ?, ?, ?, ?, ?)");
 		if($stmt){
-			$stmt->bind_param("sssss", $t, $n, $e, $p, $_POST['flatballot']);
+			$stmt->bind_param("ssssss", $t, $n, $e, $p, $_POST['flatballot'], '1');
 			$stmt->execute();
 			// printf("%d row inserted.\n", $stmt->affected_rows);
 		} else {

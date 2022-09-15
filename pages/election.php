@@ -5,7 +5,9 @@
 		<!-- End Top Bar -->
 
 		<!-- Navigation -->
-		<?php require_once(__ROOT__ . "/includes/nav_bar.php"); ?>
+		<?php require_once(__ROOT__ . "/includes/nav_bar.php"); 
+		$electionMenu = "<div class='container text-center'><a href='/election/results'>results</a> | <a href='/election/audit'>audit</a></div>";
+		?>
 		<!-- End Navigation -->
 
 		<!-- Start Fixed Background IMG -->
@@ -26,8 +28,13 @@
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"></p>
 		</div> -->
-
 		<?php if($sBpex == "" || $sBpex == "/"){
+			?> 
+		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 8 - 14, 2022</div>
+		<div class="container my-4  text-center " style="font-size: large; color: black;">
+		Voting polls for 2022 have now closed.
+		</div>	
+		<?php } elseif($sBpex == "closed" || $sBpex == "/"){
 			?>
 		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 8 - 14, 2022</div>
 		<div class="container my-4  text-center " style="font-size: large; color: black;">
@@ -140,8 +147,8 @@ You may check your voting status in the Foundation office or by calling (512) 45
 			// BPEX: results
 
 			try {
-				$sMysql = "SELECT * FROM webform_data WHERE type = 'election2022_v1'";
-				$stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE type = 'election2022_v1' ");
+				// $sMysql = "SELECT * FROM webform_data WHERE status = '1' AND type = 'election2022_v1'";
+				$stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE status = '1' AND type = 'election2022_v1' ");
 				if($stmt){
 					$stmt->execute();
 					$result = $stmt->get_result(); // get the mysqli result
@@ -167,6 +174,7 @@ You may check your voting status in the Foundation office or by calling (512) 45
 		?>
 		<div id='' class="container" style=''>
 		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting Results (<? echo count($data); ?> ballots to date)</div>
+		<?php echo $electionMenu; ?>
 		<?php
 			$arrCandidate = array();
 			foreach($data as $row){
@@ -188,11 +196,6 @@ You may check your voting status in the Foundation office or by calling (512) 45
 					<div class="col-9 votes_box" style="font-size: med; color: #00f;"><? echo $count ; ?></div>
 				</div>
 				<?php
-				// echo "<div style=''>";
-				// echo '<span>'.$n.'</span>';
-				// echo '<div style="width:200px; font-size: med; color: #000;">&nbsp;'.$name.'&nbsp;</div>';
-				// echo '<span style="font-size: med; color: #00f; font-weight: bold;">&nbsp;'.$count.'</span>';
-				// echo "</div>";
 				$n++;
 			}
 			echo "<div style=''><pre>";
@@ -204,6 +207,58 @@ You may check your voting status in the Foundation office or by calling (512) 45
 		</div>
 
 		<?
+		} elseif($sBpex == "/audit" && $bOnDev) { 
+			
+			try {
+				
+				$stmt = $mysqli->prepare("SELECT id, name, email, phone, status FROM webform_data WHERE type like '%election2022_v1%' ORDER BY name;");
+				if($stmt){
+					$stmt->execute();
+					$result = $stmt->get_result(); // get the mysqli result
+					$data = $result->fetch_all(MYSQLI_ASSOC);
+				} else {
+					// throw something?
+					echo "stmt error<br>"; print_r($stmt);
+				}
+			} catch (\Exception $e) {
+				$errMessage = "Error. There was a mysql problem.";
+				//$responseArray = array('type' => 'success', 'message' => $errMessage);
+			}
+			?>
+
+		<div id='' class="container" style=''>
+				<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Audit Results (<? echo count($data); ?> ballots to date)</div>
+				<?php echo $electionMenu; ?>
+				<?php
+				$arrCandidate = array();
+				foreach($data as $row){
+
+				}
+				$n = 1;
+				foreach($data as $row){
+					$rowColor = ($n % 2) ? '#fff' : '#ddd';
+					$bStatus = ($row['status'] == '1')? true : false;
+					?>
+					<div class="row" style="background-color: <? echo $rowColor; ?>;">
+						<div class="col-1 votes_box"><? echo $n; ?></div>
+						<div class="col-3 votes_box" style="font-size: med; color: #000;"><? echo $row['name']; ?></div>
+						<div class="col-4 votes_box ballot_email" style="font-size: med;"><? echo $row['email'] ; ?></div>
+						<div class="col-2 votes_box ballot_phone" style="font-size: med;"><? echo $row['phone'] ; ?></div>
+						<div class="col-2 votes_box ballot_phone" style="font-size: med;">
+						<input type="radio" class="status" name="<? echo 'status_' . $row['name']; ?>" data-id="<? echo $row['id']; ?>" value="1" <?php if($bStatus)echo 'checked'; ?>> yes</input>
+						<input type="radio" class="status" name="<? echo 'status_' . $row['name']; ?>" data-id="<? echo $row['id']; ?>" value="0"<?php if(!$bStatus)echo 'checked'; ?>> no</input>
+						</div>
+					</div>
+					<?php
+					$n++;
+				}
+				echo "<div style=''><pre>";
+				// print_r($arrCandidate);
+				echo "</pre></div>";
+
+			?>
+		</div>
+		<?php 
 		}
 		?>
 		

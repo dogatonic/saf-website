@@ -43,7 +43,12 @@ h1.clubhouseHeading {
 .candidate_box {
 	border: 1px solid rgb(148, 148, 148);
 }
-
+.ballot_phone {
+	color: rgba(4, 66, 74, 0.5);
+}
+.ballot_email {
+	color: rgba(16, 30, 86, 0.5);
+}
 .votes_box {
 	border-bottom: 1px solid rgb(148, 148, 148);
 }
