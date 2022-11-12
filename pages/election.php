@@ -1,6 +1,6 @@
 <body>
 	<div class="big-div">
-		<!-- Top Bar -->
+		<!-- Top Bar --> 
 		<?php require_once(__ROOT__ . "/includes/top_bar.php"); ?>
 		<!-- End Top Bar -->
 

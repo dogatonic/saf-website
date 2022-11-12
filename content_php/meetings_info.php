@@ -204,15 +204,15 @@ $arrMeetingsData[] = [
 	'desc'=>"This meeting is closed discussion.",
 	'room'=>"Big room"
 ];
-$arrMeetingsData[] = [
-	'day'=>"Wednesday",
-	'order'=>35,
-	'time'=>"2:00 pm",
-	'title'=>"Big Book Study",
-	'type'=>"X",
-	'desc'=>"Read and discuss the Big Book. This meeting is open discussion.",
-	'room'=>"Small room"
-];
+// $arrMeetingsData[] = [
+// 	'day'=>"Wednesday",
+// 	'order'=>35,
+// 	'time'=>"2:00 pm",
+// 	'title'=>"Big Book Study",
+// 	'type'=>"X",
+// 	'desc'=>"Read and discuss the Big Book. This meeting is open discussion.",
+// 	'room'=>"Small room"
+// ];
 
 $arrMeetingsData[] = [
 	'day'=>"Wednesday",
@@ -262,7 +262,7 @@ $arrMeetingsData[] = [
 	'order'=>20,
 	'time'=>"10:00 am",
 	'title'=>"Women's Meeting",
-	'type'=>"X",
+	'type'=>"C",
 	'desc'=>"This meeting is closed discussion.",
 	'room'=>"Big room"
 ];
