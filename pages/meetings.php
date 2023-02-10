@@ -56,7 +56,7 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 			<div id="accordion">
 
 <?php
-$sOnlineMessage = 'Visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information.';
+$sOnlineMessage = 'Visit the <a href="http://www.northlandgroup.org/" target="_blank">Northland Group website</a> for more information.';
 // this section will show a list of the In-Person Meetings. The data is in a separate file called "/content_php/meetings_info.php"
 $arrDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 foreach($arrDays as $sEachDay){
@@ -99,9 +99,9 @@ foreach($arrDays as $sEachDay){
 			<div class="col-12 text-center bodydiv">
 				<h1 class="text-dark pt-4">Online AA Meetings</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
-				<p class="lead">Northland AA Group online meetings are held on Zoom everyday. For online meetings and other information, visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website.</a></p>
+				<p class="lead">Northland AA Group online meetings are held on Zoom everyday. For online meetings and other information, visit the <a href="http://www.northlandgroup.org/zoom-meetings" target="_blank">Northland Group website.</a></p>
 				<div class="container my-1" style=''>
-					<a href="http://www.northlandgroup.org" target="_blank">
+					<a href="http://www.northlandgroup.org/zoom-meetings" target="_blank">
 						<img src="/img/northland_mini.png" alt="Northland Group Site" style='border: 1px solid #888;' class='faux_northland'>
 					</a>
 				</div> 

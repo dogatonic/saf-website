@@ -13,7 +13,7 @@
 						</div>
 						<div class="col-lg-8 col-xl-9">
 							<h4 class="text-dark text-uppercase">Meetings</h4>
-							<p>The Northland Group is having meetings everyday, both in-person on online. Check the Meetings page for more.</p>
+							<p>The Northland Group is having meetings everyday, both in-person and online. Check the Meetings page for more.</p>
 						</div>
 					</div>
 				</div>
