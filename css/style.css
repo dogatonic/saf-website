@@ -146,6 +146,10 @@ a.linkMainTitle {
 .buttonGroupMeetings button {
 	width: 8rem;
 }
+.btn_basic{
+	border: 1px solid transparent;
+
+}
 
 .btn-secondary-2 {
 	color: #fff;

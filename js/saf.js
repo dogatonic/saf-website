@@ -1,9 +1,11 @@
-function misc() {
-	// just testing the Prettier extension
-	const v = 1;
-	let a = 2;
-	a += 1;
-}
+// function misc() {
+// 	// just testing the Prettier extension
+// 	const v = 1;
+// 	let a = 2;
+// 	a += 1;
+// }
+
+let bShowingAllMeetingGroups = false
 
 $(document).ready(function () {
 	console.log("ready2! >>>>>>>>>>>>>>>>>>>>>>>>>>!");
@@ -20,7 +22,9 @@ $(document).ready(function () {
 	$(".bMeetingsGroup").click(doMeetingsButtonClick);
 	$("#bMeetingsIP").click();
 	$("#meetingsLinkDivButton").click(gotoMeetingsPage);
+	$("#showAllMeetings").click(showAllMeetingGroups);
 
+	
 	// About Us page buttons
 	$(".bAboutGroup").click(doAboutButtonClick);
 	$("#bAboutPhilosophy").click();
@@ -70,6 +74,15 @@ const objMeetingsButtons = {
 	bMeetingsOL: { offClass: "btn-secondary-2", contentDiv: "divMeetingsOL" },
 	bMeetingsEV: { offClass: "btn-secondary", contentDiv: "divMeetingsEV" },
 };
+
+function showAllMeetingGroups(){
+	if(bShowingAllMeetingGroups == true){
+		$('#accordion .collapse').each( function() { $(this).removeClass( "show" ) } )
+	} else {
+		$('#accordion .collapse').each( function() { $(this).addClass( "show" ) } )
+	}
+	bShowingAllMeetingGroups = !bShowingAllMeetingGroups // toggle
+}
 
 function doMeetingsButtonClick() {
 	// console.log($(this).attr("id"));
