@@ -112,7 +112,7 @@ foreach($arrDays as $sEachDay){
 		</div>
 
 		<div id='divMeetingsEV' class="container my-1" style='border:0px solid #f00;'>
-			<div class="col-12 text-center bodydiv">
+			<div class="text-center bodydiv"> <!-- TUCKER: removing "col-12" on this wrapper div -->
 					<!-- <img src="/img/2022_Fourth_Flyer.png" alt="2022 July Fourth Celebration" style="border:1px solid #333;"> -->
 				<h1 class="text-dark pt-4">Events</h1>
 				<!-- <div class="border-top border-primary w-25 mx-auto my-3"></div>
@@ -120,33 +120,81 @@ foreach($arrDays as $sEachDay){
 				<p class='statement'>MONDAY July 4th, 2022 - Join us as we celebrate the 67th Anniversary of the Suburban Alcoholic Foundation!</p>
 				<p class='statement'>Special guest Speakers. BBQ Lunch. Raffle with prizes. Bake Sale, Volleyball, Horseshoes and Washers! Babysitting Available!</p> -->
 
+		<!-- Three Column Section -->
+		<div class=" mt-4 mb-5 bodydiv"><!-- remove "container" -->
+			<div class="row">
+				<div class="col-12 col-md-4 mb-4">
+					<div class="basic_3_col pt-2">
+						<h4 class="text-dark text-uppercase">Speaker Nights</h4>
+						<h5 style="color: blue;">Wednesdays and Fridays <br/>at 8pm</h5>
+						<p>Wednesday night features speakers with less than 10 years of sobriety.</p>
+						<p>Friday night features speakers with 10 years or more of sobriety.</p>
+
+						<div class="border-top border-primary w-50 mx-auto my-3"></div>
+						<p style="font-weight: 900; color: #555;">Wednesdays</p>
+						<p><span style="font-weight: 500;  color: blue;">Feb 22</span> <br> Michael T. - <em>Northland Group</em></p>
+
+						<div class="border-top border-primary w-50 mx-auto my-3"></div>
+						<p style="font-weight: 900; color: #555;">Fridays</p>
+						<p><span style="font-weight: 500;  color: blue;">Feb 17</span> <br> Mike D. - <em>Graceland Sunday Night Big Book</em></p>
 
 
-				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 mb-4">
+					<div class="basic_3_col pt-2" style="padding: 4px;">
+						<h4 class="text-dark text-uppercase">Birthday Night</h4>
+						<h5 style="color: red;">Last Friday of Each Month</h5>
+						<p><img src="/img/cake.png" alt="Birthday Night" style='width: 50%; height: auto;'></p>
+						<p>Northland Group celebrates annual lengths of sobriety on the last Friday of each month. To receive a chip, please sign up on the bulletine board in the Half Measures room no later than the Tuesday of Birthday week. FREE CAKE!</p>
+						<h4>Next Birthday Night:</h4>
+						<h3 class="" style="margin-top: 5px; color: #0000ff">
+						<?php 
+						$n = date("n");
+						echo  $arrBDnights[$n ];
+						?>
+						</h3>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 mb-4">
+					<div class="basic_3_col pt-2">
+						<h4 class="text-dark text-uppercase">Family Night</h4>
+						<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month</h5> 
+						<p>Two speakers together: AA & Al Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the Big Room at Northland.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		
+
+		<div style="display: none;"><!-- TUCKER: this is the OLD section, we can get rid of this -->
+			<div class="border-top border-primary w-25 mx-auto my-3"></div>
+			<div>
 				<h1>Family Night - Speaker Night </h1>
 				<p class='statement'>The 1st Saturday of every month is Family Night with two speakers. 
-				AA & Al Anon speakers from various groups sharing how recovery supports their relationship. 
-				This speaker meeting is held in the Big Room at Northland.</p>
+					AA & Al Anon speakers from various groups sharing how recovery supports their relationship. 
+					This speaker meeting is held in the Big Room at Northland.</p>
+			</div>
 
+			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 
-
-				<div class="border-top border-primary w-25 mx-auto my-3"></div>
-
-				<h1>Next Birthday Night:</h1>
-				<h1 class="" style="margin-top: 5px; color: #0000ff">
-				<?php 
-				$n = date("n");
-				echo  $arrBDnights[$n ];
-				?>
-				</h1>
-				<p class="statement">Birthday Night is the last Friday of every month at 7:30 pm. 
-					<!-- Currently, this event is being held in a Zoom meeting -
-				visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information. -->
-			</p>
-				<img src="/img/cake.png" alt="Birthday Night" class=''>
-
-				<br><br>
-				
+			<div>
+					<h1>Next Birthday Night:</h1>
+					<h1 class="" style="margin-top: 5px; color: #0000ff">
+					<?php 
+					$n = date("n");
+					echo  $arrBDnights[$n ];
+					?>
+					</h1>
+					<p class="statement">Birthday Night is the last Friday of every month at 7:30 pm. 
+						<!-- Currently, this event is being held in a Zoom meeting -
+					visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information. -->
+					</p>
+					<img src="/img/cake.png" alt="Birthday Night" class=''>
 			</div>
 		</div>
 

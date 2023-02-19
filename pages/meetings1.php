@@ -1,5 +1,7 @@
 <?php 
 require_once(__ROOT__ . "/content_php/meetings_info.php");
+
+
 ?>
 <body>
 	<div class="big-div">
@@ -26,7 +28,7 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 
 		<!-- Main Page Heading -->
 		<div class="container my-1 ">
-			<p class="statement2">In person meetings are open! The SAF facility has opened it's doors - Masks are required and capacity is limited.</p>
+			<p class="statement2" style='text-align: center; display: none;'>In person meetings are open! The SAF facility has opened it's doors.</p>
 		</div>
 		<!-- END: Main Page Heading -->
 
@@ -43,7 +45,7 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 			<div class="col-12 text-center bodydiv">
 			<h1 class="text-dark pt-4">
 
-				In Person Meetings</h1>
+				In Person AA Meetings</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
 				<p class="lead_x">
 				(C) - Closed Meetings: Attendance is limited to persons who have a desire to stop drinking.<br>
@@ -51,10 +53,11 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 				</p>
 				<!-- We ask that when discussing our problems, we confine ourselves to those problems as they relate to alcoholism. -->
 			</div>
+			<a id="showAllMeetings" href="javascript:void()" class="blue-link">Click here to show all meetings</a>
 			<div id="accordion">
 
 <?php
-$sOnlineMessage = 'Visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information.';
+$sOnlineMessage = 'Visit the <a href="http://www.northlandgroup.org/" target="_blank">Northland Group website</a> for more information.';
 // this section will show a list of the In-Person Meetings. The data is in a separate file called "/content_php/meetings_info.php"
 $arrDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 foreach($arrDays as $sEachDay){
@@ -95,11 +98,11 @@ foreach($arrDays as $sEachDay){
 		<!-- BEGIN: Div for Online meeting schedule -->
 		<div id='divMeetingsOL' class="container" style='border:0px solid #0f0;'>
 			<div class="col-12 text-center bodydiv">
-				<h1 class="text-dark pt-4">Online Meetings</h1>
+				<h1 class="text-dark pt-4">Online AA Meetings</h1>
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
-				<p class="lead">Northland AA Group online meetings are held on Zoom everyday. For online meetings and other information, visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website.</a></p>
-				<div class="container my-1" style=''>
-					<a href="http://www.northlandgroup.org" target="_blank">
+				<p class="lead">Northland AA Group online meetings are held on Zoom everyday. For online meetings and other information, visit the <a href="http://www.northlandgroup.org/zoom-meetings" target="_blank">Northland Group website.</a></p>
+				<div class="container my-1">
+					<a href="http://www.northlandgroup.org/zoom-meetings" target="_blank">
 						<img src="/img/northland_mini.png" alt="Northland Group Site" style='border: 1px solid #888;' class='faux_northland'>
 					</a>
 				</div> 
@@ -110,12 +113,38 @@ foreach($arrDays as $sEachDay){
 
 		<div id='divMeetingsEV' class="container my-1" style='border:0px solid #f00;'>
 			<div class="col-12 text-center bodydiv">
+					<!-- <img src="/img/2022_Fourth_Flyer.png" alt="2022 July Fourth Celebration" style="border:1px solid #333;"> -->
 				<h1 class="text-dark pt-4">Events</h1>
+				<!-- <div class="border-top border-primary w-25 mx-auto my-3"></div>
+				<h1 style="color: red;">Fourth of July Celebration! </h1>
+				<p class='statement'>MONDAY July 4th, 2022 - Join us as we celebrate the 67th Anniversary of the Suburban Alcoholic Foundation!</p>
+				<p class='statement'>Special guest Speakers. BBQ Lunch. Raffle with prizes. Bake Sale, Volleyball, Horseshoes and Washers! Babysitting Available!</p> -->
+
+
+
 				<div class="border-top border-primary w-25 mx-auto my-3"></div>
-				<p class="lead">Birthday Night is the last Friday of every month at 7:30 pm. Currently, this event is being held in person at the SAF Clubhouse!
-				Visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information.</p>
-				<img src="/img/cake.png" alt="Birthday Night" style='' class=''>
-				<h1>Birthday Night: May 28<br>Live In-Person Event!</h1>
+				<h1>Family Night - Speaker Night </h1>
+				<p class='statement'>The 1st Saturday of every month is Family Night with two speakers. 
+				AA & Al Anon speakers from various groups sharing how recovery supports their relationship. 
+				This speaker meeting is held in the Big Room at Northland.</p>
+
+
+
+				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+
+				<h1>Next Birthday Night:</h1>
+				<h1 class="" style="margin-top: 5px; color: #0000ff">
+				<?php 
+				$n = date("n");
+				echo  $arrBDnights[$n ];
+				?>
+				</h1>
+				<p class="statement">Birthday Night is the last Friday of every month at 7:30 pm. 
+					<!-- Currently, this event is being held in a Zoom meeting -
+				visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website</a> for more information. -->
+			</p>
+				<img src="/img/cake.png" alt="Birthday Night" class=''>
+
 				<br><br>
 				
 			</div>

@@ -263,6 +263,13 @@ a.linkMainTitle {
 .fixed-background-nothome {
 	padding: 0rem;
 }
+
+/*============= My column formatting =============*/
+.basic_3_col{
+	border: 1px solid grey;
+	border-radius: .5rem;
+	padding-right: 0px;
+}
 /*============= Meetings Buttons =============*/
 .card-header-meetings {
 	cursor: pointer;
