@@ -161,8 +161,10 @@ foreach($arrDays as $sEachDay){
 				<div class="col-12 col-md-4 mb-4">
 					<div class="basic_3_col pt-2">
 						<h4 class="text-dark text-uppercase">Family Night</h4>
-						<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month</h5> 
+						<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
 						<p>Two speakers together: AA & Al Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the Big Room at Northland.</p>
+						<div class="border-top border-primary w-50 mx-auto my-3"></div>
+						<p style="font-size:1.5rem;"><span style="font-weight: 500;  color: blue;">March 4th</span> <br> Marti & Cecil R</p>
 					</div>
 				</div>
 

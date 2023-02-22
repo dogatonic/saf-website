@@ -34,7 +34,7 @@
 			<div class="os-animation" data-animation="animate__animated animate__fadeInUp">
 				<div class="row mb-4">
 
-					<div class="col-md-5 contact-social"><?php echo date('l jS \of F Y h:i:s A') . "<br>"; ?>
+					<div class="col-md-5 contact-social">
 						<strong>Connect With Us</strong>
 						<p>Have questions? We have answers. Send us a message directly and someone will get back to you right away.</p>
 						<strong>Our Location</strong>
