@@ -92,7 +92,7 @@
 		</div>
 		<!-- End Three Column Section -->
 
-		<?php require_once(__ROOT__ . "/content_php/3columnEvents.php"); ?>
+		<?php require_once(__ROOT__ . "/page_elements/events_3_column.php"); ?>
 
 		<!-- Start Footer -->
 		<?php

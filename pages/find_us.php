@@ -98,7 +98,7 @@ $sGoogleMap_X = 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27549.0754
 		</div> <!-- End Container -->
 
 
-		<?php require_once(__ROOT__ . "/content_php/3columnEvents.php"); ?>
+		<?php require_once(__ROOT__ . "/page_elements/events_3_column.php"); ?>
 
 
 		<!-- Start Footer -->

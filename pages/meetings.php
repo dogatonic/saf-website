@@ -1,5 +1,5 @@
 <?php 
-require_once(__ROOT__ . "/content_php/meetings_info.php");
+require_once(__ROOT__ . "/page_elements/meetings_info.php");
 
 
 ?>
@@ -58,7 +58,7 @@ require_once(__ROOT__ . "/content_php/meetings_info.php");
 
 <?php
 $sOnlineMessage = 'Visit the <a href="http://www.northlandgroup.org/" target="_blank">Northland Group website</a> for more information.';
-// this section will show a list of the In-Person Meetings. The data is in a separate file called "/content_php/meetings_info.php"
+// this section will show a list of the In-Person Meetings. The data is in a separate file called "/page_elements/meetings_info.php"
 $arrDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 foreach($arrDays as $sEachDay){
 	$sShowStartingCard = ($sEachDay == 'Sunday') ? 'show' : '';// this class will allow Sunday to be visible on pageload
