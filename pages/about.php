@@ -43,7 +43,7 @@
 			</div>
 			<div class="container my-1" style='border:0px solid #f00; padding:20px 0px;'>
 				<p class="statement">
-				<?php require_once(__ROOT__ . "/page_elements/history.php"); ?>
+				<?php require_once(__ROOT__ . "/includes/page_parts/history.php"); ?>
 				</p>
 			</div>
 		</div>
