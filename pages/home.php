@@ -42,7 +42,7 @@
 		<!-- END: Main Page Heading -->
 
 		<!-- Three Column Section -->
-		<?php require_once(__ROOT__ . "/page_elements/events_3_column.php"); ?>
+		<?php require_once(__ROOT__ . "/includes/page_parts/events_3_column.php"); ?>
 		<!-- End Three Column Section -->
 
 		<!-- Start Fixed Background IMG -->
