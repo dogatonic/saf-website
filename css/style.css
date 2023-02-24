@@ -8,6 +8,23 @@ body {
 	background-color: #555;
 }
 
+.events_page_dates{
+	font-weight: 500;  
+	font-size: 1.25rem;
+	color: blue;
+}
+
+.events_page_speakers{
+	font-weight: 500; 
+	font-size: 1.25rem;
+}
+
+.events_page_day{
+	font-weight: 700; 
+	color: #555; 
+	font-size: 1.25rem;
+}
+
 .strikeThrough {
 	text-decoration: line-through;
 }
