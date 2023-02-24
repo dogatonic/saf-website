@@ -24,7 +24,7 @@
 								<p><span class="events_page_dates">March 8th</span> <br> <span class="events_page_speakers">TBA </span><em></em></p>
 								<p><span class="events_page_dates">March 15th</span> <br> <span class="events_page_speakers">Amanda L. </span> <em></em></p>
 								<p><span class="events_page_dates">March 22nd</span> <br> <span class="events_page_speakers">Ben T. </span> - <em>Northland Group</em></p>
-								<p><span class="events_page_dates">March 29th</span> <br> <span class="events_page_speakers">Tucker Tucker </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">March 29th</span> <br> <span class="events_page_speakers">M. Tucker </span> - <em>Northland Group</em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p class="events_page_day">Fridays</p>
@@ -37,15 +37,16 @@
 						<div class="col-12 col-md-4 mb-4">
 							<div class="basic_3_col pt-2" style="padding: 4px;">
 								<h4 class="text-dark text-uppercase">Birthday Night</h4>
-								<h5 style="color: red;">Last Friday of Each Month</h5>
+								<h5 style="color: red;">Last Friday of Each Month <br/> at 7:30 PM</h5>
 								<p><img src="/img/cake.png" alt="Birthday Night" style='width: 50%; height: auto;'></p>
 								<p>Northland Group celebrates annual lengths of sobriety on the last Friday of each month. To receive a chip, please sign up on the bulletine board in the Half Measures room no later than the Tuesday of Birthday week. FREE CAKE!</p>
 								<h4>Next Birthday Night:</h4>
-								<h3 class="" style="margin-top: 5px; color: #0000ff">
+								<h3 class="" style="margin-top: 5px; color: #0000ff;">
 								<?php 
 								$n = date("n");
 								echo  $arrBDnights[$n ];
-								?>
+								?></h3>
+								<h3 class="" style="margin-top: 5px; color: #0000ff; line-height: 3rem;"> 7:30 PM
 								</h3>
 							</div>
 						</div>
@@ -58,7 +59,7 @@
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p>
 
-								<p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not a Glum Lot</p>
+								<p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p>
 
 								<p><span class="events_page_dates">May 6th</span> <br> <span class="events_page_speakers">Jen and Jonny F</span> - PPG</p>
 
