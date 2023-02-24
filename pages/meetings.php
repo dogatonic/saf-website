@@ -17,7 +17,7 @@ require_once(__ROOT__ . "/includes/data/inperson_meetings.php");
 		<div class="fixed-background fixed-background-nothome">
 			<div class="row text-light bannerOpaqueLayerGreen" style="height: 6rem; padding-top: 20px;">
 				<div class="col-12 text-center ">
-					<h1 class="clubhouseHeading">Meetings & Events!</h1>
+					<h1 class="clubhouseHeading">Meetings & Events</h1>
 				</div>
 			</div>
 			<div class="fixed-wrap">
