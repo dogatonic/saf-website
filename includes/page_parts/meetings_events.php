@@ -21,7 +21,7 @@
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p class="events_page_day">Wednesdays</p>
 								<p><span class="events_page_dates">March 1st</span> <br> <span class="events_page_speakers"> Brendan S.</span> - <em>Northland Group</em></p>
-								<p><span class="events_page_dates">March 8th</span> <br> <span class="events_page_speakers">TBA </span><em></em></p>
+								<p><span class="events_page_dates">March 8th</span> <br> <span class="events_page_speakers">John R. </span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">March 15th</span> <br> <span class="events_page_speakers">Amanda L. </span> <em></em></p>
 								<p><span class="events_page_dates">March 22nd</span> <br> <span class="events_page_speakers">Ben T. </span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">March 29th</span> <br> <span class="events_page_speakers">M. Tucker </span> - <em>Northland Group</em></p>
