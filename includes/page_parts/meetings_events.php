@@ -28,7 +28,7 @@
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p class="events_page_day">Fridays</p>
-								<p><span class="events_page_dates">Feb 17</span> <br> <span class="events_page_speakers">Mike D. </span> - <em>Graceland Sunday Night Big Book</em></p>
+								<p><span class="events_page_dates">March 3rd</span> <br> <span class="events_page_speakers">Nina M. </span> - <em>The Great Fact</em></p>
 
 
 							</div>
