@@ -20,15 +20,20 @@
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p class="events_page_day">Wednesdays</p>
-								<p><span class="events_page_dates">March 1st</span> <br> <span class="events_page_speakers"> Brendan S.</span> - <em>Northland Group</em></p>
+								<!-- <p><span class="events_page_dates">March 1st</span> <br> <span class="events_page_speakers"> Brendan S.</span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">March 8th</span> <br> <span class="events_page_speakers">John R. </span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">March 15th</span> <br> <span class="events_page_speakers">Amanda L. </span> <em></em></p>
 								<p><span class="events_page_dates">March 22nd</span> <br> <span class="events_page_speakers">Ben T. </span> - <em>Northland Group</em></p>
-								<p><span class="events_page_dates">March 29th</span> <br> <span class="events_page_speakers">M. Tucker </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">March 29th</span> <br> <span class="events_page_speakers">M. Tucker </span> - <em>Northland Group</em></p> -->
+
+								<p><span class="events_page_dates">April 5th</span> <br> <span class="events_page_speakers">Mitra F. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">April 12th</span> <br> <span class="events_page_speakers">Jeff E. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">April 19th</span> <br> <span class="events_page_speakers">Ally M. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">April 26th</span> <br> <span class="events_page_speakers">Joe M. </span> - <em>Northland Group</em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p class="events_page_day">Fridays</p>
-								<p><span class="events_page_dates">March 3rd</span> <br> <span class="events_page_speakers">Nina M. </span> - <em>The Great Fact</em></p>
+								<p><span class="events_page_dates">April 21st</span> <br> <span class="events_page_speakers">Aaron C. </span> - <em>Northland Group</em></p>
 
 
 							</div>
@@ -57,9 +62,9 @@
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
 								<p>Two speakers together: AA & Al Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the Big Room at Northland.</p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p>
+								<!-- <p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p> -->
 
-								<p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p>
+								<!-- <p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p> -->
 
 								<p><span class="events_page_dates">May 6th</span> <br> <span class="events_page_speakers">Jen and Jonny F</span> - PPG</p>
 
