@@ -29,7 +29,7 @@
 
 		<!-- Main Page Heading -->
 		<div class="col-12 text-center mt-3 bodydiv">
-			<h1 class="text-dark pt-4">Open Full Capacity, 7 Days a Week</h1>
+			<h1 class="text-dark pt-4">Open Full Capacity, 7 Days a Week.</h1>
 			<!-- <h1 class="text-dark pt-4">Alcoholics Anonymous</h1> -->
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="statement"><?php //echo $sTitle; ?>Alcoholics Anonymous</p>
