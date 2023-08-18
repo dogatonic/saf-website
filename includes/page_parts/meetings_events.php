@@ -19,24 +19,24 @@
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<p class="events_page_day">Wednesdays</p>
+								<!-- <p class="events_page_day">Wednesdays</p> -->
 								<!-- <p><span class="events_page_dates">March 1st</span> <br> <span class="events_page_speakers"> Brendan S.</span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">March 8th</span> <br> <span class="events_page_speakers">John R. </span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">March 15th</span> <br> <span class="events_page_speakers">Amanda L. </span> <em></em></p>
 								<p><span class="events_page_dates">March 22nd</span> <br> <span class="events_page_speakers">Ben T. </span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">March 29th</span> <br> <span class="events_page_speakers">M. Tucker </span> - <em>Northland Group</em></p> -->
 
-								<p><span class="events_page_dates">May 3rd</span> <br> <span class="events_page_speakers">Ryan B. </span> - <em>Subtle Foe Group</em></p>
+								<!-- <p><span class="events_page_dates">May 3rd</span> <br> <span class="events_page_speakers">Ryan B. </span> - <em>Subtle Foe Group</em></p>
 								<p><span class="events_page_dates">May 10th</span> <br> <span class="events_page_speakers">Casey S.</span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">May 17th</span> <br> <span class="events_page_speakers">Mike E.</span> - <em>The Great Fact</em></p>
 								<p><span class="events_page_dates">May 24th</span> <br> <span class="events_page_speakers">Steve C.</span> - <em>Mesa Group</em></p>
-								<p><span class="events_page_dates">May 31st</span> <br> <span class="events_page_speakers">Rachel D.</span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">May 31st</span> <br> <span class="events_page_speakers">Rachel D.</span> - <em>Northland Group</em></p> -->
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<p class="events_page_day">Fridays</p>
-								<p><span class="events_page_dates">May 5th</span> <br> <span class="events_page_speakers">Dana B.</span> (32 years)</br><em>Northland Group Saturday Morning</em></p>
+								<!-- <p class="events_page_day">Fridays</p> -->
+								<!-- <p><span class="events_page_dates">May 5th</span> <br> <span class="events_page_speakers">Dana B.</span> (32 years)</br><em>Northland Group Saturday Morning</em></p>
 								<p><span class="events_page_dates">May 12th</span> <br> <span class="events_page_speakers">Sam W.</span> (12 years)</br><em>Northland Group </em></p>
-								<p><span class="events_page_dates">May 19th</span> <br> <span class="events_page_speakers">Mark L.</span> (28 years)</br><em>Northland Group</em></p>
+								<p><span class="events_page_dates">May 19th</span> <br> <span class="events_page_speakers">Mark L.</span> (28 years)</br><em>Northland Group</em></p> -->
 
 
 							</div>
@@ -69,9 +69,9 @@
 
 								<!-- <p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p> -->
 
-								<p><span class="events_page_dates">May 6th</span> <br> <span class="events_page_speakers">Jen and Jonny F</span> - PPG</p>
+								<!-- <p><span class="events_page_dates">May 6th</span> <br> <span class="events_page_speakers">Jen and Jonny F</span> - PPG</p> -->
 
-								<p><span class="events_page_dates">June 3rd</span> <br> <span class="events_page_speakers">Carrie and Shawn C</span></p>
+								<!-- <p><span class="events_page_dates">June 3rd</span> <br> <span class="events_page_speakers">Carrie and Shawn C</span></p> -->
 
 
 							</div>
