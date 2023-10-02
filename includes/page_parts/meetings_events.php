@@ -19,7 +19,11 @@
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<!-- <p class="events_page_day">Wednesdays</p> -->
+								<p class="events_page_day">Wednesdays</p>
+								<p><span class="events_page_dates">October 4th</span> <br> <span class="events_page_speakers">Izzy W. </span> - <em>The Bright Spot Group</em></p>
+								<p><span class="events_page_dates">October 11th</span> <br> <span class="events_page_speakers">Brad S. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">October 18th</span> <br> <span class="events_page_speakers">Caleb C. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">October 25th</span> <br> <span class="events_page_speakers">tba </span> - <em></em></p>
 								<!-- <p><span class="events_page_dates">March 1st</span> <br> <span class="events_page_speakers"> Brendan S.</span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">March 8th</span> <br> <span class="events_page_speakers">John R. </span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">March 15th</span> <br> <span class="events_page_speakers">Amanda L. </span> <em></em></p>
@@ -33,7 +37,10 @@
 								<p><span class="events_page_dates">May 31st</span> <br> <span class="events_page_speakers">Rachel D.</span> - <em>Northland Group</em></p> -->
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<!-- <p class="events_page_day">Fridays</p> -->
+								<p class="events_page_day">Fridays</p>
+								<p><span class="events_page_dates">October 6th</span> <br> <span class="events_page_speakers">Colonel Dan</span> </br><em>Riverbend</em></p>
+								<p><span class="events_page_dates">October 13th</span> <br> <span class="events_page_speakers">Sherry B.</span> </br><em>Northland Group</em></p>
+								<p><span class="events_page_dates">October 20th</span> <br> <span class="events_page_speakers">tba</span> </br><em></em></p>
 								<!-- <p><span class="events_page_dates">May 5th</span> <br> <span class="events_page_speakers">Dana B.</span> (32 years)</br><em>Northland Group Saturday Morning</em></p>
 								<p><span class="events_page_dates">May 12th</span> <br> <span class="events_page_speakers">Sam W.</span> (12 years)</br><em>Northland Group </em></p>
 								<p><span class="events_page_dates">May 19th</span> <br> <span class="events_page_speakers">Mark L.</span> (28 years)</br><em>Northland Group</em></p> -->
@@ -65,6 +72,7 @@
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
 								<p>Two speakers together: AA & Al Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the Big Room at Northland.</p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
+								<p><span class="events_page_dates">October 7th</span> <br> <span class="events_page_speakers">Jason and Jen H.</span></p>
 								<!-- <p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p> -->
 
 								<!-- <p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p> -->
