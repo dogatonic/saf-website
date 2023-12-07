@@ -19,12 +19,12 @@
 				<div class="fixed fixed-nothome"></div>
 			</div>
 		</div>
-		<!-- End Fixed Background IMG -->		
+		<!-- End Fixed Background IMG  -->		
 
 		<!-- <div class="col-12 text-center mt-2 bodydiv">
 			<h1 class="text-dark pt-4">History & Philosophy</h1>
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
-			<p class="lead"></p>
+			<p class="lead">  </p>
 		</div> -->
 
 		<div class="container my-4  text-center ">
