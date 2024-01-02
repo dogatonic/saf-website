@@ -20,31 +20,31 @@
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p class="events_page_day">Wednesdays</p>
-								<p><span class="events_page_dates">December 6th</span> <br> <span class="events_page_speakers">Kelvin </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">January 3rd</span> <br> <span class="events_page_speakers">Ally Mc. </span> - <em>Round Rock Monday <br>Speaker Group</em></p>
+								<p><span class="events_page_dates">January 10th</span> <br> <span class="events_page_speakers">Jason G. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">January 17th</span> <br> <span class="events_page_speakers">Jeffery F. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">January 24th</span> <br> <span class="events_page_speakers">Grant Mc. </span> - <em>Round Rock Monday <br>Speaker Group</em></p>
+								<p><span class="events_page_dates">January 31st</span> <br> <span class="events_page_speakers">Liz P. </span> - <em>Northland Group</em></p>
+
+								<!-- <p><span class="events_page_dates">December 6th</span> <br> <span class="events_page_speakers">Kelvin </span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">December 13th</span> <br> <span class="events_page_speakers">Scott </span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">December 20th</span> <br> <span class="events_page_speakers">Josh B. </span> - <em>Northland Group</em></p>
-								<p><span class="events_page_dates">December 27th</span> <br> <span class="events_page_speakers">Octavia R. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">December 27th</span> <br> <span class="events_page_speakers">Octavia R. </span> - <em>Northland Group</em></p> -->
 								<!-- <p><span class="events_page_dates">October 4th</span> <br> <span class="events_page_speakers">Izzy W. </span> - <em>The Bright Spot Group</em></p> -->
 								<!-- <p><span class="events_page_dates">October 11th</span> <br> <span class="events_page_speakers">Brad S. </span> - <em>Northland Group</em></p> -->
 								<!-- <p><span class="events_page_dates">October 18th</span> <br> <span class="events_page_speakers">Caleb C. </span> - <em>Northland Group</em></p> -->
 								<!-- <p><span class="events_page_dates">October 25th</span> <br> <span class="events_page_speakers">tba </span> - <em></em></p> -->
-								<!-- <p><span class="events_page_dates">March 1st</span> <br> <span class="events_page_speakers"> Brendan S.</span> - <em>Northland Group</em></p>
-								<p><span class="events_page_dates">March 8th</span> <br> <span class="events_page_speakers">John R. </span> - <em>Northland Group</em></p>
-								<p><span class="events_page_dates">March 15th</span> <br> <span class="events_page_speakers">Amanda L. </span> <em></em></p>
-								<p><span class="events_page_dates">March 22nd</span> <br> <span class="events_page_speakers">Ben T. </span> - <em>Northland Group</em></p>
-								<p><span class="events_page_dates">March 29th</span> <br> <span class="events_page_speakers">M. Tucker </span> - <em>Northland Group</em></p> -->
-
-								<!-- <p><span class="events_page_dates">May 3rd</span> <br> <span class="events_page_speakers">Ryan B. </span> - <em>Subtle Foe Group</em></p>
-								<p><span class="events_page_dates">May 10th</span> <br> <span class="events_page_speakers">Casey S.</span> - <em>Northland Group</em></p>
-								<p><span class="events_page_dates">May 17th</span> <br> <span class="events_page_speakers">Mike E.</span> - <em>The Great Fact</em></p>
-								<p><span class="events_page_dates">May 24th</span> <br> <span class="events_page_speakers">Steve C.</span> - <em>Mesa Group</em></p>
-								<p><span class="events_page_dates">May 31st</span> <br> <span class="events_page_speakers">Rachel D.</span> - <em>Northland Group</em></p> -->
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p class="events_page_day">Fridays</p>
-								<p><span class="events_page_dates">December 8th</span> <br> <span class="events_page_speakers">Robin R. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">January 5th</span> <br> <span class="events_page_speakers">TBA </span> <em></em></p>
+								<p><span class="events_page_dates">January 12th</span> <br> <span class="events_page_speakers">Troy N. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">January 9th</span> <br> <span class="events_page_speakers">Harry </span> - <em>Northland Group</em></p>
+
+
+								<!-- <p><span class="events_page_dates">December 8th</span> <br> <span class="events_page_speakers">Robin R. </span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">December 15th</span> <br> <span class="events_page_speakers">tba </span> - <em></em></p>
-								<p><span class="events_page_dates">December 22nd</span> <br> <span class="events_page_speakers">Rick W. </span> - <em>Northland Group</em></p>
+								<p><span class="events_page_dates">December 22nd</span> <br> <span class="events_page_speakers">Rick W. </span> - <em>Northland Group</em></p> -->
 
 								<!-- <p><span class="events_page_dates">October 6th</span> <br> <span class="events_page_speakers">Colonel Dan</span> </br><em>Riverbend</em></p> -->
 								<!-- <p><span class="events_page_dates">October 13th</span> <br> <span class="events_page_speakers">Sherry B.</span> </br><em>Northland Group</em></p> -->
@@ -80,7 +80,8 @@
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
 								<p>Two speakers together: AA & Al Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the Big Room at Northland.</p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<p><span class="events_page_dates">December 2nd</span> <br> <span class="events_page_speakers">Eileen and Jeremy - Northland</span></p>
+								<p><span class="events_page_dates">January 6th</span> <br> <span class="events_page_speakers">Courtney and Will F.</span><br>
+							<em>Courtney is a member of Northland Group's Al-Anon meetings, and Will's AA home group is "The Great Fact" in Buda.</em></p>
 								<!-- <p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p> -->
 
 								<!-- <p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p> -->
