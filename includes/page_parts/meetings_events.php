@@ -90,10 +90,33 @@
 							<div class="basic_3_col pt-2">
 								<h4 class="text-dark text-uppercase">Family Night</h4>
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
-								<p>Two speakers together: AA & Al Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the Big Room at Northland.</p>
+								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the <br/>Big Room at Northland.</p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p><span class="events_page_dates">February 3rd</span> <br> <span class="events_page_speakers">Terri L. and Kelli R.</span><br>
-							<em>From Northland's AA and Al-Anon groups.</em></p>
+							<em>Northland's AA and Al-Anon groups.</em></p>
+
+							<p><span class="events_page_dates">March 2nd</span> <br> <span class="events_page_speakers">Maggie M and Josh K</span><br>
+							<em>2AA’s from The Great Fact, Buda</em></p>
+
+
+							<p><span class="events_page_dates">April 6th</span> <br> <span class="events_page_speakers">Adam and Christian C</span><br>
+							<em></em></p>
+
+							<p><span class="events_page_dates">May 4th</span> <br> <span class="events_page_speakers">Nina and Jesse</span><br>
+							<em></em></p>
+
+							<p><span class="events_page_dates">June 1st</span> <br> <span class="events_page_speakers">Mandy W. and Keith H.</span><br>
+							<em></em></p>
+
+
+							<p><span class="events_page_dates">July 6th</span> <br> <span class="events_page_speakers">Dani M. and Michael M.</span><br>
+							<em>Al-Anon mom and AA son</em></p>
+
+							
+
+							
+
+
 								<!-- <p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p> -->
 
 								<!-- <p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p> -->
