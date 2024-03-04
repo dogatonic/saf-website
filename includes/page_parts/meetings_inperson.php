@@ -4,6 +4,7 @@
 		<h1 class="text-dark pt-4">In Person AA Meetings</h1>
 		<div class="border-top border-primary w-25 mx-auto my-3"></div>
 		<p class="lead_x">
+		<span style="font-weight: 600; font-size: 1.2em;">Speaker Meetings:</span> <a href="/meetings/events" class="red_link">Click here for details...</a><br/>
 		(C) - Closed Meetings: Attendance is limited to persons who have a desire to stop drinking.<br>
 		(O) - Open Meetings: Welcome to all.
 		</p>

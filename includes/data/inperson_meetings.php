@@ -231,7 +231,7 @@ $arrMeetingsData[] = [
 	'time'=>"8:00 pm",
 	'title'=>"Speaker Meeting",
 	'type'=>"O",
-	'desc'=>"This meeting is an open Speaker Meeting. Speakers have 1-10 years of sobriety.",
+	'desc'=>"This meeting is an open Speaker Meeting. Speakers have 1-10 years of sobriety. <br/><a href='/meetings/events' class='red_link'>Click here for details...</a><br/>",
 	'room'=>"Big room"
 ];
 
@@ -364,7 +364,7 @@ $arrMeetingsData[] = [
 	'time'=>"8:00 pm",
 	'title'=>"Speaker Meeting",
 	'type'=>"O",
-	'desc'=>"This meeting is an open Speaker Meeting. Speakers have 10 or more years of sobriety.",
+	'desc'=>"This meeting is an open Speaker Meeting. Speakers have 10 or more years of sobriety. <br/><a href='/meetings/events' class='red_link'>Click here for details...</a><br/>",
 	'room'=>"Big room"
 ];
 

@@ -29,7 +29,7 @@
 							<h4 class="text-dark text-uppercase">Events</h4>
 							<!-- <p>Fourth of July Celebration.<br>
 								<a href="/meetings/events">Click here for more details!</a> </p> -->
-								<p>Family Night - Speaker Night<br>
+								<p style="font-weight: 600; font-size: 1.15em;">Speaker Meetings on Wednesdays & Fridays: <br>
 								<a href="/meetings/events">Click here for more details!</a> </p>
 								<h4>Birthday Night: </h4>
 								<h3 class="" style="margin-top: 5px; color: #0000ff;"><?php echo  $arrBDnights[date("n")]; ?></h3>

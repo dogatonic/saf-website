@@ -8,10 +8,18 @@ body {
 	background-color: #555;
 }
 
+.red_link{
+	font-weight: 500;
+	color: hwb(0 0% 43%);
+}
 .events_page_dates{
 	font-weight: 500;  
 	font-size: 1.25rem;
-	color: blue;
+	color: hwb(243 1% 28%);
+}
+
+.alt_date{
+	color: hwb(0 0% 43%);
 }
 
 .events_page_speakers{
@@ -23,6 +31,12 @@ body {
 	font-weight: 700; 
 	color: #555; 
 	font-size: 1.25rem;
+}
+
+.speaker_continuous{
+	font-weight: 500; 
+	color: #555; 
+	font-size: 1.2rem;
 }
 
 .strikeThrough {
