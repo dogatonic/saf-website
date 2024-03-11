@@ -29,11 +29,19 @@
 								<p><span class="events_page_dates">March 27th</span> <br> <span class="events_page_speakers">Daniel D. </span> - <em>Northland</em></p>
 
 								<p><span class="events_page_dates alt_date">April 3rd</span> <br> <span class="events_page_speakers">Kim S. </span> - <em>Fellowship You Crave</em></p>
-								<p><span class="events_page_dates alt_date">April 10th</span> <br> <span class="events_page_speakers">Elaina K. </span> - <em>Subtle Foe</em></p>
+								<!-- <p><span class="events_page_dates alt_date">April 10th</span> <br> <span class="events_page_speakers">Elaina K. </span> - <em>Subtle Foe</em></p> -->
+								<p><span class="events_page_dates alt_date">April 10th</span> <br> <span class="events_page_speakers">Michelle M. </span> - <em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">April 17th</span> <br> <span class="events_page_speakers">Steven C. </span> - <em>Mesa Group</em></p>
 								<p><span class="events_page_dates alt_date">April 24th</span> <br> <span class="events_page_speakers">Lizzie P. </span> - <em>Northland</em></p>
 
 								<p><span class="events_page_dates">May 1st</span> <br> <span class="events_page_speakers">John N. </span> - <em>Fellowship You Crave</em></p>
+								<p><span class="events_page_dates">May 8th</span> <br> <span class="events_page_speakers">Nick R. </span> - <em>Northland</em></p>
+								<p><span class="events_page_dates">May 15th</span> <br> <span class="events_page_speakers">Mercedes M. </span> - <em>Northland</em></p>
+								<p><span class="events_page_dates">May 22nd</span> <br> <span class="events_page_speakers">Ron M. </span> - <em>Northland</em></p>
+								<p><span class="events_page_dates">May 29th</span> <br> <span class="events_page_speakers">Jeff E. </span> - <em>Northland</em></p>
+
+								<p><span class="events_page_dates alt_date">June 5th</span> <br> <span class="events_page_speakers">Tucker T. </span> - <em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">June 12th</span> <br> <span class="events_page_speakers">Jennifer B. </span> - <em></em></p>
 <!-- 
 								<p><span class="events_page_dates">January 3rd</span> <br> <span class="events_page_speakers">Ally Mc. </span> - <em>Round Rock Monday <br>Speaker Group</em></p>
 								<p><span class="events_page_dates">January 10th</span> <br> <span class="events_page_speakers">Jason G. </span> - <em>Northland Group</em></p>
