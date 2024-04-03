@@ -23,10 +23,10 @@
 								<p><span class="events_page_dates">February 21st</span> <br> <span class="events_page_speakers">Grace D. </span> - <em>Subtle Foe</em></p>
 								<p><span class="events_page_dates">February 28th</span> <br> <span class="events_page_speakers">Nat R. </span> - <em>Northland</em></p> -->
 
-								<p><span class="events_page_dates">March 6th</span> <br> <span class="events_page_speakers">Ally M. </span> - <em>Northland</em></p>
+								<!-- <p><span class="events_page_dates">March 6th</span> <br> <span class="events_page_speakers">Ally M. </span> - <em>Northland</em></p>
 								<p><span class="events_page_dates">March 13th</span> <br> <span class="events_page_speakers">Ben T. </span> - <em>Northland</em></p>
 								<p><span class="events_page_dates">March 20th</span> <br> <span class="events_page_speakers">Felipe G. </span> - <em>Northland</em></p>
-								<p><span class="events_page_dates">March 27th</span> <br> <span class="events_page_speakers">Daniel D. </span> - <em>Northland</em></p>
+								<p><span class="events_page_dates">March 27th</span> <br> <span class="events_page_speakers">Daniel D. </span> - <em>Northland</em></p> -->
 
 								<p><span class="events_page_dates alt_date">April 3rd</span> <br> <span class="events_page_speakers">Kim S. </span> - <em>Fellowship You Crave</em></p>
 								<!-- <p><span class="events_page_dates alt_date">April 10th</span> <br> <span class="events_page_speakers">Elaina K. </span> - <em>Subtle Foe</em></p> -->
@@ -93,9 +93,14 @@
 								<!-- <p><span class="events_page_dates">February 9th</span> <br> <span class="events_page_speakers">Troy N. </span> - <em>Northland, 25 years</em></p>
 								<p><span class="events_page_dates">February 16th</span> <br> <span class="events_page_speakers">Darren D. </span> - <em>Big Book, Pflugerville 36 yr</em></p> -->
 
-								<p><span class="events_page_dates">March 1st</span> <br> <span class="events_page_speakers">Hanna M. </span> - <em>Northland</em></p>
+								<!-- <p><span class="events_page_dates">March 1st</span> <br> <span class="events_page_speakers">Hanna M. </span> - <em>Northland</em></p>
 								<p><span class="events_page_dates">March 8th</span> <br> <span class="events_page_speakers">Chris D. </span> - <em>Northland</em></p>
-								<p><span class="events_page_dates">March 15th</span> <br> <span class="events_page_speakers">Erik B. </span> - <em>The Great Fact</em></p>
+								<p><span class="events_page_dates">March 15th</span> <br> <span class="events_page_speakers">Erik B. </span> - <em>The Great Fact</em></p> -->
+
+								<p><span class="events_page_dates alt_date">April 5th</span> <br> <span class="events_page_speakers">Derek H. </span><br/>12 years - <em>Lambda/Live and Let Live</em></p>
+								<p><span class="events_page_dates alt_date">April 12th</span> <br> <span class="events_page_speakers">Derek H. </span><br/>13 years - <em>Lambda/Live and Let Live</em></p>
+								<p><span class="events_page_dates alt_date">April 19th</span> <br> <span class="events_page_speakers">Michael 2. </span><br/>17 years - <em>Northland</em></p>
+
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 							</div>
@@ -125,9 +130,8 @@
 								<!-- <p><span class="events_page_dates">February 3rd</span> <br> <span class="events_page_speakers">Terri L. and Kelli R.</span><br>
 							<em>Northland's AA and Al-Anon groups.</em></p> -->
 
-							<p><span class="events_page_dates">March 2nd</span> <br> <span class="events_page_speakers">Maggie M and Josh K</span><br>
-							<em>2AA’s from The Great Fact, Buda</em></p>
-
+							<!-- <p><span class="events_page_dates">March 2nd</span> <br> <span class="events_page_speakers">Maggie M and Josh K</span><br>
+							<em>2AA’s from The Great Fact, Buda</em></p> -->
 
 							<p><span class="events_page_dates alt_date">April 6th</span> <br> <span class="events_page_speakers">Adam and Christian C</span><br>
 							<em></em></p>
