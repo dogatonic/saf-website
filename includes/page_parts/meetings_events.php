@@ -99,7 +99,7 @@
 
 								<p><span class="events_page_dates alt_date">April 5th</span> <br> <span class="events_page_speakers">Derek H. </span><br/>12 years - <em>Lambda/Live and Let Live</em></p>
 								<p><span class="events_page_dates alt_date">April 12th</span> <br> <span class="events_page_speakers">Derek F. </span><br/>13 years - <em>Lambda/Live and Let Live</em></p>
-								<p><span class="events_page_dates alt_date">April 19th</span> <br> <span class="events_page_speakers">Michael 2. </span><br/>17 years - <em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">April 19th</span> <br> <span class="events_page_speakers">Michael S. </span><br/>17 years - <em>Northland</em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
