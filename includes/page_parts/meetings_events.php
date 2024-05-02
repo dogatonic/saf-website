@@ -98,9 +98,14 @@
 								<p><span class="events_page_dates">March 8th</span> <br> <span class="events_page_speakers">Chris D. </span> - <em>Northland</em></p>
 								<p><span class="events_page_dates">March 15th</span> <br> <span class="events_page_speakers">Erik B. </span> - <em>The Great Fact</em></p> -->
 
-								<p><span class="events_page_dates alt_date">April 5th</span> <br> <span class="events_page_speakers">Derek H. </span><br/>12 years - <em>Lambda/Live and Let Live</em></p>
+								<!-- <p><span class="events_page_dates alt_date">April 5th</span> <br> <span class="events_page_speakers">Derek H. </span><br/>12 years - <em>Lambda/Live and Let Live</em></p>
 								<p><span class="events_page_dates alt_date">April 12th</span> <br> <span class="events_page_speakers">Derek F. </span><br/>13 years - <em>Lambda/Live and Let Live</em></p>
-								<p><span class="events_page_dates alt_date">April 19th</span> <br> <span class="events_page_speakers">Michael S. </span><br/>17 years - <em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">April 19th</span> <br> <span class="events_page_speakers">Michael S. </span><br/>17 years - <em>Northland</em></p> -->
+
+								<p><span class="events_page_dates alt_date">May 3rd</span> <br> <span class="events_page_speakers">Leanne B.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">May 10th</span> <br> <span class="events_page_speakers">Teri I. </span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">May 17th</span> <br> <span class="events_page_speakers">James H. </span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">May 24th</span> <br> <span class="events_page_speakers">Billy D. </span><br/><em>Westlake</em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
