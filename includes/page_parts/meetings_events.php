@@ -28,21 +28,30 @@
 								<p><span class="events_page_dates">March 20th</span> <br> <span class="events_page_speakers">Felipe G. </span> - <em>Northland</em></p>
 								<p><span class="events_page_dates">March 27th</span> <br> <span class="events_page_speakers">Daniel D. </span> - <em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">April 3rd</span> <br> <span class="events_page_speakers">Steven C. </span> - <em>Mesa Group</em></p>
+								<!-- <p><span class="events_page_dates alt_date">April 3rd</span> <br> <span class="events_page_speakers">Steven C. </span> - <em>Mesa Group</em></p> -->
 								<!-- <p><span class="events_page_dates alt_date">April 10th</span> <br> <span class="events_page_speakers">Elaina K. </span> - <em>Subtle Foe</em></p> -->
-								<p><span class="events_page_dates alt_date">April 10th</span> <br> <span class="events_page_speakers">Michelle M. </span> - <em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">April 10th</span> <br> <span class="events_page_speakers">Michelle M. </span> - <em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">April 17th</span> <br> <span class="events_page_speakers">Kim S. </span> - <em>Fellowship You Crave</em></p>
-								<p><span class="events_page_dates alt_date">April 24th</span> <br> <span class="events_page_speakers">Lizzie P. </span> - <em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">April 24th</span> <br> <span class="events_page_speakers">Lizzie P. </span> - <em>Northland</em></p> -->
 
-								<p><span class="events_page_dates">May 1st</span> <br> <span class="events_page_speakers">Nick R. </span> - <em>Northland</em></p>
+								<!-- <p><span class="events_page_dates">May 1st</span> <br> <span class="events_page_speakers">Nick R. </span> - <em>Northland</em></p>
 								<p><span class="events_page_dates">May 8th</span> <br> <span class="events_page_speakers">John N. </span> - <em>Fellowship You Crave</em></p>
 								
 								<p><span class="events_page_dates">May 15th</span> <br> <span class="events_page_speakers">Mercedes M. </span> - <em>Northland</em></p>
 								<p><span class="events_page_dates">May 22nd</span> <br> <span class="events_page_speakers">Ron M. </span> - <em>Northland</em></p>
-								<p><span class="events_page_dates">May 29th</span> <br> <span class="events_page_speakers">Jeff E. </span> - <em>Northland</em></p>
+								<p><span class="events_page_dates">May 29th</span> <br> <span class="events_page_speakers">Jeff E. </span> - <em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">June 5th</span> <br> <span class="events_page_speakers">Tucker T. </span> - <em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">June 12th</span> <br> <span class="events_page_speakers">Jennifer B. </span> - <em></em></p>
+
+								<p><span class="events_page_dates ">June 5th</span> <br> <span class="events_page_speakers">Tucker T. </span> - <em>Northland</em></p>
+								<p><span class="events_page_dates ">June 12th</span> <br> <span class="events_page_speakers">Jennifer B. </span>PPG <em></em></p>
+								<p><span class="events_page_dates ">June 19th</span> <br> <span class="events_page_speakers">Bubba S. </span>Northland <em></em></p>
+								<p><span class="events_page_dates ">June 26th</span> <br> <span class="events_page_speakers">Stan W. </span>Northland <em></em></p>
+
+								<p><span class="events_page_dates alt_date">July 3rd</span> <br> <span class="events_page_speakers">Karli B. </span>Northland <em></em></p>
+								<p><span class="events_page_dates alt_date">July 10th</span> <br> <span class="events_page_speakers">T.B.A. </span> <em></em></p>
+								<p><span class="events_page_dates alt_date">July 17th</span> <br> <span class="events_page_speakers">Caleb C. </span>Northland <em></em></p>
+								<p><span class="events_page_dates alt_date">July 24th</span> <br> <span class="events_page_speakers">Susan O.</span>Northland <em></em></p>
+								<p><span class="events_page_dates alt_date">July 31st</span> <br> <span class="events_page_speakers">James L. </span>Subtle Foe <em></em></p>
 <!-- 
 								<p><span class="events_page_dates">January 3rd</span> <br> <span class="events_page_speakers">Ally Mc. </span> - <em>Round Rock Monday <br>Speaker Group</em></p>
 								<p><span class="events_page_dates">January 10th</span> <br> <span class="events_page_speakers">Jason G. </span> - <em>Northland Group</em></p>
@@ -102,10 +111,14 @@
 								<p><span class="events_page_dates alt_date">April 12th</span> <br> <span class="events_page_speakers">Derek F. </span><br/>13 years - <em>Lambda/Live and Let Live</em></p>
 								<p><span class="events_page_dates alt_date">April 19th</span> <br> <span class="events_page_speakers">Michael S. </span><br/>17 years - <em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">May 3rd</span> <br> <span class="events_page_speakers">Leanne B.</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">May 3rd</span> <br> <span class="events_page_speakers">Leanne B.</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">May 10th</span> <br> <span class="events_page_speakers">Teri I. </span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">May 17th</span> <br> <span class="events_page_speakers">James H. </span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">May 24th</span> <br> <span class="events_page_speakers">Billy D. </span><br/><em>Westlake</em></p>
+								<p><span class="events_page_dates alt_date">May 24th</span> <br> <span class="events_page_speakers">Billy D. </span><br/><em>Westlake</em></p> -->
+
+								<p><span class="events_page_dates alt_date">June 7th</span> <br> <span class="events_page_speakers">Rich H.	 </span><br/><em>Primary Purpose </em></p>
+								<p><span class="events_page_dates alt_date">June 14th</span> <br> <span class="events_page_speakers">Henry F. </span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">June 21st</span> <br> <span class="events_page_speakers">Rory McS. </span><br/><em>Northland</em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
