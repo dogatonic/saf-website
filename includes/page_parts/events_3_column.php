@@ -27,8 +27,8 @@
 						</div>
 						<div class="col-lg-8 col-xl-9">
 							<h4 class="text-dark text-uppercase">Events</h4>
-							<!-- <p>Fourth of July Celebration.<br>
-								<a href="/meetings/events">Click here for more details!</a> </p> -->
+							<p style="font-weight: 600; font-size: 1.8rem; color: #bd0303;">4th of July Celebration!</p>
+								<p style="font-weight: 600; font-size: 1.15em;"><a href="/saf_4th" style="">Click here for more details!</a> </p>
 								<p style="font-weight: 600; font-size: 1.15em;">Speaker Meetings on Wednesdays & Fridays: <br>
 								<a href="/meetings/events">Click here for more details!</a> </p>
 								<h4>Birthday Night: </h4>
