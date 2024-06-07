@@ -45,6 +45,10 @@ switch($sApex){
         $sTitle = "SAF - Member Appreciation Dinner";
         $sPageInclude = $sApex;
     break;
+    case 'saf_4th':
+        $sTitle = "SAF - July 4th Celebration";
+        $sPageInclude = $sApex;
+    break;
     case 'home':
     default:
         $sTitle = 'Suburban Alcoholic Foundation';

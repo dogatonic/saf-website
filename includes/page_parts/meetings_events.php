@@ -2,12 +2,17 @@
 		<div id='divMeetingsEV' class="container my-1" style='border:0px solid #f00;'>
 			<div class="text-center bodydiv"> <!-- TUCKER: removing "col-12" on this wrapper div -->
 					<!-- <img src="/img/2022_Fourth_Flyer.png" alt="2022 July Fourth Celebration" style="border:1px solid #333;"> -->
-				<h1 class="text-dark pt-4">Events</h1>
+				<!-- <h1 class="text-dark pt-4">Events</h1> -->
 				<!-- <div class="border-top border-primary w-25 mx-auto my-3"></div>
 				<h1 style="color: red;">Fourth of July Celebration! </h1>
 				<p class='statement'>MONDAY July 4th, 2022 - Join us as we celebrate the 67th Anniversary of the Suburban Alcoholic Foundation!</p>
 				<p class='statement'>Special guest Speakers. BBQ Lunch. Raffle with prizes. Bake Sale, Volleyball, Horseshoes and Washers! Babysitting Available!</p> -->
 
+				<div class=" mt-4 mb-5 bodydiv" style="display: flex; justify-content: center; align-items: center;">
+					<div class="row basic_3_col " style="width: 96%; padding: 6px;">
+					<a href='/saf_4th'><img src="/img/carousel/2024_4th_banner.png" alt="saf_front" class="w-100"></a>
+					</div>
+				</div>
 				<!-- Three Column Section -->
 				<div class=" mt-4 mb-5 bodydiv"><!-- remove "container" -->
 					<div class="row">

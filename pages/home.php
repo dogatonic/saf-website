@@ -13,9 +13,9 @@
 			<!-- Carousel Content -->
 			<div class="carousel-inner">
 			<!-- <div class="home-carousel carousel-item "><a href='/saf_event'><img src="/img/carousel/saf_dinner_banner.png" alt="saf appreciation dinner" class="w-100"></a> </div> -->
-				<div class="home-carousel carousel-item active"> <img src="/img/carousel/saf_front.png" alt="saf_front" class="w-100"> </div>
+				<div class="home-carousel carousel-item"> <img src="/img/carousel/saf_front.png" alt="saf_front" class="w-100"> </div>
 				<div class="home-carousel  carousel-item"> <img src="/img/carousel/saf_inner.png" alt="saf_front" class="w-100"> </div>
-				<!-- <div class="home-carousel carousel-item active"><a href='/meetings/events'><img src="/img/carousel/2022_4th_banner.png" alt="saf_front" class="w-100"></a> </div> -->
+				<div class="home-carousel carousel-item active"><a href='/saf_4th'><img src="/img/carousel/2024_4th_banner.png" alt="saf_front" class="w-100"></a> </div>
 				
 			</div>
 			<!-- End Carousel Content -->
