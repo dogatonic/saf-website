@@ -167,9 +167,9 @@ $arrMeetingsData[] = [
 	'day'=>"Tuesday",
 	'order'=>50,
 	'time'=>"8:00 pm",
-	'title'=>"Discussion Meeting",
+	'title'=>"Big Book Meeting",
 	'type'=>"C",
-	'desc'=>"This meeting is closed discussion.",
+	'desc'=>"This is a Big Book study meeting.",
 	'room'=>"Big room"
 ];
 

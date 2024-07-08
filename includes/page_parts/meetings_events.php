@@ -8,11 +8,11 @@
 				<p class='statement'>MONDAY July 4th, 2022 - Join us as we celebrate the 67th Anniversary of the Suburban Alcoholic Foundation!</p>
 				<p class='statement'>Special guest Speakers. BBQ Lunch. Raffle with prizes. Bake Sale, Volleyball, Horseshoes and Washers! Babysitting Available!</p> -->
 
-				<div class=" mt-4 mb-5 bodydiv" style="display: flex; justify-content: center; align-items: center;">
+				<!-- <div class=" mt-4 mb-5 bodydiv" style="display: flex; justify-content: center; align-items: center;">
 					<div class="row basic_3_col " style="width: 96%; padding: 6px;">
 					<a href='/saf_4th'><img src="/img/carousel/2024_4th_banner.png" alt="saf_front" class="w-100"></a>
 					</div>
-				</div>
+				</div> -->
 				<!-- Three Column Section -->
 				<div class=" mt-4 mb-5 bodydiv"><!-- remove "container" -->
 					<div class="row">
@@ -47,13 +47,13 @@
 								<p><span class="events_page_dates">May 29th</span> <br> <span class="events_page_speakers">Jeff E. </span> - <em>Northland</em></p> -->
 
 
-								<p><span class="events_page_dates ">June 5th</span> <br> <span class="events_page_speakers">Tucker T. </span> - <em>Northland</em></p>
+								<!-- <p><span class="events_page_dates ">June 5th</span> <br> <span class="events_page_speakers">Tucker T. </span> - <em>Northland</em></p>
 								<p><span class="events_page_dates ">June 12th</span> <br> <span class="events_page_speakers">Jennifer B. </span>PPG <em></em></p>
 								<p><span class="events_page_dates ">June 19th</span> <br> <span class="events_page_speakers">Bubba S. </span>Northland <em></em></p>
-								<p><span class="events_page_dates ">June 26th</span> <br> <span class="events_page_speakers">Stan W. </span>Northland <em></em></p>
+								<p><span class="events_page_dates ">June 26th</span> <br> <span class="events_page_speakers">Stan W. </span>Northland <em></em></p> -->
 
 								<p><span class="events_page_dates alt_date">July 3rd</span> <br> <span class="events_page_speakers">Karli B. </span>Northland <em></em></p>
-								<p><span class="events_page_dates alt_date">July 10th</span> <br> <span class="events_page_speakers">T.B.A. </span> <em></em></p>
+								<p><span class="events_page_dates alt_date">July 10th</span> <br> <span class="events_page_speakers">Kath B. </span> <em></em></p>
 								<p><span class="events_page_dates alt_date">July 17th</span> <br> <span class="events_page_speakers">Caleb C. </span>Northland <em></em></p>
 								<p><span class="events_page_dates alt_date">July 24th</span> <br> <span class="events_page_speakers">Susan O.</span>Northland <em></em></p>
 								<p><span class="events_page_dates alt_date">July 31st</span> <br> <span class="events_page_speakers">James L. </span>Subtle Foe <em></em></p>
@@ -121,10 +121,14 @@
 								<p><span class="events_page_dates alt_date">May 17th</span> <br> <span class="events_page_speakers">James H. </span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">May 24th</span> <br> <span class="events_page_speakers">Billy D. </span><br/><em>Westlake</em></p> -->
 
-								<p><span class="events_page_dates alt_date">June 7th</span> <br> <span class="events_page_speakers">Rich H.	 </span><br/><em>Primary Purpose </em></p>
+								<!-- <p><span class="events_page_dates alt_date">June 7th</span> <br> <span class="events_page_speakers">Rich H.	 </span><br/><em>Primary Purpose </em></p>
 								<p><span class="events_page_dates alt_date">June 14th</span> <br> <span class="events_page_speakers">Henry F. </span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">June 21st</span> <br> <span class="events_page_speakers">Rory McS. </span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">June 21st</span> <br> <span class="events_page_speakers">Rory McS. </span><br/><em>Northland</em></p> -->
 
+								<p><span class="events_page_dates alt_date">July 5th</span> <br> <span class="events_page_speakers">Gary H. </span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">July 12th</span> <br> <span class="events_page_speakers">Robert M. </span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">July 19th</span> <br> <span class="events_page_speakers">Joel c. </span><br/><em>Northland</em></p>
+								
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 							</div>
@@ -157,14 +161,9 @@
 							<!-- <p><span class="events_page_dates">March 2nd</span> <br> <span class="events_page_speakers">Maggie M and Josh K</span><br>
 							<em>2AA’s from The Great Fact, Buda</em></p> -->
 
-							<p><span class="events_page_dates alt_date">April 6th</span> <br> <span class="events_page_speakers">Adam and Christian C</span><br>
-							<em></em></p>
-
-							<p><span class="events_page_dates">May 4th</span> <br> <span class="events_page_speakers">Nina and Jesse</span><br>
-							<em></em></p>
-
-							<p><span class="events_page_dates alt_date">June 1st</span> <br> <span class="events_page_speakers">Mandy W. and Keith H.</span><br>
-							<em></em></p>
+							<!-- <p><span class="events_page_dates alt_date">April 6th</span> <br> <span class="events_page_speakers">Adam and Christian C</span><br></p> -->
+							<!-- <p><span class="events_page_dates">May 4th</span> <br> <span class="events_page_speakers">Nina and Jesse</span><br></p> -->
+							<!-- <p><span class="events_page_dates alt_date">June 1st</span> <br> <span class="events_page_speakers">Mandy W. and Keith H.</span><br></p> -->
 
 
 							<p><span class="events_page_dates">July 6th</span> <br> <span class="events_page_speakers">Dani M. and Michael M.</span><br>
