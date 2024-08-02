@@ -52,11 +52,16 @@
 								<p><span class="events_page_dates ">June 19th</span> <br> <span class="events_page_speakers">Bubba S. </span>Northland <em></em></p>
 								<p><span class="events_page_dates ">June 26th</span> <br> <span class="events_page_speakers">Stan W. </span>Northland <em></em></p> -->
 
-								<p><span class="events_page_dates alt_date">July 3rd</span> <br> <span class="events_page_speakers">Karli B. </span>Northland <em></em></p>
+								<!-- <p><span class="events_page_dates alt_date">July 3rd</span> <br> <span class="events_page_speakers">Karli B. </span>Northland <em></em></p>
 								<p><span class="events_page_dates alt_date">July 10th</span> <br> <span class="events_page_speakers">Kath B. </span> <em></em></p>
 								<p><span class="events_page_dates alt_date">July 17th</span> <br> <span class="events_page_speakers">Caleb C. </span>Northland <em></em></p>
 								<p><span class="events_page_dates alt_date">July 24th</span> <br> <span class="events_page_speakers">Susan O.</span>Northland <em></em></p>
-								<p><span class="events_page_dates alt_date">July 31st</span> <br> <span class="events_page_speakers">James L. </span>Subtle Foe <em></em></p>
+								<p><span class="events_page_dates alt_date">July 31st</span> <br> <span class="events_page_speakers">James L. </span>Subtle Foe <em></em></p> -->
+
+								<p><span class="events_page_dates alt_date">August 7th</span> <br> <span class="events_page_speakers">Colin A.</span> <em>Fellowship You Crave</em></p>
+								<p><span class="events_page_dates alt_date">August 14th</span> <br> <span class="events_page_speakers">Ariel H</span> <em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 21st</span> <br> <span class="events_page_speakers">Miranda R</span> <em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 28th</span> <br> <span class="events_page_speakers">Jack S</span> <em>Bridge to Shore </em></p>
 <!-- 
 								<p><span class="events_page_dates">January 3rd</span> <br> <span class="events_page_speakers">Ally Mc. </span> - <em>Round Rock Monday <br>Speaker Group</em></p>
 								<p><span class="events_page_dates">January 10th</span> <br> <span class="events_page_speakers">Jason G. </span> - <em>Northland Group</em></p>
@@ -125,15 +130,45 @@
 								<p><span class="events_page_dates alt_date">June 14th</span> <br> <span class="events_page_speakers">Henry F. </span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">June 21st</span> <br> <span class="events_page_speakers">Rory McS. </span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">July 5th</span> <br> <span class="events_page_speakers">Gary H. </span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">July 5th</span> <br> <span class="events_page_speakers">Gary H. </span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">July 12th</span> <br> <span class="events_page_speakers">Robert M. </span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">July 19th</span> <br> <span class="events_page_speakers">Joel c. </span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">July 19th</span> <br> <span class="events_page_speakers">Joel c. </span><br/><em>Northland</em></p> -->
+
+								<p><span class="events_page_dates alt_date">August 2nd</span> <br> <span class="events_page_speakers">Haley P</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 9th</span> <br> <span class="events_page_speakers">Kurt L</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 16th</span> <br> <span class="events_page_speakers">Kristen B</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 23rd</span> <br> <span class="events_page_speakers">Tom H</span><br/><em>Northland</em></p>
 								
+
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 							</div>
 
-							<div class="basic_3_col pt-2" style="padding: 4px;">
+							
+						</div>
+
+						<div class="col-12 col-md-4 mb-4">
+							<div class="basic_3_col pt-2">
+								<h4 class="text-dark text-uppercase">Family Night</h4>
+								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
+								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the <br/>Big Room at Northland.</p>
+								<div class="border-top border-primary w-50 mx-auto my-3"></div>
+								<!-- <p><span class="events_page_dates">February 3rd</span> <br> <span class="events_page_speakers">Terri L. and Kelli R.</span><br>
+							<em>Northland's AA and Al-Anon groups.</em></p> -->
+							<!-- <p><span class="events_page_dates">March 2nd</span> <br> <span class="events_page_speakers">Maggie M and Josh K</span><br>
+							<em>2AA’s from The Great Fact, Buda</em></p> -->
+							<!-- <p><span class="events_page_dates alt_date">April 6th</span> <br> <span class="events_page_speakers">Adam and Christian C</span><br></p> -->
+							<!-- <p><span class="events_page_dates">May 4th</span> <br> <span class="events_page_speakers">Nina and Jesse</span><br></p> -->
+							<!-- <p><span class="events_page_dates alt_date">June 1st</span> <br> <span class="events_page_speakers">Mandy W. and Keith H.</span><br></p> -->
+							<p><span class="events_page_dates">August 3rd</span> <br> <span class="events_page_speakers"></span><br>
+							<em></em></p>
+
+								<!-- <p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p> -->
+								<!-- <p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p> -->
+								<!-- <p><span class="events_page_dates">May 6th</span> <br> <span class="events_page_speakers">Jen and Jonny F</span> - PPG</p> -->
+								<!-- <p><span class="events_page_dates">June 3rd</span> <br> <span class="events_page_speakers">Carrie and Shawn C</span></p> -->
+							</div>
+							<div class="basic_3_col pt-2 mt-2" style="padding: 4px;">
 								<h4 class="text-dark text-uppercase">Birthday Night </h4>
 								<h5 style="color: red;">Last Friday of Each Month <br/> at 7:30 PM</h5>
 								<p><img src="/img/cake.png" alt="Birthday Night" style='width: 50%; height: auto;'></p>
@@ -147,43 +182,7 @@
 								<h3 class="" style="margin-top: 5px; color: #0000ff; line-height: 3rem;"> 7:30 PM
 								</h3>
 							</div>
-						</div>
 
-						<div class="col-12 col-md-4 mb-4">
-							<div class="basic_3_col pt-2">
-								<h4 class="text-dark text-uppercase">Family Night</h4>
-								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
-								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the <br/>Big Room at Northland.</p>
-								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-								<!-- <p><span class="events_page_dates">February 3rd</span> <br> <span class="events_page_speakers">Terri L. and Kelli R.</span><br>
-							<em>Northland's AA and Al-Anon groups.</em></p> -->
-
-							<!-- <p><span class="events_page_dates">March 2nd</span> <br> <span class="events_page_speakers">Maggie M and Josh K</span><br>
-							<em>2AA’s from The Great Fact, Buda</em></p> -->
-
-							<!-- <p><span class="events_page_dates alt_date">April 6th</span> <br> <span class="events_page_speakers">Adam and Christian C</span><br></p> -->
-							<!-- <p><span class="events_page_dates">May 4th</span> <br> <span class="events_page_speakers">Nina and Jesse</span><br></p> -->
-							<!-- <p><span class="events_page_dates alt_date">June 1st</span> <br> <span class="events_page_speakers">Mandy W. and Keith H.</span><br></p> -->
-
-
-							<p><span class="events_page_dates">July 6th</span> <br> <span class="events_page_speakers">Dani M. and Michael M.</span><br>
-							<em>Al-Anon mom and AA son</em></p>
-
-							
-
-							
-
-
-								<!-- <p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p> -->
-
-								<!-- <p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p> -->
-
-								<!-- <p><span class="events_page_dates">May 6th</span> <br> <span class="events_page_speakers">Jen and Jonny F</span> - PPG</p> -->
-
-								<!-- <p><span class="events_page_dates">June 3rd</span> <br> <span class="events_page_speakers">Carrie and Shawn C</span></p> -->
-
-
-							</div>
 						</div>
 
 					</div>
