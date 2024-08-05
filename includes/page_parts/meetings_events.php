@@ -58,11 +58,23 @@
 								<p><span class="events_page_dates alt_date">July 24th</span> <br> <span class="events_page_speakers">Susan O.</span>Northland <em></em></p>
 								<p><span class="events_page_dates alt_date">July 31st</span> <br> <span class="events_page_speakers">James L. </span>Subtle Foe <em></em></p> -->
 
-								<p><span class="events_page_dates alt_date">August 7th</span> <br> <span class="events_page_speakers">Colin A.</span> <em>Fellowship You Crave</em></p>
-								<p><span class="events_page_dates alt_date">August 14th</span> <br> <span class="events_page_speakers">Ariel H</span> <em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">August 21st</span> <br> <span class="events_page_speakers">Miranda R</span> <em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">August 28th</span> <br> <span class="events_page_speakers">Jack S</span> <em>Bridge to Shore </em></p>
+								<p><span class="events_page_dates alt_date">August 7th</span> <br> <span class="events_page_speakers">DM.</span> <br/><em>PPG</em></p>
+								<p><span class="events_page_dates alt_date">August 14th</span> <br> <span class="events_page_speakers">Ariel H</span> <br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 21st</span> <br> <span class="events_page_speakers">Miranda R</span> <br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 28th</span> <br> <span class="events_page_speakers">Jack S</span> <br/><em>Bridge to Shore </em></p>
+
+								<p><span class="events_page_dates ">September 4th</span> <br> <span class="events_page_speakers">Dennis L.</span><br/><em>Friday Night Lights</em></p>
+								<p><span class="events_page_dates ">September 11th</span> <br> <span class="events_page_speakers">Austin N.</span><br/><em>Not a Glum Lot</em></p>
+								<p><span class="events_page_dates ">September 18th</span> <br> <span class="events_page_speakers">Lo T.</span> <br/><em>Northland</em></p>
+								<p><span class="events_page_dates ">September 25th</span> <br> <span class="events_page_speakers">Jacob H.</span> <br/><em>Subtle Foe</em></p>
+
+								<p><span class="events_page_dates alt_date">October 2nd</span> <br> <span class="events_page_speakers">Lizzie B.</span><br/><em>Friday Night Lights</em></p>
+								<p><span class="events_page_dates alt_date">October 9th</span> <br> <span class="events_page_speakers">Adam K. </span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">October 16th</span> <br> <span class="events_page_speakers">Melanie R.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">October 23rd</span> <br> <span class="events_page_speakers">Dusty C.</span><br/><em>Northland</em></p>
 <!-- 
+
+
 								<p><span class="events_page_dates">January 3rd</span> <br> <span class="events_page_speakers">Ally Mc. </span> - <em>Round Rock Monday <br>Speaker Group</em></p>
 								<p><span class="events_page_dates">January 10th</span> <br> <span class="events_page_speakers">Jason G. </span> - <em>Northland Group</em></p>
 								<p><span class="events_page_dates">January 17th</span> <br> <span class="events_page_speakers">Jeffery F. </span> - <em>Northland Group</em></p>
