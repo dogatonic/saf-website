@@ -30,7 +30,7 @@ $(document).ready(function () {
 	$("#bAboutPhilosophy").click();
 
 	if (divIdClickQuery !== false) {
-		console.log("what is divIdClickQuery: ", divIdClickQuery);
+		// console.log("what is divIdClickQuery: ", divIdClickQuery);
 		$("#" + divIdClickQuery).click();
 	}
 

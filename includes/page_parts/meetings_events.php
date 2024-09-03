@@ -58,10 +58,10 @@
 								<p><span class="events_page_dates alt_date">July 24th</span> <br> <span class="events_page_speakers">Susan O.</span>Northland <em></em></p>
 								<p><span class="events_page_dates alt_date">July 31st</span> <br> <span class="events_page_speakers">James L. </span>Subtle Foe <em></em></p> -->
 
-								<p><span class="events_page_dates alt_date">August 7th</span> <br> <span class="events_page_speakers">DM.</span> <br/><em>PPG</em></p>
+								<!-- <p><span class="events_page_dates alt_date">August 7th</span> <br> <span class="events_page_speakers">DM.</span> <br/><em>PPG</em></p>
 								<p><span class="events_page_dates alt_date">August 14th</span> <br> <span class="events_page_speakers">Ariel H</span> <br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">August 21st</span> <br> <span class="events_page_speakers">Miranda R</span> <br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">August 28th</span> <br> <span class="events_page_speakers">Jack S</span> <br/><em>Bridge to Shore </em></p>
+								<p><span class="events_page_dates alt_date">August 28th</span> <br> <span class="events_page_speakers">Jack S</span> <br/><em>Bridge to Shore </em></p> -->
 
 								<p><span class="events_page_dates ">September 4th</span> <br> <span class="events_page_speakers">Dennis L.</span><br/><em>Friday Night Lights</em></p>
 								<p><span class="events_page_dates ">September 11th</span> <br> <span class="events_page_speakers">Austin N.</span><br/><em>Not a Glum Lot</em></p>
@@ -146,10 +146,14 @@
 								<p><span class="events_page_dates alt_date">July 12th</span> <br> <span class="events_page_speakers">Robert M. </span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">July 19th</span> <br> <span class="events_page_speakers">Joel c. </span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">August 2nd</span> <br> <span class="events_page_speakers">Haley P</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">August 2nd</span> <br> <span class="events_page_speakers">Haley P</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">August 9th</span> <br> <span class="events_page_speakers">Kurt L</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">August 16th</span> <br> <span class="events_page_speakers">Kristen B</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">August 23rd</span> <br> <span class="events_page_speakers">Tom H</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 23rd</span> <br> <span class="events_page_speakers">Tom H</span><br/><em>Northland</em></p> -->
+
+								<p><span class="events_page_dates alt_date">September 6th</span> <br> <span class="events_page_speakers">David B</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">September 13th</span> <br> <span class="events_page_speakers">Randy R.</span><br/><em>The Great Fact</em></p>
+								<p><span class="events_page_dates alt_date">September 20th</span> <br> <span class="events_page_speakers">Brandon B</span><br/><em>Mesa</em></p>
 								
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
@@ -172,7 +176,8 @@
 							<!-- <p><span class="events_page_dates alt_date">April 6th</span> <br> <span class="events_page_speakers">Adam and Christian C</span><br></p> -->
 							<!-- <p><span class="events_page_dates">May 4th</span> <br> <span class="events_page_speakers">Nina and Jesse</span><br></p> -->
 							<!-- <p><span class="events_page_dates alt_date">June 1st</span> <br> <span class="events_page_speakers">Mandy W. and Keith H.</span><br></p> -->
-							<p><span class="events_page_dates">August 3rd</span> <br> <span class="events_page_speakers"></span><br>
+							<p><span class="events_page_dates">September 7th</span> <br> 
+							<span class="events_page_speakers">Barbara and Wayne L. <br/><em>Hilltoppers and Northland</em></span><br>
 							<em></em></p>
 
 								<!-- <p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p> -->
