@@ -9,14 +9,22 @@ require_once "Mail.php";
 date_default_timezone_set('America/Chicago');
 define("FILE_ELECTION_FORM", '../noncom/electionBallots.txt');
 define("FILE_ELECTION_LOG", '../noncom/electionLog.txt');
+define("FILE_HEYNOW_LOG", '../noncom/heynow_log');
+
+function loggy($msg){
+	$logline = "\r\n" . date('l jS \of F Y h:i:s A') . "\r\n";
+	$logline .= $msg;
+	$logline .= "\r\n========================\r\n";
+	file_put_contents(FILE_HEYNOW_LOG, $logline, FILE_APPEND);
+}
+// loggy("heynow trying to do election_form_process");
 
 // DEFAULT message
 $okMessage = "Thank you for Voting!";
 $responseArray = array('type' => 'success', 'message' => $okMessage);
 
-
 // values for email & mysql
-$t = $_POST['type'] ?? "unknown source";
+$t = $_POST['type'] ?? "unknown type";
 $n = $_POST['name'] ?? "no name";
 $e = $_POST['email'] ?? "no email";
 $p = $_POST['phone'] ?? "no phone";
@@ -60,13 +68,18 @@ try {
 
 if($bPassesEmailTest){
 
-	$_POST['flatballot'] = "";// this is a FAKE POST field I created in order to flatten the array data
+	$ballot_AmpSV = ""; // Ampersand Separated Values
+	$ballot_CSV = ""; // Ampersand Separated Values
 	foreach($arrBallot as $value){
-		$_POST['flatballot'] .= $value . "&";
+		$ballot_AmpSV .= $value . "&";
+		$ballot_CSV .= $value . ", ";
 	}
-	if(substr($_POST['flatballot'], -1) == "&"){
-		$_POST['flatballot'] = substr($_POST['flatballot'], 0, -1);
-	}
+	
+	// cleanup trailing characters
+	if(substr($ballot_AmpSV, -1) == "&") $ballot_AmpSV = substr($ballot_AmpSV, 0, -1);
+	$ballot_CSV = trim($ballot_CSV);
+	if(substr($ballot_CSV, -1) == ",") $ballot_CSV = substr($ballot_CSV, 0, -1);
+
 	//		  __ _       _      __ _ _      
 	//	     / _| |     | |    / _(_) |     
 	//		| |_| | __ _| |_  | |_ _| | ___ 
@@ -74,7 +87,7 @@ if($bPassesEmailTest){
 	//		| | | | (_| | |_  | | | | |  __/
 	//		|_| |_|\__,_|\__| |_| |_|_|\___|
 	// For Flat File
-	$fields = array('type' => 'Type:', 'name' => 'Name:', 'email' => 'Email:', 'phone' => 'Phone:', 'flatballot' => 'Ballot:');							   						   
+	$fields = array('type' => 'Type:', 'name' => 'Name:', 'email' => 'Email:', 'phone' => 'Phone:');							   						   
 	try {
 
 		$formData = "\r\n" . date('l jS \of F Y h:i:s A') . "\r\n";
@@ -84,9 +97,11 @@ if($bPassesEmailTest){
 				$formData .= "$fields[$key] $value\r\n";
 			}
 		}
-		$formData .= "========================\r\n";
+		$flatFileData = $formData;
+		$flatFileData .= "VOTES: " . $ballot_CSV . "\r\n";
+		$flatFileData .= "========================\r\n";
 
-		file_put_contents(FILE_ELECTION_FORM, $formData, FILE_APPEND);
+		file_put_contents(FILE_ELECTION_FORM, $flatFileData, FILE_APPEND);
 
 
 	} catch (\Exception $e) {
@@ -100,11 +115,15 @@ if($bPassesEmailTest){
 	//	 |_|_|_|_  |___|_  |_|
 	//	       |___|     |_|  
 
-	//  INSERT INTO webform_data(type, name, email, phone, message) VALUES ("membership", "namo","emailo","phoneo","messageo")
+	$anStatus = '1';
+	$anBallot = $ballot_AmpSV;
+	// DEBUG log
+	// $logBinds = implode(", ", array($t, $anStatus, $n, $e, $p, $anBallot));
+	// loggy($logBinds);
 	try {
-		$stmt = $mysqli->prepare("INSERT INTO webform_data (type, name, email, phone, message, status) VALUES (?, ?, ?, ?, ?, ?)");
+		$stmt = $mysqli->prepare("INSERT INTO webform_data (type, status, name, email, phone, message) VALUES (?, ?, ?, ?, ?, ?)");
 		if($stmt){
-			$stmt->bind_param("ssssss", $t, $n, $e, $p, $_POST['flatballot'], '1');
+			$stmt->bind_param("ssssss", $t, $anStatus, $n, $e, $p, $anBallot);
 			$stmt->execute();
 			// printf("%d row inserted.\n", $stmt->affected_rows);
 		} else {
@@ -124,19 +143,12 @@ if($bPassesEmailTest){
 	//	|  __/ | | | | | (_| | | | \__ \  __/ | | | (_| |
 	// 	 \___|_| |_| |_|\__,_|_|_| |___/\___|_| |_|\__,_|
 
-	$subject = 'Online Vote Submission';
-	$addressedTo = "mail@matttucker.com"; // MAIL_TO_ADDRESS
 	$replyTo = MAIL_FROM_ADDRESS;
-	$name = 'OnlineVote: ' . $n;// from name
-	$body = $formData;
-	$successMessage = 'Email Message successfully sent I guess!';
-
-	$headers = array(
-		'From' => $name . " <" . MAIL_FROM_ADDRESS . ">",
-		'To' => $addressedTo,
-		'Subject' => $subject
-	);
-
+	$arrMailRecievers = array("mail@matttucker.com", "dogatonic@gmail.com");
+	$subject = 'SAF Ballot Cast 2024';
+	// $addressedTo = "mail@matttucker.com"; // MAIL_TO_ADDRESS
+	$body = $flatFileData;
+	
 	$smtp = Mail::factory('smtp', array(
 		'host' => MAIL_SMTP_HOST, 
 		'port' => MAIL_SMTP_PORT,
@@ -145,14 +157,26 @@ if($bPassesEmailTest){
 		'password' => MAIL_WORDPASS
 	));
 
+	foreach($arrMailRecievers as $addressedTo){
+		$headers = array(
+			'From' => 'OnlineVote of: ' . $n . " <" . MAIL_FROM_ADDRESS . ">",
+			'To' => $addressedTo,
+			'Subject' => $subject
+		);
+		// SEND the email here!
+		$mail = $smtp->send($addressedTo, $headers, $body);
+	}
+
+	// SEND the email here!
 	// $mail = $smtp->send($addressedTo, $headers, $body);
 
-
-	if (PEAR::isError($mail)) {
-		// echo($mail->getMessage() . "<br>");
-	} else {
-		// echo($successMessage);
-	}
+	// TUCKER: Sept 2024, not sure why I had this here.
+	// $successMessage = 'Email Message successfully sent I guess!';
+	// if (PEAR::isError($mail)) {
+	// 	// echo($mail->getMessage() . "<br>");
+	// } else {
+	// 	// echo($successMessage);
+	// }
 
 }// END: if($bPassesEmailTest)...
 

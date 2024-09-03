@@ -8,7 +8,7 @@
 let bShowingAllMeetingGroups = false
 
 $(document).ready(function () {
-	console.log("ready2! >>>>>>>>>>>>>>>>>>>>>>>>>>!");
+	// console.log("ready2! >>>>>>>>>>>>>>>>>>>>>>>>>>!");
 	const urlParams = new URLSearchParams(window.location.search);
 	//const myParam = urlParams.get('myParam');
 	// console.log(divIdClickQuery);
@@ -30,13 +30,13 @@ $(document).ready(function () {
 	$("#bAboutPhilosophy").click();
 
 	if (divIdClickQuery !== false) {
-		console.log("whgat is divIdClickQuery: ", divIdClickQuery);
+		console.log("what is divIdClickQuery: ", divIdClickQuery);
 		$("#" + divIdClickQuery).click();
 	}
 
 	$(".whosWhere").click(openMail);
 
-	$("#2022_ballot").find("input:checkbox").on("click", ballotNameChecked);
+	$("#2024_ballot").find("input:checkbox").on("click", ballotNameChecked);
 	ballotNameChecked();
 
 	$(".status").click(statusCheck);
@@ -51,7 +51,7 @@ function statusCheck() {
 }
 
 function ballotNameChecked() {
-	let votesCast = $("#2022_ballot").find("input:checkbox:checked").length;
+	let votesCast = $("#2024_ballot").find("input:checkbox:checked").length;
 	if (votesCast > 7) {
 		$("#toomany").show();
 	} else {
@@ -129,7 +129,7 @@ function gotoMeetingsPage() {
 }
 
 function ajaxSetVoterStatus(status, id) {
-	console.log("start ajaxSetVoterStatus");
+	console.log("start ajax-SetVoterStatus");
 	let url = "/process/voter_status_set.php?status=" + status + "&id=" + id;
 	console.log(url);
 	$.ajax({
@@ -160,7 +160,7 @@ function ajaxSetVoterStatus(status, id) {
 			// }
 		},
 	});
-	console.log("end ajaxSetVoterStatus");
+	console.log("end ajax-SetVoterStatus");
 }
 
 function ajaxEmailCheck(datam) {

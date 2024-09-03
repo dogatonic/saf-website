@@ -68,12 +68,36 @@ h1.clubhouseHeading {
 	text-shadow: 2px 2px #000;
 }
 
+.ballot_container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: 1px solid grey;
+	width: 100%;
+}
+
+.candidate_lineup{
+	margin:0px auto; 
+	width: 100%; 
+	padding-top:10px;
+}
+
+.candidate_box{
+	display: flex;
+	padding: 0px 0px 0px 10px;
+	min-width: 50%;
+	flex-grow: 1;
+	border: 1px solid rgb(148, 148, 148);
+}
+.candidate_label{
+	border: 0px solid red;
+	flex-grow: 1;
+}
+
 .candidate_name {
 	font-size: x-large;
 }
-.candidate_box {
-	border: 1px solid rgb(148, 148, 148);
-}
+
 .ballot_phone {
 	color: rgba(4, 66, 74, 0.5);
 }
@@ -439,6 +463,9 @@ p.footer-links a:hover {
 	}
 	.faux_northland {
 		width: 300px;
+	}
+	.candidate_box{
+		min-width: 100%;
 	}
 }
 

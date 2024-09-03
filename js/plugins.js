@@ -233,8 +233,7 @@ $(function () {
 	// when the form is submitted
 	$("#election-form").on("submit", function (e) {
 		// console.log("ELECTION !!!!!!!!!!!!!!!!!!!!");
-
-		let votesCast = $("#2022_ballot").find("input:checkbox:checked").length;
+		let votesCast = $("#2024_ballot").find("input:checkbox:checked").length;
 		if (votesCast > 7) {
 			$("#toomany").show();
 			return false;
@@ -245,6 +244,8 @@ $(function () {
 		}
 		// if the validator does not prevent form submit
 		if (!e.isDefaultPrevented()) {
+			$("#submitVote").val("Processing...");
+			$("#submitVote").attr("disabled", true);
 			let url = "/process/election_form_process.php"; //
 
 			// POST values in the background the the script URL
@@ -253,6 +254,7 @@ $(function () {
 				url: url,
 				data: $(this).serialize(),
 				success: function (data) {
+					// console.log("success function !!!!!!!!!!!!!!!!!!!!");
 					// data = JSON object that contact.php returns
 
 					// we recieve the type of the message: success x danger and apply it to the
@@ -279,6 +281,7 @@ $(function () {
 					location = "#";
 				},
 			});
+			// console.log("after ajax");
 			return false;
 		}
 	});

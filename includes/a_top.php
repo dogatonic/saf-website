@@ -38,7 +38,7 @@ switch($sApex){
         $sPageInclude = $sApex;
     break;
 	case 'election':
-        $sTitle = "SAF - 2022 Board of Trustees Election";
+        $sTitle = "SAF - 2024 Board of Trustees Election";
         $sPageInclude = $sApex;
     break;
 	case 'saf_event':
