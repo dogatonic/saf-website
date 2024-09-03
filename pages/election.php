@@ -1,5 +1,5 @@
 <?php
-$arrCandidates = ["Mike Aycock", "Brad Brown", "Tim Currens", "Tom Fleshman", "David Ivey", "Stacy Morales", "Susan Onufer", "Heather Powell", "Casey Switch", "Derek Whitman"];
+$arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
 ?>
 <body>
 	<div class="big-div">

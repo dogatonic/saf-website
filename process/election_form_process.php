@@ -144,7 +144,7 @@ if($bPassesEmailTest){
 	// 	 \___|_| |_| |_|\__,_|_|_| |___/\___|_| |_|\__,_|
 
 	$replyTo = MAIL_FROM_ADDRESS;
-	$arrMailRecievers = array("mail@matttucker.com", "dogatonic@gmail.com");
+	$arrMailRecievers = array("dogatonic@gmail.com", "audit@safaustin.org");
 	$subject = 'SAF Ballot Cast 2024';
 	// $addressedTo = "mail@matttucker.com"; // MAIL_TO_ADDRESS
 	$body = $flatFileData;
