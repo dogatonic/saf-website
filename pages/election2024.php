@@ -15,7 +15,7 @@ $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "
 
 		<!-- Start Fixed Background IMG -->
 		<div class="fixed-background fixed-background-nothome">
-			<div class="row text-light bannerOpaqueLayerCyan" style="height: 6rem; padding-top: 20px;">
+			<div class="row text-light bannerOpaqueLayerRed" style="height: 6rem; padding-top: 20px;">
 				<div class="col-12 text-center ">
 					<h1 class="clubhouseHeading">SAF 2024 Election to Board of Trustees</h1>
 				</div>
@@ -31,8 +31,7 @@ $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"></p>
 		</div> -->
-		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Current SAF members may cast ballots in person or online*</div>
-		<div class="container my-4  text-center  messages" style="font-size:1.7rem; color: blue;">Voting period is September 4 - 11, 2024</div>
+		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div>
 		<?php 
 		
 		// if($sBpex == "" || $sBpex == "/"){
@@ -47,16 +46,70 @@ $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "
 			?>
 		<!-- <div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div> -->
 		<div class="container my-4  text-center " style="font-size: large; color: black;">
-		SAF members will elect seven new trustees this month to serve on the SAF Board of Trustees. Trustees serve a 3-year term. The list of candidates was posted at the clubhouse in August in accordance with the SAF bylaws.
-<br/><br/>
-  Members needing to pay "back dues" (up to three months per the SAF bylaws) to become eligible to vote can pay at the office. Voting begins 
-at the SAF office during normal office hours on Wednesday, Sept. 4th, and continues though the 11th. 
-<p style="font-style: italic; margin-top: 6px; color: blue;">* For online voting, all up-to-date SAF members will be sent a voting link in a separate email.</p>
+		If you are a member in good standing you may vote online for the new members of the Board of Trustees. <br/>(eligibility requirements shown below)
 		</div>
 
 		<!-- BEGIN: Div for Online meeting schedule -->
-		<div id='' class="container" style='text-align: center;'>
-			<img src="/img/election_poster_2024.png" class="" alt="SAF Election" style="margin: 0px auto; border: 1px solid grey;">
+		<div id='' class="container" style=''>
+
+
+		
+		<form id="election-form" method="post" action="/" style="display: block;">
+			
+			<div style="font-size: large; color: blue;">Please start by entering in your contact information:</div>
+			<input id="form_type" type="hidden" name="type" class="form-control" value="election2024_v1">
+			<div class="form-group" style="width:350px; ">
+				<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required>
+				<div class="help-block with-errors"></div>
+			</div>
+			<div class="form-group" style="width:350px; ">
+				<input id="form_phone" type="text" name="phone" class="form-control" placeholder="Enter your phone number." required>
+				<div class="help-block with-errors"></div>
+			</div>
+			<div class="form-group" style="width:350px;">
+				<input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email address." required>
+				<div class="help-block with-errors"></div>
+				<div id="emailfound" class="text-center" style="color: red; font-size:large; display: none; ">A ballot has already been submitted using this email address.</div>
+			</div>
+			<br/>
+			<div style="font-size: large; color: blue;">Cast your vote by selecting the seven (7) candidates you want to join the 2024 SAF Board of Trustees<br/> (Pictures below for reference).</div>
+			
+			
+			<div id="2024_ballot" class="ballot_container">
+				<?php
+				$i = 0;
+				foreach($arrCandidates as $name){
+					$i += 1;
+					?>
+					<div class="candidate_box">
+							<input type="checkbox" id="c<?php echo $i; ?>" name="ballot[]" value="<? echo $name; ?>" class="width: 20px;">
+							<label for="c<?php echo $i; ?>" class="candidate_name candidate_label">&nbsp;<? echo $name; ?></label>
+					</div>
+					<?php
+				}
+				?>
+			</div>
+
+			<div id="toomany" class="text-center" style="color: red; font-size:large; display: none; ">You are not allowed to select more than 7 candidates!</div>
+			<div id="toofew" class="text-center" style="color: red; font-size:large; display: none; ">You must select at least one candidate</div>
+			<div style="width:200px; margin: auto; padding-top: 20px;">
+				<input id="submitVote" type="submit" class="btn btn-danger btn-md" value="Submit your Vote">
+			</div>
+			<div style="text-align: center;" class="candidate_lineup"><img src="/img/2024candidateLineup.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div>
+			</form>
+			<!-- <div style="width:200px; margin: auto; padding-top: 0px;">
+				<button id="submitVote" class="btn btn-danger btn-md" style="">Submit your Vote</button>
+			</div> -->
+			
+		
+		
+
+
+		<div style="margin-top:10px;">
+			<p><strong>Eligibility to Vote:</strong></p>
+			<p style=""><i>Per Foundation bylaws, to be eligible to vote, Foundation members must “have made a full twelve (12) months of contributions immediately preceding the election. No more than three (3) months of contributions may be applied retroactively to establish the twelve (12) month period. Retroactive contributions must be made at least fifteen (15) days prior to the election at which the member seeks to vote.”
+You may check your voting status in the Foundation office or by calling (512) 452-6784.</i></p>
+		</div>
 		</div>
 			<?php
 		} elseif($sBpex == "/results" && $bOnDev) {
