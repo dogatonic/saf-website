@@ -1,5 +1,7 @@
 <?php
 $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
+$now = date_create()->format('Y-m-d H:i:s');
+$isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
 ?>
 <body>
 	<div class="big-div">
@@ -31,20 +33,21 @@ $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"></p>
 		</div> -->
-		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Current SAF members may cast ballots in person or online*</div>
-		<div class="container my-4  text-center  messages" style="font-size:1.7rem; color: blue;">Voting period is September 4 - 11, 2024</div>
+		
 		<?php 
 		
 		// if($sBpex == "" || $sBpex == "/"){
-		if(0){
+		if(!$isOpen){
 			
 			?> 
 		
-		<div class="container my-4  text-center " style="font-size: large; color: black;">
-		Voting polls for 2024 have now closed.
+		<div class="container my-4  text-center " style="font-size: 3rem; color: #720608;">
+		Voting polls have now closed.
 		</div>	
 		<?php } elseif($sBpex == "closed" || $sBpex == "/"){
 			?>
+			<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Current SAF members may cast ballots in person or online*</div>
+			<div class="container my-4  text-center  messages" style="font-size:1.7rem; color: blue;">Voting period is September 4 - 11, 2024</div>
 		<!-- <div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div> -->
 		<div class="container my-4  text-center " style="font-size: large; color: black;">
 		SAF members will elect seven new trustees this month to serve on the SAF Board of Trustees. Trustees serve a 3-year term. The list of candidates was posted at the clubhouse in August in accordance with the SAF bylaws.
@@ -85,6 +88,7 @@ at the SAF office during normal office hours on Wednesday, Sept. 4th, and contin
 		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting Results (<? echo count($data); ?> ballots to date)</div>
 		<?php echo $electionMenu; ?>
 		<?php
+		
 			$arrCandidate = array();
 			foreach($data as $row){
 				$arrVotesFor = explode('&',$row['message']);
@@ -138,18 +142,26 @@ at the SAF office during normal office hours on Wednesday, Sept. 4th, and contin
 				<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Audit Results (<? echo count($data); ?> ballots to date)</div>
 				<?php echo $electionMenu; ?>
 				<?php
-				$arrCandidate = array();
-				foreach($data as $row){
 
+				// Take the DB data, break out the name parts and put last name first, then sort by last name
+				$arrVoters = array();
+				foreach($data as $voterRow){
+					// replace double space with single space on name
+					$voterRow['name'] = str_replace('  ',' ',trim($voterRow['name']));
+					$arrName = explode(' ',$voterRow['name']);
+					// reverse the array of names
+					$reverseName = implode(", ", array_reverse($arrName));
+					$arrVoters[$reverseName] = $voterRow;
 				}
+				ksort($arrVoters);
 				$n = 1;
-				foreach($data as $row){
+				foreach($arrVoters as $name => $row){
 					$rowColor = ($n % 2) ? '#fff' : '#ddd';
 					$bStatus = ($row['status'] == '1')? true : false;
 					?>
 					<div class="row" style="background-color: <? echo $rowColor; ?>;">
 						<div class="col-1 votes_box"><? echo $n; ?></div>
-						<div class="col-3 votes_box" style="font-size: med; color: #000;"><? echo $row['name']; ?></div>
+						<div class="col-3 votes_box" style="font-size: med; color: #000;"><? echo $name; ?></div>
 						<div class="col-4 votes_box ballot_email" style="font-size: med;"><? echo $row['email'] ; ?></div>
 						<div class="col-2 votes_box ballot_phone" style="font-size: med;"><? echo $row['phone'] ; ?></div>
 						<div class="col-2 votes_box ballot_phone" style="font-size: med;">
@@ -161,7 +173,7 @@ at the SAF office during normal office hours on Wednesday, Sept. 4th, and contin
 					$n++;
 				}
 				echo "<div style=''><pre>";
-				// print_r($arrCandidate);
+				// print_r($arrVoters);
 				echo "</pre></div>";
 
 			?>

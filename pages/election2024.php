@@ -45,7 +45,7 @@ $isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
 		Voting polls have now closed.
 		</div>	
 		<div style="text-align: center;" class="candidate_lineup"><img src="/img/2024candidateLineup.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div>
-		<?php } elseif($sBpex == "closed" || $sBpex == "/"){
+		<?php } else {
 			?>
 		<!-- <div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div> -->
 		<div class="container my-4  text-center " style="font-size: large; color: black;">
@@ -120,115 +120,7 @@ You may check your voting status in the Foundation office or by calling (512) 45
 		</div>
 		</div>
 			<?php
-		} elseif($sBpex == "/results" && $bOnDev) {
-
-			// BPEX: results
-			// BPEX: results
-			// BPEX: results
-
-			try {
-				// $sMysql = "SELECT * FROM webform_data WHERE status = '1' AND type = 'election2022_v1'";
-				$stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE status = '1' AND type = 'election2024_v1' ");
-				if($stmt){
-					$stmt->execute();
-					$result = $stmt->get_result(); // get the mysqli result
-					$data = $result->fetch_all(MYSQLI_ASSOC);
-				} else {
-					// throw something?
-					echo "stmt error<br>"; print_r($stmt);
-				}
-			} catch (\Exception $e) {
-				$errMessage = "Error. There was a mysql problem.";
-				//$responseArray = array('type' => 'success', 'message' => $errMessage);
-			}
-		?>
-		<div id='' class="container" style=''>
-		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting Results (<? echo count($data); ?> ballots to date)</div>
-		<?php echo $electionMenu; ?>
-		<?php
-			$arrCandidate = array();
-			foreach($data as $row){
-				$arrVotesFor = explode('&',$row['message']);
-				foreach($arrVotesFor as $name){
-					(isset($arrCandidate[$name])) ? $arrCandidate[$name] += 1 : $arrCandidate[$name] = 1;
-				}
-			}
-			arsort($arrCandidate);
-			$n = 1;
-			foreach($arrCandidate as $name=>$count){
-				$rowColor = ($n < 8) ? '#fff' : '#ffda73';
-				$rowColor = ($n == 8) ? '#d6f7a8' : $rowColor;
-				?>
-				<div class="row" style="background-color: <? echo $rowColor; ?>;">
-					<div class="col-1 votes_box"><? echo $n; ?></div>
-					<div class="col-2 votes_box" style="font-size: med; color: #000;"><? echo $name; ?></div>
-					<div class="col-9 votes_box" style="font-size: med; color: #00f;"><? echo $count ; ?></div>
-				</div>
-				<?php
-				$n++;
-			}
-			echo "<div style=''><pre>";
-			// print_r($arrCandidate);
-			echo "</pre></div>";
-
-		?>
-		
-		</div>
-
-		<?
-		} elseif($sBpex == "/audit" && $bOnDev) { 
-			
-			try {
-				
-				$stmt = $mysqli->prepare("SELECT id, name, email, phone, status FROM webform_data WHERE type like '%election2024_v1%' ORDER BY name;");
-				if($stmt){
-					$stmt->execute();
-					$result = $stmt->get_result(); // get the mysqli result
-					$data = $result->fetch_all(MYSQLI_ASSOC);
-				} else {
-					// throw something?
-					echo "stmt error<br>"; print_r($stmt);
-				}
-			} catch (\Exception $e) {
-				$errMessage = "Error. There was a mysql problem.";
-				//$responseArray = array('type' => 'success', 'message' => $errMessage);
-			}
-			?>
-
-		<div id='' class="container" style=''>
-				<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Audit Results (<? echo count($data); ?> ballots to date)</div>
-				<?php echo $electionMenu; ?>
-				<?php
-				$arrCandidate = array();
-				foreach($data as $row){
-
-				}
-				$n = 1;
-				foreach($data as $row){
-					$rowColor = ($n % 2) ? '#fff' : '#ddd';
-					$bStatus = ($row['status'] == '1')? true : false;
-					?>
-					<div class="row" style="background-color: <? echo $rowColor; ?>;">
-						<div class="col-1 votes_box"><? echo $n; ?></div>
-						<div class="col-3 votes_box" style="font-size: med; color: #000;"><? echo $row['name']; ?></div>
-						<div class="col-4 votes_box ballot_email" style="font-size: med;"><? echo $row['email'] ; ?></div>
-						<div class="col-2 votes_box ballot_phone" style="font-size: med;"><? echo $row['phone'] ; ?></div>
-						<div class="col-2 votes_box ballot_phone" style="font-size: med;">
-						<input type="radio" class="status" name="<? echo 'status_' . $row['id']; ?>" data-id="<? echo $row['id']; ?>" value="1" <?php if($bStatus)echo 'checked'; ?>> yes</input>
-						<input type="radio" class="status" name="<? echo 'status_' . $row['id']; ?>" data-id="<? echo $row['id']; ?>" value="0"<?php if(!$bStatus)echo 'checked'; ?>> no</input>
-						</div>
-					</div>
-					<?php
-					$n++;
-				}
-				echo "<div style=''><pre>";
-				// print_r($arrCandidate);
-				echo "</pre></div>";
-
-			?>
-		</div>
-		<?php 
-		}
+		} 
 		?>
 		
 <div class="debug_at_bottom">
