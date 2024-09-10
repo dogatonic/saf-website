@@ -1,5 +1,6 @@
 <?php
 $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
+$now = date_create()->format('Y-m-d H:i:s');
 ?>
 <body>
 	<div class="big-div">
@@ -109,6 +110,9 @@ $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "
 			<p><strong>Eligibility to Vote:</strong></p>
 			<p style=""><i>Per Foundation bylaws, to be eligible to vote, Foundation members must “have made a full twelve (12) months of contributions immediately preceding the election. No more than three (3) months of contributions may be applied retroactively to establish the twelve (12) month period. Retroactive contributions must be made at least fifteen (15) days prior to the election at which the member seeks to vote.”
 You may check your voting status in the Foundation office or by calling (512) 452-6784.</i></p>
+<p>
+	<?php echo $now; ?> 
+</p>
 		</div>
 		</div>
 			<?php
