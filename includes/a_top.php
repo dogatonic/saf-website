@@ -9,7 +9,8 @@ $sIP = $_SERVER['REMOTE_ADDR'];
 // $sIP = $_SERVER['HTTP_X_FORWARDED_FOR'];
 
 $bOnDev = ($_SERVER['SERVER_NAME'] == "dev.safaustin.org") ? true : false;
-$bDebug = ($bOnDev && $sIP == '72.177.25.181') ? true : false;//  24.28.67.98
+// $bDebug = ($bOnDev && $sIP == '72.177.25.181') ? true : false;//  24.28.67.98
+$bDebug = ($bOnDev) ? true : false;
 
 
 $sPageInclude = 'home';// set this as the default right away

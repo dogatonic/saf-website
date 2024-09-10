@@ -1,7 +1,7 @@
         <div class="socket text-light text-center py-3">
 			<p class="">&copy; 2024 Suburban Alcoholic Foundation.</p>
 <?php
-if($bDebug && 1){
+if($bDebug){
 	echo "<pre class='text-left' style='color: #f00;'>";
 
 	echo $sIP . '<br>';

@@ -1,6 +1,7 @@
 <?php
 $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
 $now = date_create()->format('Y-m-d H:i:s');
+$isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
 ?>
 <body>
 	<div class="big-div">
@@ -34,15 +35,16 @@ $now = date_create()->format('Y-m-d H:i:s');
 		</div> -->
 		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div>
 		<?php 
-		
+		if($bDebug) echo "<div>$now</div>";
 		// if($sBpex == "" || $sBpex == "/"){
-		if(0){
+		if(!$isOpen){
 			
 			?> 
 		
-		<div class="container my-4  text-center " style="font-size: large; color: black;">
-		Voting polls for 2024 have now closed.
+		<div class="container my-4  text-center " style="font-size: 3rem; color: #720608;">
+		Voting polls have now closed.
 		</div>	
+		<div style="text-align: center;" class="candidate_lineup"><img src="/img/2024candidateLineup.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div>
 		<?php } elseif($sBpex == "closed" || $sBpex == "/"){
 			?>
 		<!-- <div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div> -->
@@ -111,7 +113,9 @@ $now = date_create()->format('Y-m-d H:i:s');
 			<p style=""><i>Per Foundation bylaws, to be eligible to vote, Foundation members must “have made a full twelve (12) months of contributions immediately preceding the election. No more than three (3) months of contributions may be applied retroactively to establish the twelve (12) month period. Retroactive contributions must be made at least fifteen (15) days prior to the election at which the member seeks to vote.”
 You may check your voting status in the Foundation office or by calling (512) 452-6784.</i></p>
 <p>
-	<?php echo $now; ?> 
+	<?php 
+	echo $now . "<br/>"; 	
+	?> 
 </p>
 		</div>
 		</div>
@@ -227,7 +231,10 @@ You may check your voting status in the Foundation office or by calling (512) 45
 		}
 		?>
 		
-
+<div class="debug_at_bottom">
+	<?php
+	?>
+</div>
 
 		
 		<!-- Start Fixed Background IMG -->
