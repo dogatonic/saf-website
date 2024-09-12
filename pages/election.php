@@ -2,6 +2,7 @@
 $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
 $now = date_create()->format('Y-m-d H:i:s');
 $isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
+$bOnDev = true;
 ?>
 <body>
 	<div class="big-div">
