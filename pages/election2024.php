@@ -44,7 +44,7 @@ $isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
 		<div class="container my-4  text-center " style="font-size: 3rem; color: #720608;">
 		Voting polls have now closed.
 		</div>	
-		<div style="text-align: center;" class="candidate_lineup"><img src="/img/2024candidateLineup.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div>
+		<!-- <div style="text-align: center;" class="candidate_lineup"><img src="/img/2024candidateLineup.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div> -->
 		<?php } else {
 			?>
 		<!-- <div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div> -->
