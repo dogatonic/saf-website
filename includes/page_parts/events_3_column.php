@@ -32,7 +32,7 @@
 								<p style="font-weight: 600; font-size: 1.15em;">Speaker Meetings on Wednesdays & Fridays: <br>
 								<a href="/meetings/events">Click here for more details!</a> </p>
 								<h4>Birthday Night: </h4>
-								<h3 class="" style="margin-top: 5px; color: #0000ff;"><?php echo  $arrBDnights[date("n")]; ?></h3>
+								<div class="" style="margin-top: 5px; color: #bd0303; font-size: 1.7rem;"><?php echo  $arrBDnights[date("n")]; ?></div>
 							<!-- <p>The anual July 4th Picnic is right around the corner! Stay tuned for more details.</p> -->
 						</div>
 					</div>
@@ -47,7 +47,10 @@
 						</div>
 						<div class="col-lg-8 col-xl-9">
 							<h4 class="text-dark text-uppercase">Announcements</h4>
-							<p><strong>Birthday Night is being held live in person! </strong>On the the last Friday of every month. If you have an annual length of sobriety to celebrate, come join us!</p>
+							<p><strong><span style="color:red; font-weight: bold;">New</span> Women's Meeting! </strong><br>A 2nd Saturday morning Women's meeting has been added.<br/>
+							<span style="font-weight: bold;">10:30am in the Big Room</span>
+							</p>
+							<!-- <p><strong>Birthday Night is being held live in person! </strong>On the the last Friday of every month. If you have an annual length of sobriety to celebrate, come join us!</p> -->
 						</div>
 					</div>
 				</div>
