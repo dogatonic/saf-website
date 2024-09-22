@@ -35,7 +35,8 @@ foreach($arrDays as $sEachDay){
 		echo "<span class='meetingCardTime $sStrikeThroughClass'>". $thisDayData['time'] . "</span>&nbsp;&nbsp;" . "\n";
 		echo "<span class='meetingCardTitle $sStrikeThroughClass'>" . $thisDayData['title'] . "</span>" . "\n";
 		if(!$bShowType)echo "<span class='meetingCanceled'>This meeting is online only at this time.</span>" . "\n";
-		if($bShowType)echo "<span class='meetingCardType'>(" . $thisDayData['type'] . ")</span>" . "\n";
+		if($bShowType)echo "<span class='meetingCardType'>(" . $thisDayData['type'] . ")</span>";
+		if(isset($thisDayData['new']))echo "<span style='color:red; font-weight: bold;'> NEW! </span>";
 		echo "<br>";
 		echo "<span class='meetingCardDesc'>" . $thisDayData['desc'] . "</span>" . "\n";
 		echo "<span class='meetingCardRoom'>" . $thisDayData['room'] . ".</span>" . "\n";
