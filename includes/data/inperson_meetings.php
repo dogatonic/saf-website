@@ -379,6 +379,15 @@ $arrMeetingsData[] = [
                                       /____/    	
 --*/
 
+$arrMeetingsData[] = [
+	'day'=>"Saturday",
+	'order'=>10,
+	'time'=>"8:30 am",
+	'title'=>"Men's Meeting",
+	'type'=>"C",
+	'desc'=>"This meeting is closed discussion.",
+	'room'=>"Big room"
+];
 
 $arrMeetingsData[] = [
 	'day'=>"Saturday",
@@ -393,12 +402,13 @@ $arrMeetingsData[] = [
 $arrMeetingsData[] = [
 	'day'=>"Saturday",
 	'order'=>20,
-	'time'=>"8:30 am",
-	'title'=>"Men's Meeting",
+	'time'=>"10:30 am",
+	'title'=>"Women’s Meeting",
 	'type'=>"C",
 	'desc'=>"This meeting is closed discussion.",
 	'room'=>"Big room"
 ];
+
 $arrMeetingsData[] = [
 	'day'=>"Saturday",
 	'order'=>30,

@@ -176,9 +176,13 @@
 							<!-- <p><span class="events_page_dates alt_date">April 6th</span> <br> <span class="events_page_speakers">Adam and Christian C</span><br></p> -->
 							<!-- <p><span class="events_page_dates">May 4th</span> <br> <span class="events_page_speakers">Nina and Jesse</span><br></p> -->
 							<!-- <p><span class="events_page_dates alt_date">June 1st</span> <br> <span class="events_page_speakers">Mandy W. and Keith H.</span><br></p> -->
-							<p><span class="events_page_dates">September 7th</span> <br> 
+							<!-- <p><span class="events_page_dates">September 7th</span> <br> 
 							<span class="events_page_speakers">Barbara and Wayne L. <br/><em>Hilltoppers and Northland</em></span><br>
-							<em></em></p>
+							<em></em></p> -->
+							<p><span class="events_page_dates">October 5th</span> <br> 
+							<span class="events_page_speakers">Carol M. and Adrianne P. <br/><em>Northland Group</em></span><br>
+							<div style="padding: 4px;">This mother/daughter pair in our very own Northland group want to show how recovery supports their relationship.</div>
+							</p>
 
 								<!-- <p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p> -->
 								<!-- <p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p> -->
