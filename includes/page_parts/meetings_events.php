@@ -63,15 +63,16 @@
 								<p><span class="events_page_dates alt_date">August 21st</span> <br> <span class="events_page_speakers">Miranda R</span> <br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">August 28th</span> <br> <span class="events_page_speakers">Jack S</span> <br/><em>Bridge to Shore </em></p> -->
 
-								<p><span class="events_page_dates ">September 4th</span> <br> <span class="events_page_speakers">Dennis L.</span><br/><em>Friday Night Lights</em></p>
+								<!-- <p><span class="events_page_dates ">September 4th</span> <br> <span class="events_page_speakers">Dennis L.</span><br/><em>Friday Night Lights</em></p>
 								<p><span class="events_page_dates ">September 11th</span> <br> <span class="events_page_speakers">Austin N.</span><br/><em>Not a Glum Lot</em></p>
 								<p><span class="events_page_dates ">September 18th</span> <br> <span class="events_page_speakers">Lo T.</span> <br/><em>Northland</em></p>
-								<p><span class="events_page_dates ">September 25th</span> <br> <span class="events_page_speakers">Jacob H.</span> <br/><em>Subtle Foe</em></p>
+								<p><span class="events_page_dates ">September 25th</span> <br> <span class="events_page_speakers">Jacob H.</span> <br/><em>Subtle Foe</em></p> -->
 
 								<p><span class="events_page_dates alt_date">October 2nd</span> <br> <span class="events_page_speakers">Lizzie B.</span><br/><em>Friday Night Lights</em></p>
 								<p><span class="events_page_dates alt_date">October 9th</span> <br> <span class="events_page_speakers">Adam K. </span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">October 16th</span> <br> <span class="events_page_speakers">Melanie R.</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">October 23rd</span> <br> <span class="events_page_speakers">Dusty C.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">October 30th</span> <br> <span class="events_page_speakers">Howard</span><br/><em>Northland</em></p>
 <!-- 
 
 
@@ -151,16 +152,20 @@
 								<p><span class="events_page_dates alt_date">August 16th</span> <br> <span class="events_page_speakers">Kristen B</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">August 23rd</span> <br> <span class="events_page_speakers">Tom H</span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">September 6th</span> <br> <span class="events_page_speakers">David B</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">September 6th</span> <br> <span class="events_page_speakers">David B</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">September 13th</span> <br> <span class="events_page_speakers">Randy R.</span><br/><em>The Great Fact</em></p>
-								<p><span class="events_page_dates alt_date">September 20th</span> <br> <span class="events_page_speakers">Brandon B</span><br/><em>Mesa</em></p>
+								<p><span class="events_page_dates alt_date">September 20th</span> <br> <span class="events_page_speakers">Brandon B</span><br/><em>Mesa</em></p> -->
 								
-
+								<p><span class="events_page_dates alt_date">October 4th</span> <br> <span class="events_page_speakers">Ross</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">October 11th</span> <br> <span class="events_page_speakers">Michael S.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">October 18th</span> <br> <span class="events_page_speakers">Jennifer A.</span><br/><em>Northland</em></p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 							</div>
 
-							
+							<?php 
+							require_once(__ROOT__ . "/includes/page_parts/birthday_night_box.php"); 
+							?>
 						</div>
 
 						<div class="col-12 col-md-4 mb-4">
@@ -177,32 +182,26 @@
 							<!-- <p><span class="events_page_dates">May 4th</span> <br> <span class="events_page_speakers">Nina and Jesse</span><br></p> -->
 							<!-- <p><span class="events_page_dates alt_date">June 1st</span> <br> <span class="events_page_speakers">Mandy W. and Keith H.</span><br></p> -->
 							<!-- <p><span class="events_page_dates">September 7th</span> <br> 
-							<span class="events_page_speakers">Barbara and Wayne L. <br/><em>Hilltoppers and Northland</em></span><br>
-							<em></em></p> -->
-							<p><span class="events_page_dates">October 5th</span> <br> 
+							<span class="events_page_speakers">Barbara and Wayne L. <br/><em>Hilltoppers and Northland</em></span></p> -->
+							<!-- <p><span class="events_page_dates">October 5th</span> <br> 
 							<span class="events_page_speakers">Carol M. and Adrianne P. <br/><em>Northland Group</em></span><br>
 							<div style="padding: 4px;">This mother/daughter pair in our very own Northland group want to show how recovery supports their relationship.</div>
+							</p> -->
+							<p><span class="events_page_dates">November 2nd</span> <br> 
+							<span class="events_page_speakers">Bill and Abby H. <br/><em>Northland Group</em></span><br>
+							<div style="padding: 4px;">This AA/Alanon couple in our very own Northland groups want to share how recovery supports their relationship.</div>
 							</p>
+
 
 								<!-- <p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Marti & Cecil R</span> - Buda</p> -->
 								<!-- <p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Jeremy and Deb</span> - Not A Glum Lot</p> -->
 								<!-- <p><span class="events_page_dates">May 6th</span> <br> <span class="events_page_speakers">Jen and Jonny F</span> - PPG</p> -->
 								<!-- <p><span class="events_page_dates">June 3rd</span> <br> <span class="events_page_speakers">Carrie and Shawn C</span></p> -->
 							</div>
-							<div class="basic_3_col pt-2 mt-2" style="padding: 4px;">
-								<h4 class="text-dark text-uppercase">Birthday Night </h4>
-								<h5 style="color: red;">Last Friday of Each Month <br/> at 7:30 PM</h5>
-								<p><img src="/img/cake.png" alt="Birthday Night" style='width: 50%; height: auto;'></p>
-								<p>Northland Group celebrates annual lengths of sobriety on the last Friday of each month. To receive a chip, please sign up on the bulletine board in the Half Measures room no later than the Tuesday of Birthday week. FREE CAKE!</p>
-								<h4>Next Birthday Night:</h4>
-								<h3 class="" style="margin-top: 5px; color: #0000ff;">
-								<?php 
-								$n = date("n");
-								echo  $arrBDnights[$n ];
-								?></h3>
-								<h3 class="" style="margin-top: 5px; color: #0000ff; line-height: 3rem;"> 7:30 PM
-								</h3>
-							</div>
+							
+							<?php 
+							// require_once(__ROOT__ . "/includes/page_parts/birthday_night_box.php"); 
+							?>
 
 						</div>
 
