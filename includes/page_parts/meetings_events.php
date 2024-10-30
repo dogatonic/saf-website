@@ -68,11 +68,13 @@
 								<p><span class="events_page_dates ">September 18th</span> <br> <span class="events_page_speakers">Lo T.</span> <br/><em>Northland</em></p>
 								<p><span class="events_page_dates ">September 25th</span> <br> <span class="events_page_speakers">Jacob H.</span> <br/><em>Subtle Foe</em></p> -->
 
-								<p><span class="events_page_dates alt_date">October 2nd</span> <br> <span class="events_page_speakers">Lizzie B.</span><br/><em>Friday Night Lights</em></p>
-								<p><span class="events_page_dates alt_date">October 9th</span> <br> <span class="events_page_speakers">Adam K. </span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">October 16th</span> <br> <span class="events_page_speakers">Melanie R.</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">October 23rd</span> <br> <span class="events_page_speakers">Dusty C.</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">October 30th</span> <br> <span class="events_page_speakers">Howard</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates ">October 2nd</span> <br> <span class="events_page_speakers">Lizzie B.</span><br/><em>Friday Night Lights</em></p>
+								<p><span class="events_page_dates ">October 9th</span> <br> <span class="events_page_speakers">Adam K. </span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates ">October 16th</span> <br> <span class="events_page_speakers">Melanie R.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates ">October 23rd</span> <br> <span class="events_page_speakers">Dusty C.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates ">October 30th</span> <br> <span class="events_page_speakers">Howard</span><br/><em>Northland</em></p>
+
+								<p><span class="events_page_dates alt_date">November 20th</span> <br> <span class="events_page_speakers">Melanie R</span><br/><em>Northland</em></p>
 <!-- 
 
 
@@ -156,15 +158,21 @@
 								<p><span class="events_page_dates alt_date">September 13th</span> <br> <span class="events_page_speakers">Randy R.</span><br/><em>The Great Fact</em></p>
 								<p><span class="events_page_dates alt_date">September 20th</span> <br> <span class="events_page_speakers">Brandon B</span><br/><em>Mesa</em></p> -->
 								
-								<p><span class="events_page_dates alt_date">October 4th</span> <br> <span class="events_page_speakers">Ross</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">October 11th</span> <br> <span class="events_page_speakers">Michael S.</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">October 18th</span> <br> <span class="events_page_speakers">Jennifer A.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates ">October 4th</span> <br> <span class="events_page_speakers">Ross</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates ">October 11th</span> <br> <span class="events_page_speakers">Michael S.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates ">October 18th</span> <br> <span class="events_page_speakers">Jennifer A.</span><br/><em>Northland</em></p>
+
+								<p><span class="events_page_dates alt_date">November 1st</span> <br> <span class="events_page_speakers">Marti C</span><br/><em>South Austin Big Book</em></p>
+								<p><span class="events_page_dates alt_date">November 8th</span> <br> <span class="events_page_speakers">Dan C</span><br/><em>A Way Out</em></p>
+								<p><span class="events_page_dates alt_date">November 15th</span> <br> <span class="events_page_speakers">Ryan G</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">November 22nd</span> <br> <span class="events_page_speakers">Darrell C</span><br/><em>Northland</em></p>
+
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 							</div>
 
 							<?php 
-							require_once(__ROOT__ . "/includes/page_parts/birthday_night_box.php"); 
+							// require_once(__ROOT__ . "/includes/page_parts/birthday_night_box.php"); 
 							?>
 						</div>
 
@@ -200,7 +208,7 @@
 							</div>
 							
 							<?php 
-							// require_once(__ROOT__ . "/includes/page_parts/birthday_night_box.php"); 
+							require_once(__ROOT__ . "/includes/page_parts/birthday_night_box.php"); 
 							?>
 
 						</div>

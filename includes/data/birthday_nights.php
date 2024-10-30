@@ -10,7 +10,8 @@ $arrBDnights[6] = 'June 28th';
 $arrBDnights[7] = 'July 26th';
 $arrBDnights[8] = 'August 30th';
 $arrBDnights[9] = 'September 27th';
-$arrBDnights[10] = 'October 25th';
+// $arrBDnights[10] = 'October 25th';
+$arrBDnights[10] = 'November 29th'; // Fake it for the end of October
 $arrBDnights[11] = 'November 29th';
 $arrBDnights[12] = 'December 27th';
 ?>
