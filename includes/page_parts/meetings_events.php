@@ -38,6 +38,7 @@
 								<p><span class="events_page_dates">November 20th</span> <br> <span class="events_page_speakers">Melanie R</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">November 27th</span> <br> <span class="events_page_speakers">Sam Y</span><br/><em>Friday Night Lights</em></p>
 
+								<p><span class="events_page_dates alt_date">December 4th</span> <br> <span class="events_page_speakers">David C</span><br/><em>Properly Armed</em></p>
 								
 								<!-- <p class="events_page_day">Fridays: 10+ years</p> -->
 								<!-- <p><span class="events_page_dates">February 9th</span> <br> <span class="events_page_speakers">Troy N. </span> - <em>Northland, 25 years</em></p>
@@ -86,6 +87,10 @@
 								<p><span class="events_page_dates alt_date">November 15th</span> <br> <span class="events_page_speakers">Ryan G</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">November 22nd</span> <br> <span class="events_page_speakers">Darrell C</span><br/><em>Northland</em></p>
 
+								<p><span class="events_page_dates ">December 6th</span> <br> <span class="events_page_speakers">Gina M</span><br/><em>Reading Is For Quitters</em></p>
+								<p><span class="events_page_dates ">December 13th</span> <br> <span class="events_page_speakers">Adam S</span><br/><em>What It's Like Now</em></p>
+								<p><span class="events_page_dates ">December 20th</span> <br> <span class="events_page_speakers">Jenny K</span><br/><em>Northland</em></p>
+
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 							</div>
@@ -101,9 +106,10 @@
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
 								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the <br/>Big Room at Northland.</p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-							<p><span class="events_page_dates">November 2nd</span> <br> 
-							<span class="events_page_speakers">Bill and Abby H. <br/><em>Northland Group</em></span><br>
-							<div style="padding: 4px;">This AA/Alanon couple in our very own Northland groups want to share how recovery supports their relationship.</div>
+							<p><span class="events_page_dates">December 7th</span> <br> 
+							<span class="events_page_speakers">Solis and Rob R. </span><br/><em>Allendale Group and <br/>Solutions in Sobriety</em><br>
+							<!-- <div style="padding: 4px;">This AA/Alanon couple in our very own Northland groups want to share how recovery supports their relationship.</div> -->
+							<div style="padding: 4px;">Sharing how recovery supports their relationship.</div>
 							</p>
 							</div>
 							
