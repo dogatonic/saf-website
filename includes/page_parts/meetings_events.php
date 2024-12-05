@@ -31,14 +31,17 @@
 								<p><span class="events_page_dates alt_date">October 9th</span> <br> <span class="events_page_speakers">Adam K. </span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">October 16th</span> <br> <span class="events_page_speakers">Melanie R.</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">October 23rd</span> <br> <span class="events_page_speakers">Dusty C.</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">October 30th</span> <br> <span class="events_page_speakers">Howard</span><br/><em>Northland</em></p> -->
+								<p><span class="events_page_dates alt_date">October 30th</span> <br> <span class="events_page_speakers">Howard</span><br/><em>Northland</em></p>
 
 								<p><span class="events_page_dates">November 6th</span> <br> <span class="events_page_speakers">Bree W</span><br/><em>Friday Night Lights</em></p>
 								<p><span class="events_page_dates">November 13th</span> <br> <span class="events_page_speakers">Hayley C</span><br/><em>Hutto Fellowship Group</em></p>
 								<p><span class="events_page_dates">November 20th</span> <br> <span class="events_page_speakers">Melanie R</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates">November 27th</span> <br> <span class="events_page_speakers">Sam Y</span><br/><em>Friday Night Lights</em></p>
+								<p><span class="events_page_dates">November 27th</span> <br> <span class="events_page_speakers">Sam Y</span><br/><em>Friday Night Lights</em></p>-->
 
 								<p><span class="events_page_dates alt_date">December 4th</span> <br> <span class="events_page_speakers">David C</span><br/><em>Properly Armed</em></p>
+								<p><span class="events_page_dates alt_date">December 11th</span> <br> <span class="events_page_speakers">Kath</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">December 18th</span> <br> <span class="events_page_speakers">Howard</span><br/><em>South Africa</em></p>
+								<p><span class="events_page_dates alt_date">December 25th</span> <br> <span class="events_page_speakers">Octavia R</span><br/><em>Northland</em></p>
 								
 								<!-- <p class="events_page_day">Fridays: 10+ years</p> -->
 								<!-- <p><span class="events_page_dates">February 9th</span> <br> <span class="events_page_speakers">Troy N. </span> - <em>Northland, 25 years</em></p>
@@ -80,12 +83,12 @@
 								
 								<p><span class="events_page_dates ">October 4th</span> <br> <span class="events_page_speakers">Ross</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates ">October 11th</span> <br> <span class="events_page_speakers">Michael S.</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates ">October 18th</span> <br> <span class="events_page_speakers">Jennifer A.</span><br/><em>Northland</em></p> -->
+								<p><span class="events_page_dates ">October 18th</span> <br> <span class="events_page_speakers">Jennifer A.</span><br/><em>Northland</em></p>
 
 								<p><span class="events_page_dates alt_date">November 1st</span> <br> <span class="events_page_speakers">Marti C</span><br/><em>South Austin Big Book</em></p>
 								<p><span class="events_page_dates alt_date">November 8th</span> <br> <span class="events_page_speakers">Dan C</span><br/><em>A Way Out</em></p>
 								<p><span class="events_page_dates alt_date">November 15th</span> <br> <span class="events_page_speakers">Ryan G</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">November 22nd</span> <br> <span class="events_page_speakers">Darrell C</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">November 22nd</span> <br> <span class="events_page_speakers">Darrell C</span><br/><em>Northland</em></p> -->
 
 								<p><span class="events_page_dates ">December 6th</span> <br> <span class="events_page_speakers">Gina M</span><br/><em>Reading Is For Quitters</em></p>
 								<p><span class="events_page_dates ">December 13th</span> <br> <span class="events_page_speakers">Adam S</span><br/><em>What It's Like Now</em></p>
