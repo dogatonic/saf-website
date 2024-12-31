@@ -32,7 +32,10 @@
 								<p style="font-weight: 600; font-size: 1.15em;">Speaker Meetings on Wednesdays & Fridays: <br>
 								<a href="/meetings/events">Click here for more details!</a> </p>
 								<h4>Birthday Night: </h4>
-								<div class="" style="margin-top: 5px; color: #bd0303; font-size: 1.7rem;"><?php echo  $arrBDnights[date("n")]; ?></div>
+								<div class="" style="margin-top: 5px; color: #bd0303; font-size: 1.7rem;">
+									<?php 
+									echo findLastFriday();
+									?></div>
 							<!-- <p>The anual July 4th Picnic is right around the corner! Stay tuned for more details.</p> -->
 						</div>
 					</div>

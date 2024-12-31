@@ -24,37 +24,25 @@
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p class="speaker_continuous">Speakers have under 10 years</p>
 								<!-- 
-
 								The style "alt_date" is used to make the date text dark red, otherwise it is blue.
+								-->
 
-								<p><span class="events_page_dates alt_date">October 2nd</span> <br> <span class="events_page_speakers">Lizzie B.</span><br/><em>Friday Night Lights</em></p>
-								<p><span class="events_page_dates alt_date">October 9th</span> <br> <span class="events_page_speakers">Adam K. </span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">October 16th</span> <br> <span class="events_page_speakers">Melanie R.</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">October 23rd</span> <br> <span class="events_page_speakers">Dusty C.</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">October 30th</span> <br> <span class="events_page_speakers">Howard</span><br/><em>Northland</em></p>
-
-								<p><span class="events_page_dates">November 6th</span> <br> <span class="events_page_speakers">Bree W</span><br/><em>Friday Night Lights</em></p>
-								<p><span class="events_page_dates">November 13th</span> <br> <span class="events_page_speakers">Hayley C</span><br/><em>Hutto Fellowship Group</em></p>
-								<p><span class="events_page_dates">November 20th</span> <br> <span class="events_page_speakers">Melanie R</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates">November 27th</span> <br> <span class="events_page_speakers">Sam Y</span><br/><em>Friday Night Lights</em></p>-->
-
-								<p><span class="events_page_dates alt_date">December 4th</span> <br> <span class="events_page_speakers">David C</span><br/><em>Properly Armed</em></p>
+								<!-- <p><span class="events_page_dates alt_date">December 4th</span> <br> <span class="events_page_speakers">David C</span><br/><em>Properly Armed</em></p>
 								<p><span class="events_page_dates alt_date">December 11th</span> <br> <span class="events_page_speakers">Kath</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">December 18th</span> <br> <span class="events_page_speakers">Howard</span><br/><em>South Africa</em></p>
-								<p><span class="events_page_dates alt_date">December 25th</span> <br> <span class="events_page_speakers">Octavia R</span><br/><em>Northland</em></p>
-								
+								<p><span class="events_page_dates alt_date">December 25th</span> <br> <span class="events_page_speakers">Octavia R</span><br/><em>Northland</em></p> -->
+
+								<p><span class="events_page_dates alt_date">January 1st</span> <br> <span class="events_page_speakers">Rachael R</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 8th</span> <br> <span class="events_page_speakers">Paul O</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 15th</span> <br> <span class="events_page_speakers">Jacob H</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 29th</span> <br> <span class="events_page_speakers">Mickey M</span><br/><em>Northland</em></p>
+
+								<p><span class="events_page_dates">February 5th</span> <br> <span class="events_page_speakers">John</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">February 12th</span> <br> <span class="events_page_speakers">Nancy</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">February 19th</span> <br> <span class="events_page_speakers">Annie B</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">February 26th</span> <br> <span class="events_page_speakers">Tucker T</span><br/><em>Northland</em></p>
+
 								<!-- <p class="events_page_day">Fridays: 10+ years</p> -->
-								<!-- <p><span class="events_page_dates">February 9th</span> <br> <span class="events_page_speakers">Troy N. </span> - <em>Northland, 25 years</em></p>
-								<p><span class="events_page_dates">February 16th</span> <br> <span class="events_page_speakers">Darren D. </span> - <em>Big Book, Pflugerville 36 yr</em></p> -->
-
-								<!-- <p><span class="events_page_dates">January 5th</span> <br> <span class="events_page_speakers">TBA </span> <em></em></p>
-								<p><span class="events_page_dates">January 12th</span> <br> <span class="events_page_speakers">Troy N. </span> - <em>Northland Group</em></p>
-								<p><span class="events_page_dates">January 9th</span> <br> <span class="events_page_speakers">Harry </span> - <em>Northland Group</em></p> -->
-
-								<!-- <p><span class="events_page_dates">December 8th</span> <br> <span class="events_page_speakers">Robin R. </span> - <em>Northland Group</em></p>
-								<p><span class="events_page_dates">December 15th</span> <br> <span class="events_page_speakers">tba </span> - <em></em></p>
-								<p><span class="events_page_dates">December 22nd</span> <br> <span class="events_page_speakers">Rick W. </span> - <em>Northland Group</em></p> -->
-
 								<!-- <p><span class="events_page_dates">October 6th</span> <br> <span class="events_page_speakers">Colonel Dan</span> </br><em>Riverbend</em></p> -->
 								<!-- <p><span class="events_page_dates">October 13th</span> <br> <span class="events_page_speakers">Sherry B.</span> </br><em>Northland Group</em></p> -->
 								<!-- <p><span class="events_page_dates">October 20th</span> <br> <span class="events_page_speakers">tba</span> </br><em></em></p> -->
@@ -77,22 +65,15 @@
 								<!-- <p><span class="events_page_dates">February 9th</span> <br> <span class="events_page_speakers">Troy N. </span> - <em>Northland, 25 years</em></p>
 								<p><span class="events_page_dates">February 16th</span> <br> <span class="events_page_speakers">Darren D. </span> - <em>Big Book, Pflugerville 36 yr</em></p> -->
 
-								<!-- <p><span class="events_page_dates alt_date">September 6th</span> <br> <span class="events_page_speakers">David B</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">September 13th</span> <br> <span class="events_page_speakers">Randy R.</span><br/><em>The Great Fact</em></p>
-								<p><span class="events_page_dates alt_date">September 20th</span> <br> <span class="events_page_speakers">Brandon B</span><br/><em>Mesa</em></p> 
-								
-								<p><span class="events_page_dates ">October 4th</span> <br> <span class="events_page_speakers">Ross</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates ">October 11th</span> <br> <span class="events_page_speakers">Michael S.</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates ">October 18th</span> <br> <span class="events_page_speakers">Jennifer A.</span><br/><em>Northland</em></p>
-
-								<p><span class="events_page_dates alt_date">November 1st</span> <br> <span class="events_page_speakers">Marti C</span><br/><em>South Austin Big Book</em></p>
-								<p><span class="events_page_dates alt_date">November 8th</span> <br> <span class="events_page_speakers">Dan C</span><br/><em>A Way Out</em></p>
-								<p><span class="events_page_dates alt_date">November 15th</span> <br> <span class="events_page_speakers">Ryan G</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">November 22nd</span> <br> <span class="events_page_speakers">Darrell C</span><br/><em>Northland</em></p> -->
-
-								<p><span class="events_page_dates ">December 6th</span> <br> <span class="events_page_speakers">Gina M</span><br/><em>Reading Is For Quitters</em></p>
+								<!-- <p><span class="events_page_dates ">December 6th</span> <br> <span class="events_page_speakers">Gina M</span><br/><em>Reading Is For Quitters</em></p>
 								<p><span class="events_page_dates ">December 13th</span> <br> <span class="events_page_speakers">Adam S</span><br/><em>What It's Like Now</em></p>
 								<p><span class="events_page_dates ">December 20th</span> <br> <span class="events_page_speakers">Jenny K</span><br/><em>Northland</em></p>
+								alt_date -->
+								<p><span class="events_page_dates alt_date">January 3rd</span> <br> <span class="events_page_speakers">Jim S</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 10th</span> <br> <span class="events_page_speakers">tba</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 17th</span> <br> <span class="events_page_speakers">Harry N</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 24th</span> <br> <span class="events_page_speakers">tba</span><br/><em>Northland</em></p>
+
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
@@ -109,10 +90,10 @@
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
 								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the <br/>Big Room at Northland.</p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-							<p><span class="events_page_dates">December 7th</span> <br> 
-							<span class="events_page_speakers">Solis and Rob R. </span><br/><em>Allendale Group and <br/>Solutions in Sobriety</em><br>
-							<!-- <div style="padding: 4px;">This AA/Alanon couple in our very own Northland groups want to share how recovery supports their relationship.</div> -->
-							<div style="padding: 4px;">Sharing how recovery supports their relationship.</div>
+							<p><span class="events_page_dates">January 4th</span> <br> 
+							<span class="events_page_speakers">Sam and Lizzie</span><br/><em>Oak Hill RUSH</em><br>
+							<div style="padding: 4px;">AA speakers from Oak Hill RUSH group share how recovery supports their relationship.</div>
+							<!-- <div style="padding: 4px;">Sharing how recovery supports their relationship.</div> -->
 							</p>
 							</div>
 							

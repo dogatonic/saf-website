@@ -7,7 +7,8 @@
 								<h3 class="" style="margin-top: 5px; color: #0000ff;">
 								<?php 
 								$n = date("n");
-								echo  $arrBDnights[$n ];
+								// echo  $arrBDnights[$n ];
+								echo findLastFriday();
 								?></h3>
 								<h3 class="" style="margin-top: 5px; color: #0000ff; line-height: 3rem;"> 7:30 PM
 								</h3>
