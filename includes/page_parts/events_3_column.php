@@ -50,10 +50,10 @@
 						</div>
 						<div class="col-lg-8 col-xl-9">
 							<h4 class="text-dark text-uppercase">Announcements</h4>
-							<p><strong><span style="color:red; font-weight: bold;">New</span> Women's Meeting! </strong><br>A 2nd Saturday morning Women's meeting has been added.<br/>
-							<span style="font-weight: bold;">10:30am in the Big Room</span>
-							</p>
+							<!-- <p><strong><span style="color:red; font-weight: bold;">New</span> Women's Meeting! </strong><br>A 2nd Saturday morning Women's meeting has been added.<br/><span style="font-weight: bold;">10:30am in the Big Room</span></p> -->
 							<!-- <p><strong>Birthday Night is being held live in person! </strong>On the the last Friday of every month. If you have an annual length of sobriety to celebrate, come join us!</p> -->
+							<!-- <img src="/img/2025newyear.png" alt="Happy New Year" style='width: 50%; height: auto;'> -->
+							<img src="/img/2025newyear.png" alt="Happy New Year" style=''>
 						</div>
 					</div>
 				</div>
