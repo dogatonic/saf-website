@@ -22,7 +22,7 @@
 							<br/> <span class="ml-4"> Austin, TX 78757</span></p>
 						<p><a href="tel:+15124526784"><i class="fas fa-phone mr-2"></i>512-452-6784</a></p>
 						
-						<p><i class="fas fa-envelope mr-2"></i><img class="whosWhere" src="./img/saf_whos_dark.png"/></p>
+						<p><i class="fas fa-envelope mr-2"></i><img class="whosWhere" src="/img/saf_whos_dark.png"/></p>
 					</div>
 				</div>
 				<!--- End Row -->
