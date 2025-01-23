@@ -33,8 +33,9 @@
 								<p><span class="events_page_dates alt_date">December 25th</span> <br> <span class="events_page_speakers">Octavia R</span><br/><em>Northland</em></p> -->
 
 								<p><span class="events_page_dates alt_date">January 1st</span> <br> <span class="events_page_speakers">Rachael R</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">January 8th</span> <br> <span class="events_page_speakers">Paul O</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">January 15th</span> <br> <span class="events_page_speakers">Jacob H</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 8th</span> <br> <span class="events_page_speakers">Thomas H</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 15th</span> <br> <span class="events_page_speakers">Paul O</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 22nd</span> <br> <span class="events_page_speakers">Jacob H</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">January 29th</span> <br> <span class="events_page_speakers">Mickey M</span><br/><em>Northland</em></p>
 
 								<p><span class="events_page_dates">February 5th</span> <br> <span class="events_page_speakers">John</span><br/><em>Northland</em></p>
@@ -72,7 +73,7 @@
 								<p><span class="events_page_dates alt_date">January 3rd</span> <br> <span class="events_page_speakers">Jim S</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">January 10th</span> <br> <span class="events_page_speakers">tba</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">January 17th</span> <br> <span class="events_page_speakers">Harry N</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">January 24th</span> <br> <span class="events_page_speakers">tba</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 24th</span> <br> <span class="events_page_speakers">Stephen R</span><br/><em>AA</em></p>
 
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
