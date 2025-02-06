@@ -32,11 +32,11 @@
 								<p><span class="events_page_dates alt_date">December 18th</span> <br> <span class="events_page_speakers">Howard</span><br/><em>South Africa</em></p>
 								<p><span class="events_page_dates alt_date">December 25th</span> <br> <span class="events_page_speakers">Octavia R</span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">January 1st</span> <br> <span class="events_page_speakers">Rachael R</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">January 1st</span> <br> <span class="events_page_speakers">Rachael R</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">January 8th</span> <br> <span class="events_page_speakers">Thomas H</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">January 15th</span> <br> <span class="events_page_speakers">Paul O</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">January 22nd</span> <br> <span class="events_page_speakers">Jacob H</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">January 29th</span> <br> <span class="events_page_speakers">Mickey M</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">January 29th</span> <br> <span class="events_page_speakers">Mickey M</span><br/><em>Northland</em></p> -->
 
 								<p><span class="events_page_dates">February 5th</span> <br> <span class="events_page_speakers">John</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">February 12th</span> <br> <span class="events_page_speakers">Nancy</span><br/><em>Northland</em></p>
@@ -70,10 +70,14 @@
 								<p><span class="events_page_dates ">December 13th</span> <br> <span class="events_page_speakers">Adam S</span><br/><em>What It's Like Now</em></p>
 								<p><span class="events_page_dates ">December 20th</span> <br> <span class="events_page_speakers">Jenny K</span><br/><em>Northland</em></p>
 								alt_date -->
-								<p><span class="events_page_dates alt_date">January 3rd</span> <br> <span class="events_page_speakers">Jim S</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">January 3rd</span> <br> <span class="events_page_speakers">Jim S</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">January 10th</span> <br> <span class="events_page_speakers">tba</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">January 17th</span> <br> <span class="events_page_speakers">Harry N</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">January 24th</span> <br> <span class="events_page_speakers">Stephen R</span><br/><em>AA</em></p>
+								<p><span class="events_page_dates alt_date">January 24th</span> <br> <span class="events_page_speakers">Stephen R</span><br/><em>AA</em></p> -->
+
+								<p><span class="events_page_dates alt_date">February 7th</span> <br> <span class="events_page_speakers">Ryan T</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">February 14th</span> <br> <span class="events_page_speakers">Michael G</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">February 21st</span> <br> <span class="events_page_speakers">Joe G</span><br/><em>Northland</em></p>
 
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
@@ -91,9 +95,9 @@
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
 								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the <br/>Big Room at Northland.</p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-							<p><span class="events_page_dates">January 4th</span> <br> 
-							<span class="events_page_speakers">Sam and Lizzie</span><br/><em>Oak Hill RUSH</em><br>
-							<div style="padding: 4px;">AA speakers from Oak Hill RUSH group share how recovery supports their relationship.</div>
+							<p><span class="events_page_dates">February 1st</span> <br> 
+							<span class="events_page_speakers">Shea and Eric H.</span><br/><em>The Great Fact</em><br>
+							<div style="padding: 4px;">AA speakers from Buda share how recovery supports their relationship.</div>
 							<!-- <div style="padding: 4px;">Sharing how recovery supports their relationship.</div> -->
 							</p>
 							</div>
