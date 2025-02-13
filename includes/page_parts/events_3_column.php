@@ -53,7 +53,13 @@
 							<!-- <p><strong><span style="color:red; font-weight: bold;">New</span> Women's Meeting! </strong><br>A 2nd Saturday morning Women's meeting has been added.<br/><span style="font-weight: bold;">10:30am in the Big Room</span></p> -->
 							<!-- <p><strong>Birthday Night is being held live in person! </strong>On the the last Friday of every month. If you have an annual length of sobriety to celebrate, come join us!</p> -->
 							<!-- <img src="/img/2025newyear.png" alt="Happy New Year" style='width: 50%; height: auto;'> -->
-							<img src="/img/2025newyear.png" alt="Happy New Year" style=''>
+							<!-- <img src="/img/2025newyear.png" alt="Happy New Year" style=''> -->
+							<strong>Family Night</strong><br/>
+							<span style="white-space: nowrap;">1st Saturday each month</span><br>
+							<span style="white-space: nowrap; font-weight: bold;">8pm in the Big Room</span><br>
+							<span style="white-space: nowrap; color:red; font-weight: bold;">Childcare available</span><br>
+							<span style="font-style: italic;">Two speakers together: AA & Al-Anon speakers from various 
+								groups sharing how recovery supports their relationship.</span><br>
 						</div>
 					</div>
 				</div>
