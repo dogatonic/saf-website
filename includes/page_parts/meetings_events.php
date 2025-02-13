@@ -93,13 +93,15 @@
 							<div class="basic_3_col pt-2">
 								<h4 class="text-dark text-uppercase">Family Night</h4>
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
-								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. This speaker meeting is held in the <br/>Big Room at Northland.</p>
+								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. </p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-							<p><span class="events_page_dates">February 1st</span> <br> 
-							<span class="events_page_speakers">Shea and Eric H.</span><br/><em>The Great Fact</em><br>
-							<div style="padding: 4px;">AA speakers from Buda share how recovery supports their relationship.</div>
-							<!-- <div style="padding: 4px;">Sharing how recovery supports their relationship.</div> -->
+							<p><span class="events_page_dates">March 1st</span> <br> 
+								<span class="events_page_speakers">Maggie and Ted P.</span><br/><em>Living Gratitude and 617/Buda</em><br>
+								<span style="padding: 4px;">These two have been in recovery <br>for 9 years.</span>
 							</p>
+							<div class="border-top border-primary w-50 mx-auto my-3"></div>
+							<p>This speaker meeting is held in the Big Room at Northland.</p>
+							<h5 style="color: red;">Onsite childcare available.</h5>
 							</div>
 							
 							<?php 
