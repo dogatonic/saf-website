@@ -43,7 +43,7 @@
 								<p><span class="events_page_dates">February 19th</span> <br> <span class="events_page_speakers">Annie B</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">February 26th</span> <br> <span class="events_page_speakers">Tucker T</span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates">March 4th</span> <br> <span class="events_page_speakers">Joe M</span><br/><em>Allandale</em></p>
+								<p><span class="events_page_dates">March 5th</span> <br> <span class="events_page_speakers">Joe M</span><br/><em>Allandale</em></p>
 								<p><span class="events_page_dates">March 12th</span> <br> <span class="events_page_speakers">Stacy M</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">March 19th</span> <br> <span class="events_page_speakers">Joshua R</span><br/><em></em></p>
 								<p><span class="events_page_dates">March 26th</span> <br> <span class="events_page_speakers">Nat R</span><br/><em>Bouldin</em></p>
