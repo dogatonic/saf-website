@@ -165,6 +165,16 @@ $arrMeetingsData[] = [
 
 $arrMeetingsData[] = [
 	'day'=>"Tuesday",
+	'order'=>45,
+	'time'=>"5:30 pm",
+	'title'=>"Women’s Meeting",
+	'type'=>"C",
+	'desc'=>"This meeting is closed discussion.",
+	'room'=>"Small room"
+];
+
+$arrMeetingsData[] = [
+	'day'=>"Tuesday",
 	'order'=>50,
 	'time'=>"8:00 pm",
 	'title'=>"Big Book Meeting",

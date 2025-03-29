@@ -2,6 +2,10 @@
 <div id='divMeetingsIP' class="container my-1" style='border:0px solid #00f;'>
 	<div class="col-12 text-center bodydiv">
 		<h1 class="text-dark pt-4">In Person AA Meetings</h1>
+		<p><strong><span style="color:red; font-weight: bold;">New Women's Meeting:</span> </strong> Every Tuesday at <span style="font-weight: bold;">5:30pm</span>
+		<span style="font-style: italic;">in the Small Room.</span>
+		<span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available.</span>
+		</p>
 		<div class="border-top border-primary w-25 mx-auto my-3"></div>
 		<p class="lead_x">
 		<span style="font-weight: 600; font-size: 1.2em;">Speaker Meetings:</span> <a href="/meetings/events" class="red_link">Click here for details...</a><br/>
