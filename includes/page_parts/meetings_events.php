@@ -116,12 +116,14 @@
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
 								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. </p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-							<p><span class="events_page_dates">April 5th</span> <br> 
-								<span class="events_page_speakers">Kathie and Steve H</span><br/><em>Being Convinced Group<br>Cedar Park</em><br>
-								<span style="padding: 4px; color: hwb(243 1% 28%);">AA's who also attend Alanon, have over 40 years of sobriety.</span>
-
-								
+							<p><span class="events_page_dates">May 3rd</span> <br> 
+								<span class="events_page_speakers">Meghan and Kevin K</span><br/><em>Northland </em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">From our very own Northland Group,<br> an Alanon/AA couple, married almost <br>3 years.</span>
 							</p>
+
+							<!-- <p><span class="events_page_dates">April 5th</span> <br> 
+								<span class="events_page_speakers">Kathie and Steve H</span><br/><em>Being Convinced Group<br>Cedar Park</em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">AA's who also attend Alanon, have over 40 years of sobriety.</span></p> -->
 							<div class="border-top border-primary w-50 mx-auto my-3"></div>
 							<p>This speaker meeting is held in the Big Room at Northland.</p>
 							<h5 style="color: red;">Onsite childcare available.</h5>
