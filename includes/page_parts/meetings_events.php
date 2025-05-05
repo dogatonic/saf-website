@@ -48,14 +48,23 @@
 								<p><span class="events_page_dates">March 19th</span> <br> <span class="events_page_speakers">Joshua R</span><br/><em></em></p>
 								<p><span class="events_page_dates">March 26th</span> <br> <span class="events_page_speakers">Nat R</span><br/><em>Bouldin</em></p> -->
 
-								<p><span class="events_page_dates">April 2nd</span> <br> <span class="events_page_speakers">Dylan F</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates">April 2nd</span> <br> <span class="events_page_speakers">Dylan F</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">April 9th</span> <br> <span class="events_page_speakers">Nat R</span><br/><em>Bouldin</em></p>
 								<p><span class="events_page_dates">April 16th</span> <br> <span class="events_page_speakers">Christopher C</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">April 23rd</span> <br> <span class="events_page_speakers">Deborah S</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">April 30th</span> <br> <span class="events_page_speakers">Michael C</span><br/><em>Northland</em></p>
 
 								<p><span class="events_page_dates alt_date">May 7th</span> <br> <span class="events_page_speakers">Mark O</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">May 14th</span> <br> <span class="events_page_speakers">Ally M</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">May 14th</span> <br> <span class="events_page_speakers">Ally M</span><br/><em>Northland</em></p> -->
+
+								<p><span class="events_page_dates">May 7th</span> <br> <span class="events_page_speakers">Alison</span><br/><em>7th Street Sisters</em></p>
+								<p><span class="events_page_dates">May 14th</span> <br> <span class="events_page_speakers">Ally M</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">May 21st</span> <br> <span class="events_page_speakers">Kelvin</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">May 28th</span> <br> <span class="events_page_speakers">Matthew T</span><br/><em>Friday Night Lights</em></p>
+
+								<p><span class="events_page_dates alt_date">June 4th</span> <br> <span class="events_page_speakers">Tricia L</span><br/><em>Bouldin</em></p>
+								<p><span class="events_page_dates alt_date">June 11th</span> <br> <span class="events_page_speakers">Jessica K</span><br/><em>7th Street Sisters</em></p>
+
 
 								<!-- <p class="events_page_day">Fridays: 10+ years</p> -->
 								<!-- <p><span class="events_page_dates">October 6th</span> <br> <span class="events_page_speakers">Colonel Dan</span> </br><em>Riverbend</em></p> -->
@@ -97,9 +106,14 @@
 								<p><span class="events_page_dates alt_date">March 14th</span> <br> <span class="events_page_speakers">Belinda B</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">March 21st</span> <br> <span class="events_page_speakers">Doyle M</span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">April 4th</span> <br> <span class="events_page_speakers">Ralph Y</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">April 4th</span> <br> <span class="events_page_speakers">Ralph Y</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">April 11th</span> <br> <span class="events_page_speakers">Tito E</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">April 18th</span> <br> <span class="events_page_speakers">Ricky R</span><br/><em>Jacksonville Fellowship</em></p>
+								<p><span class="events_page_dates alt_date">April 18th</span> <br> <span class="events_page_speakers">Ricky R</span><br/><em>Jacksonville Fellowship</em></p> -->
+
+								<p><span class="events_page_dates alt_date">May 2nd</span> <br> <span class="events_page_speakers">Terri L</span><br/><em>The Great Fact</em></p>
+								<p><span class="events_page_dates alt_date">May 9th</span> <br> <span class="events_page_speakers">Kurt L</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">May 16th</span> <br> <span class="events_page_speakers">Clare W</span><br/><em>White House</em></p>
+								<p><span class="events_page_dates alt_date">May 23rd</span> <br> <span class="events_page_speakers">Steven C</span><br/><em>Mesa Group</em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
