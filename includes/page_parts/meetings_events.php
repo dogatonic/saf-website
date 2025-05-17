@@ -130,9 +130,13 @@
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
 								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. </p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-							<p><span class="events_page_dates">May 3rd</span> <br> 
-								<span class="events_page_speakers">Meghan and Kevin K</span><br/><em>Northland </em><br>
-								<span style="padding: 4px; color: hwb(243 1% 28%);">From our very own Northland Group,<br> an Alanon/AA couple, married almost <br>3 years.</span>
+							<p><span class="events_page_dates">June 7th</span> <br> 
+								<span class="events_page_speakers">Eva S. and Dave R.</span><br/><em>Being Convinced Group </em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">Dave and Eva are from
+Being Convinced Group,
+in Cedar Park. They are
+Alanon/AA couple very
+active in their programs.</span>
 							</p>
 
 							<!-- <p><span class="events_page_dates">April 5th</span> <br> 
