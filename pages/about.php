@@ -103,7 +103,7 @@ Any sober member of the Northland Group of Alcoholics Anonymous may join the Fou
 		</div>
 
 
-		
+		<?php require_once(__ROOT__ . "/includes/page_parts/events_3_column.php"); ?>
 		<!-- Start Fixed Background IMG -->
 
 		<!-- End Fixed Background IMG -->

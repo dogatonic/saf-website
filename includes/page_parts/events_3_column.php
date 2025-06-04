@@ -69,9 +69,10 @@
 							<span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available</span><br>
 							</p> -->
 
-							<p><strong><span style="color:red; font-weight: bold;">SAF Event</span></strong>
-							<br>July 4th Celebration!
-							<br>Friday at <span style="font-weight: bold;">9:00 am</span><br/> <span style="font-style: italic;"></span>
+							<p style="white-space: nowrap; overflow-x: visible;"><strong><span style="color:red; font-weight: bold;">SAF Event</span></strong>
+							<br>70th Anniversary Celebration!
+							<br>Friday, July 4th at <span style="font-weight: bold;">9:00 am</span><br/> <span style="font-style: italic;"></span>
+							<img src="/img/july4th_square.png" alt="Happy SAF Anniversary!" style='width: 80%; height: auto;'>
 							<!-- <span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available</span><br> -->
 							</p>
 						</div>
