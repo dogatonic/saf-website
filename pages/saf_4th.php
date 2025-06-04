@@ -25,12 +25,12 @@
 		<!-- BEGIN: Div for Online meeting schedule -->
 		<div id='divAboutHistory' class="container" style='border:0px solid #0f0;'>
 			<div class="col-12 text-center bodydiv" style="display: block;">
-				<h1 class="text-dark pt-4">Come Join Us!</h1>
-				<div class="border-top border-primary w-25 mx-auto my-3"></div>
+				<div class="text-dark pt-2" style="font-size: 2rem;">Friday, July 4th, 2025 - Come Join Us!</div>
+				<!-- <div class="border-top border-primary w-25 mx-auto my-3"></div> -->
 			</div>
-			<div class="container my-1" style='border:0px solid #f00; padding:20px 0px;'>
+			<div class="container my-1" style='border:0px solid #f00; padding:9px 0px;'>
 				<p class="statement text-center">
-				<img src="/img/2024_Fourth_Flyer.jpg" alt="July 4th Celebration" style='border: 1px solid #888;' class='___faux_northland'>
+				<img src="/img/2025_July4th.png" alt="July 4th Celebration" style='border: 1px solid #888;' class='___faux_northland'>
 				</p>
 			</div>
 		</div>

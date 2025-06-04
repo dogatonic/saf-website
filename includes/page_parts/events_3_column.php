@@ -64,9 +64,15 @@
 								groups sharing how recovery supports their relationship.</span><br>
 							-->
 
-							<p><strong><span style="color:red; font-weight: bold;">New</span> Women's Meeting! </strong>
+							<!-- <p><strong><span style="color:red; font-weight: bold;">New</span> Women's Meeting! </strong>
 							<br>Every Tuesday at <span style="font-weight: bold;">5:30pm</span><br/> <span style="font-style: italic;">in the Small Room</span>
 							<span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available</span><br>
+							</p> -->
+
+							<p><strong><span style="color:red; font-weight: bold;">SAF Event</span></strong>
+							<br>July 4th Celebration!
+							<br>Friday at <span style="font-weight: bold;">9:00 am</span><br/> <span style="font-style: italic;"></span>
+							<!-- <span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available</span><br> -->
 							</p>
 						</div>
 					</div>

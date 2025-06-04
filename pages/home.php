@@ -14,16 +14,16 @@
 			<div class="carousel-inner">
 			<!-- <div class="home-carousel carousel-item "><a href='/saf_event'><img src="/img/carousel/saf_dinner_banner.png" alt="saf appreciation dinner" class="w-100"></a> </div> -->
 				<div class="home-carousel carousel-item"> <img src="/img/carousel/saf_front.png" alt="saf_front" class="w-100"> </div>
-				<div class="home-carousel  carousel-item active"> <img src="/img/carousel/saf_inner.png" alt="saf_front" class="w-100"> </div>
+				<div class="home-carousel  carousel-item"> <img src="/img/carousel/saf_inner.png" alt="saf_front" class="w-100"> </div>
 				<!-- <div class="home-carousel  carousel-item active"><a href='/election'><img src="/img/carousel/saf_election.png" alt="saf_front" class="w-100"></a> </div> -->
-				<!-- <div class="home-carousel carousel-item active"><a href='/saf_4th'><img src="/img/carousel/2024_4th_banner.png" alt="saf_front" class="w-100"></a> </div> -->
+				<div class="home-carousel carousel-item active"><a href='/saf_4th'><img src="/img/carousel/2025_4th_banner.png" alt="saf_front" class="w-100"></a> </div>
 				
 			</div>
 			<!-- End Carousel Content -->
 
 			<!-- Previous & Next Buttons -->
 			<a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev"> <span class="fas fa-chevron-left fa-2x"></span> </a>
-			<a href="#carousel" class="carousel-control-next" role="button" data-slide="next"> <span class="fas fa-chevron-right fa-2x"></span> </a>
+			<a href="#carousel" class="carousel-control-next" role="button" data-slide="next" style="width: 10%; height: 80%;"> <span class="fas fa-chevron-right fa-2x"></span> </a>
 			<!-- End Previous & Next Buttons -->
 		</div>
 		<!-- End Image Carousel -->
