@@ -62,16 +62,18 @@
 								<p><span class="events_page_dates">May 21st</span> <br> <span class="events_page_speakers">Kelvin</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">May 28th</span> <br> <span class="events_page_speakers">Matthew T</span><br/><em>Friday Night Lights</em></p> -->
 
-								<p><span class="events_page_dates alt_date">June 4th</span> <br> <span class="events_page_speakers">Tricia L</span><br/><em>Bouldin</em></p>
+								<!-- <p><span class="events_page_dates alt_date">June 4th</span> <br> <span class="events_page_speakers">Tricia L</span><br/><em>Bouldin</em></p>
 								<p><span class="events_page_dates alt_date">June 11th</span> <br> <span class="events_page_speakers">Jessica K</span><br/><em>7th Street Sisters</em></p>
 								<p><span class="events_page_dates alt_date">June 18th</span> <br> <span class="events_page_speakers">Jude S</span><br/><em>Women's Daily Reflections</em></p>
-								<p><span class="events_page_dates alt_date">June 25th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">June 25th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
 
-								<p><span class="events_page_dates">July 2nd</span> <br> <span class="events_page_speakers">Ken B</span><br/><em>Bouldin</em></p>
-								<p><span class="events_page_dates">July 9th</span> <br> <span class="events_page_speakers">Sarah C</span><br/><em>Friday Night Lights</em></p>
-								<p><span class="events_page_dates">July 16th</span> <br> <span class="events_page_speakers">Sidney W</span><br/><em></em></p>
-								<p><span class="events_page_dates">July 23rd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
-								<p><span class="events_page_dates">July 30th</span> <br> <span class="events_page_speakers">Kiersten I</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">July 2nd</span> <br> <span class="events_page_speakers">Ken B</span><br/><em>Bouldin</em></p>
+								<p><span class="events_page_dates alt_date">July 9th</span> <br> <span class="events_page_speakers">Sarah C</span><br/><em>Friday Night Lights</em></p>
+								<p><span class="events_page_dates alt_date">July 16th</span> <br> <span class="events_page_speakers">Sidney W</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">July 23rd</span> <br> <span class="events_page_speakers">Sal</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">July 30th</span> <br> <span class="events_page_speakers">Kiersten I</span><br/><em></em></p>
+
+								<p><span class="events_page_dates">August 6th</span> <br> <span class="events_page_speakers">Rachael T</span><br/><em></em></p>
 
 								<!-- <p class="events_page_day">Fridays: 10+ years</p> -->
 								<!-- <p><span class="events_page_dates">October 6th</span> <br> <span class="events_page_speakers">Colonel Dan</span> </br><em>Riverbend</em></p> -->
@@ -122,9 +124,13 @@
 								<p><span class="events_page_dates alt_date">May 16th</span> <br> <span class="events_page_speakers">Clare W</span><br/><em>White House</em></p>
 								<p><span class="events_page_dates alt_date">May 23rd</span> <br> <span class="events_page_speakers">Steven C</span><br/><em>Mesa Group</em></p> -->
 
-								<p><span class="events_page_dates alt_date">June 6th</span> <br> <span class="events_page_speakers">Leanne P</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">June 6th</span> <br> <span class="events_page_speakers">Leanne P</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">June 13th</span> <br> <span class="events_page_speakers">Judy W</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">June 20th</span> <br> <span class="events_page_speakers">Shelley T</span><br/><em>Downtown Suburban Group <br/>(Tyler, TX)</em></p>
+								<p><span class="events_page_dates alt_date">June 20th</span> <br> <span class="events_page_speakers">Shelley T</span><br/><em>Downtown Suburban Group <br/>(Tyler, TX)</em></p> -->
+
+								<p><span class="events_page_dates alt_date">July 4th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">July 11th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">July 18th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
