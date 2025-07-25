@@ -147,11 +147,16 @@
 								<h5 style="color: blue;" >Speaker Event: <br/> 1st Saturday of each month<br/>at 8pm</h5> 
 								<p>Two speakers together: AA & Al-Anon speakers from various groups sharing how recovery supports their relationship. </p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
-							<p><span class="events_page_dates alt_date">July 5th</span> <br> 
+							<p><span class="events_page_dates alt_date">August 2nd</span> <br> 
+								<span class="events_page_speakers">Marty and Cecil R.</span><br/><em>The Great Fact in Buda</em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">Marti and Cecil R. are
+very active in AA! They say “yes” to the recovery community and to their relationship!</span>
+							</p>
+							<!-- <p><span class="events_page_dates alt_date">July 5th</span> <br> 
 								<span class="events_page_speakers">Brad and Stephanie P.</span><br/><em>Northland & Hilltoppers</em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">Dave and Eva are from
 								Northland (Brad) & Hilltoppers. Stephanie is actively working the Alanon steps.  Brad has been in AA a “long” time!</span>
-							</p>
+							</p> -->
 
 							<!-- <p><span class="events_page_dates">April 5th</span> <br> 
 								<span class="events_page_speakers">Kathie and Steve H</span><br/><em>Being Convinced Group<br>Cedar Park</em><br>

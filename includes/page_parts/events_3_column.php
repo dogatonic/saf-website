@@ -69,10 +69,26 @@
 							<span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available</span><br>
 							</p> -->
 
-							<p style="white-space: nowrap; overflow-x: visible;"><strong><span style="color:red; font-weight: bold;">SAF Event</span></strong>
+							<!-- <p style="white-space: nowrap; overflow-x: visible;"><strong><span style="color:red; font-weight: bold;">SAF Event</span></strong>
 							<br>70th Anniversary Celebration!
 							<br>Friday, July 4th at <span style="font-weight: bold;">9:00 am</span><br/> <span style="font-style: italic;"></span>
 							<img src="/img/july4th_square.png" alt="Happy SAF Anniversary!" style='width: 80%; height: auto;'>
+							<!-- <span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available</span><br>
+							</p> -->
+
+							<p style="white-space: nowrap; overflow-x: visible;"><strong><span style="color:red; font-weight: bold;">SAF Event</span></strong>
+							<br> <span style="font-weight: 600; font-size: 1.15em;">13th Anniversary Family Night!</span>
+							<br>Saturday, August 2nd at <span style="font-weight: bold;">8pm</span><br/> 
+							<a href="/meetings/events"><span style="font-size: 1.7rem; font-weight: bold;">
+								Marti and Cecil R.
+							</span></a>
+							<br/>
+							<span style="font-size: 1.2rem; font-weight: bold;">
+								The Great Fact in Buda
+							</span>
+							<div class="" style="margin-top: 5px; color: #bd0303; font-size: 1.7rem;">
+								August 2nd!
+							</div>
 							<!-- <span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available</span><br> -->
 							</p>
 						</div>
