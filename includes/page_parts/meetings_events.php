@@ -67,13 +67,16 @@
 								<p><span class="events_page_dates alt_date">June 18th</span> <br> <span class="events_page_speakers">Jude S</span><br/><em>Women's Daily Reflections</em></p>
 								<p><span class="events_page_dates alt_date">June 25th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
 
-								<p><span class="events_page_dates alt_date">July 2nd</span> <br> <span class="events_page_speakers">Ken B</span><br/><em>Bouldin</em></p>
+								<!-- <p><span class="events_page_dates alt_date">July 2nd</span> <br> <span class="events_page_speakers">Ken B</span><br/><em>Bouldin</em></p>
 								<p><span class="events_page_dates alt_date">July 9th</span> <br> <span class="events_page_speakers">Sarah C</span><br/><em>Friday Night Lights</em></p>
 								<p><span class="events_page_dates alt_date">July 16th</span> <br> <span class="events_page_speakers">Sidney W</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">July 23rd</span> <br> <span class="events_page_speakers">Sal</span><br/><em></em></p>
-								<p><span class="events_page_dates alt_date">July 30th</span> <br> <span class="events_page_speakers">Kiersten I</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">July 30th</span> <br> <span class="events_page_speakers">Kiersten I</span><br/><em></em></p> -->
 
-								<p><span class="events_page_dates">August 6th</span> <br> <span class="events_page_speakers">Rachael T</span><br/><em></em></p>
+								<p><span class="events_page_dates">August 6th</span> <br> <span class="events_page_speakers">Rachael T</span><br/><em>Straight Pepper Diet<br/>Georgetown YPAA</em></p>
+								<p><span class="events_page_dates">August 13th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+								<p><span class="events_page_dates">August 20th</span> <br> <span class="events_page_speakers">Patrick S</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">August 27th</span> <br> <span class="events_page_speakers">Jessica H</span><br/><em>Northland</em></p>
 
 								<!-- <p class="events_page_day">Fridays: 10+ years</p> -->
 								<!-- <p><span class="events_page_dates">October 6th</span> <br> <span class="events_page_speakers">Colonel Dan</span> </br><em>Riverbend</em></p> -->
@@ -128,10 +131,13 @@
 								<p><span class="events_page_dates alt_date">June 13th</span> <br> <span class="events_page_speakers">Judy W</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">June 20th</span> <br> <span class="events_page_speakers">Shelley T</span><br/><em>Downtown Suburban Group <br/>(Tyler, TX)</em></p> -->
 
-								<p><span class="events_page_dates alt_date">July 4th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+								<!-- <p><span class="events_page_dates alt_date">July 4th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">July 11th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
-								<p><span class="events_page_dates alt_date">July 18th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
-
+								<p><span class="events_page_dates alt_date">July 18th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
+								<p><span class="events_page_dates alt_date">August 1st</span> <br> <span class="events_page_speakers">Don M</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 8th</span> <br> <span class="events_page_speakers">Chris N</span><br/><em>DFW via Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 15th</span> <br> <span class="events_page_speakers">David Mc</span><br/><em>Mesa</em></p>
+								<p><span class="events_page_dates alt_date">August 22nd</span> <br> <span class="events_page_speakers">Kristin B</span><br/><em>Northland</em></p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 							</div>
