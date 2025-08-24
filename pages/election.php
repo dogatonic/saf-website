@@ -2,6 +2,7 @@
 $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
 $now = date_create()->format('Y-m-d H:i:s');
 $isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
+$isOpen = true;
 $bOnDev = true;
 ?>
 <body>
@@ -20,7 +21,7 @@ $bOnDev = true;
 		<div class="fixed-background fixed-background-nothome">
 			<div class="row text-light bannerOpaqueLayerCyan" style="height: 6rem; padding-top: 20px;">
 				<div class="col-12 text-center ">
-					<h1 class="clubhouseHeading">SAF 2024 Election to Board of Trustees</h1>
+					<h1 class="clubhouseHeading">SAF 2025 Election to Board of Trustees</h1>
 				</div>
 			</div>
 			<div class="fixed-wrap">
@@ -48,19 +49,19 @@ $bOnDev = true;
 		<?php } elseif($sBpex == "closed" || $sBpex == "/"){
 			?>
 			<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Current SAF members may cast ballots in person or online*</div>
-			<div class="container my-4  text-center  messages" style="font-size:1.7rem; color: blue;">Voting period is September 4 - 11, 2024</div>
+			<div class="container my-4  text-center  messages" style="font-size:1.7rem; color: blue;">Voting period is September 3 - 10, 2025</div>
 		<!-- <div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div> -->
 		<div class="container my-4  text-center " style="font-size: large; color: black;">
 		SAF members will elect seven new trustees this month to serve on the SAF Board of Trustees. Trustees serve a 3-year term. The list of candidates was posted at the clubhouse in August in accordance with the SAF bylaws.
 <br/><br/>
   Members needing to pay "back dues" (up to three months per the SAF bylaws) to become eligible to vote can pay at the office. Voting begins 
-at the SAF office during normal office hours on Wednesday, Sept. 4th, and continues though the 11th. 
+at the SAF office during normal office hours on Wednesday Sept. 3rd, and continues though the 10th. 
 <p style="font-style: italic; margin-top: 6px; color: blue;">* For online voting, all up-to-date SAF members will be sent a voting link in a separate email.</p>
 		</div>
 
 		<!-- BEGIN: Div for Online meeting schedule -->
 		<div id='' class="container" style='text-align: center;'>
-			<img src="/img/election_poster_2024.png" class="" alt="SAF Election" style="margin: 0px auto; border: 1px solid grey;">
+			<img src="/img/2025/2025_saf_election_poster_web.png" class="" alt="SAF Election" style="margin: 0px auto; border: 1px solid grey;">
 		</div>
 			<?php
 		} elseif($sBpex == "/results" && $bOnDev) {
