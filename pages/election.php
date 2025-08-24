@@ -1,7 +1,7 @@
 <?php
 $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
 $now = date_create()->format('Y-m-d H:i:s');
-$isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
+$isOpen = ($now < '2025-09-10 20:00:00') ? true  : false;
 $isOpen = true;
 $bOnDev = true;
 ?>
@@ -19,7 +19,7 @@ $bOnDev = true;
 
 		<!-- Start Fixed Background IMG -->
 		<div class="fixed-background fixed-background-nothome">
-			<div class="row text-light bannerOpaqueLayerCyan" style="height: 6rem; padding-top: 20px;">
+			<div class="row text-light bannerOpaqueLayerOrange" style="height: 6rem; padding-top: 20px;">
 				<div class="col-12 text-center ">
 					<h1 class="clubhouseHeading">SAF 2025 Election to Board of Trustees</h1>
 				</div>
@@ -52,7 +52,9 @@ $bOnDev = true;
 			<div class="container my-4  text-center  messages" style="font-size:1.7rem; color: blue;">Voting period is September 3 - 10, 2025</div>
 		<!-- <div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div> -->
 		<div class="container my-4  text-center " style="font-size: large; color: black;">
-		SAF members will elect seven new trustees this month to serve on the SAF Board of Trustees. Trustees serve a 3-year term. The list of candidates was posted at the clubhouse in August in accordance with the SAF bylaws.
+		Members of the <strong>Suburban Alcoholic Foundation</strong> will elect seven new trustees this month to serve on the SAF Board of Trustees. 
+		 The list of candidates was posted at the clubhouse in August in accordance with the SAF bylaws.<br/>
+		 Trustees serve a 3-year term on the Board.
 <br/><br/>
   Members needing to pay "back dues" (up to three months per the SAF bylaws) to become eligible to vote can pay at the office. Voting begins 
 at the SAF office during normal office hours on Wednesday Sept. 3rd, and continues though the 10th. 

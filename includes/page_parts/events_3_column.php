@@ -55,14 +55,18 @@
 							<!-- <img src="/img/2025newyear.png" alt="Happy New Year" style='width: 50%; height: auto;'> -->
 							<!-- <img src="/img/2025newyear.png" alt="Happy New Year" style=''> -->
 
-					
-							<strong>Family Night</strong><br/>
+							<div>
+							<strong>SAF Board Election</strong><br/>
+							<span style="white-space: nowrap; color: #ff4800ff">Sept 3rd - 10th, 2025</span><br>
+							<span style="font-style: italic;">It's time again for Foundation Members to elect 7 new Members to the SAF Board of Trustees.</span><br>
+							<a href='/election'>Click here for more details!</a></div>
+
+							<!-- <div><strong>Family Night</strong><br/>
 							<span style="white-space: nowrap;">1st Saturday each month</span><br>
 							<span style="white-space: nowrap; font-weight: bold;">8pm in the Big Room</span><br>
 							<span style="white-space: nowrap; color:red; font-weight: bold;">Childcare available</span><br>
 							<span style="font-style: italic;">Two speakers together: AA & Al-Anon speakers from various 
-								groups sharing how recovery supports their relationship.</span><br>
-							
+								groups sharing how recovery supports their relationship.</span><br></div> -->
 
 							<!-- <p><strong><span style="color:red; font-weight: bold;">New</span> Women's Meeting! </strong>
 							<br>Every Tuesday at <span style="font-weight: bold;">5:30pm</span><br/> <span style="font-style: italic;">in the Small Room</span>

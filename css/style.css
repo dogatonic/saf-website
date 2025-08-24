@@ -293,6 +293,10 @@ a.linkMainTitle {
 	background-color: rgba(16, 113, 126, 0.5);
 }
 
+.bannerOpaqueLayerOrange {
+	background-color: rgba(233, 156, 4, 0.5);
+}
+
 .clubmessage {
 	background-color: rgba(20, 50, 100, 0.5);
 	border-radius: 9px;
