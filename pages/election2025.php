@@ -5,7 +5,7 @@ $now = date_create()->format('Y-m-d H:i:s');
 $isOpen = ($now > '2025-09-03 08:00:01' && $now < '2025-09-10 20:00:00') ? true  : false;
 
 $myIP = $_SERVER['REMOTE_ADDR'];
-// if($myIP == '108.238.246.76') $isOpen = true; // tucker can always see it
+if($myIP == '108.238.246.76') $isOpen = true; // tucker can always see it
 ?>
 <body>
 	<div class="big-div">
