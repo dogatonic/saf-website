@@ -7,7 +7,7 @@ require_once("../includes/dbconn.php");
 require_once "Mail.php";
 
 date_default_timezone_set('America/Chicago');
-define("FILE_ELECTION_FORM", '../noncom/electionBallots.txt');
+define("FILE_ELECTION_FORM", '../noncom/ballotsElection.txt');
 define("FILE_ELECTION_LOG", '../noncom/electionLog.txt');
 define("FILE_HEYNOW_LOG", '../noncom/heynow_log');
 
@@ -145,7 +145,7 @@ if($bPassesEmailTest){
 
 	$replyTo = MAIL_FROM_ADDRESS;
 	$arrMailRecievers = array("dogatonic@gmail.com", "audit@safaustin.org");
-	$subject = 'SAF Ballot Cast 2024';
+	$subject = 'SAF Ballot Cast 2025';
 	// $addressedTo = "mail@matttucker.com"; // MAIL_TO_ADDRESS
 	$body = $flatFileData;
 	

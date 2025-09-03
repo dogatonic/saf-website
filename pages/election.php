@@ -74,7 +74,7 @@ at the SAF office during normal office hours on Wednesday Sept. 3rd, and continu
 
 			try {
 				// $sMysql = "SELECT * FROM webform_data WHERE status = '1' AND type = 'election2022_v1'";
-				$stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE status = '1' AND type = 'election2024_v1' ");
+				$stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE status = '1' AND type = 'election1812_v1' ");
 				if($stmt){
 					$stmt->execute();
 					$result = $stmt->get_result(); // get the mysqli result
@@ -127,7 +127,7 @@ at the SAF office during normal office hours on Wednesday Sept. 3rd, and continu
 			
 			try {
 				
-				$stmt = $mysqli->prepare("SELECT id, name, email, phone, status FROM webform_data WHERE type like '%election2024_v1%' ORDER BY name;");
+				$stmt = $mysqli->prepare("SELECT id, name, email, phone, status FROM webform_data WHERE type like '%election1812_v1%' ORDER BY name;");
 				if($stmt){
 					$stmt->execute();
 					$result = $stmt->get_result(); // get the mysqli result
@@ -155,8 +155,13 @@ at the SAF office during normal office hours on Wednesday Sept. 3rd, and continu
 					$arrName = explode(' ',$voterRow['name']);
 					// reverse the array of names
 					$reverseName = implode(", ", array_reverse($arrName));
-					$arrVoters[$reverseName] = $voterRow;
+					$voterRow['reverse_name'] = $reverseName;
+					// $arrVoters[$reverseName] = $voterRow;
+					$arrVoters[] = $voterRow;
 				}
+				// echo "<pre>";
+				// print_r($arrVoters);
+				// echo "</pre>";
 				ksort($arrVoters);
 				$n = 1;
 				foreach($arrVoters as $name => $row){
@@ -165,7 +170,7 @@ at the SAF office during normal office hours on Wednesday Sept. 3rd, and continu
 					?>
 					<div class="row" style="background-color: <? echo $rowColor; ?>;">
 						<div class="col-1 votes_box"><? echo $n; ?></div>
-						<div class="col-3 votes_box" style="font-size: med; color: #000;"><? echo $name; ?></div>
+						<div class="col-3 votes_box" style="font-size: med; color: #000;"><? echo $row['reverse_name']; ?></div>
 						<div class="col-4 votes_box ballot_email" style="font-size: med;"><? echo $row['email'] ; ?></div>
 						<div class="col-2 votes_box ballot_phone" style="font-size: med;"><? echo $row['phone'] ; ?></div>
 						<div class="col-2 votes_box ballot_phone" style="font-size: med;">

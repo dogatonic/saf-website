@@ -28,5 +28,5 @@ function findLastFriday() {
 }
 
 // Example usage:
-echo findLastFriday();
+// echo findLastFriday();
 ?>

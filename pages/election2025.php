@@ -1,7 +1,11 @@
 <?php
-$arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
+// $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
+$arrCandidates = ["Leanne Pugh", "Zachary Lynde", "Don Mabry", "Julie Johnson", "Brad Brown", "Jennifer Ivory", "Belinda Boone", "Kelvin Ponton", "Mike Aycock", "Thomas Horne", "Michael Gailinas", "Mitra Foil", "Sandy Ansari", "Eileen Wright"];
 $now = date_create()->format('Y-m-d H:i:s');
-$isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
+$isOpen = ($now > '2025-09-03 08:00:01' && $now < '2025-09-10 20:00:00') ? true  : false;
+
+$myIP = $_SERVER['REMOTE_ADDR'];
+if($myIP == '108.238.246.76') $isOpen = true; // tucker can always see it
 ?>
 <body>
 	<div class="big-div">
@@ -17,9 +21,9 @@ $isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
 
 		<!-- Start Fixed Background IMG -->
 		<div class="fixed-background fixed-background-nothome">
-			<div class="row text-light bannerOpaqueLayerRed" style="height: 6rem; padding-top: 20px;">
+			<div class="row text-light bannerOpaqueLayerOrange" style="height: 6rem; padding-top: 20px;">
 				<div class="col-12 text-center ">
-					<h1 class="clubhouseHeading">SAF 2024 Election to Board of Trustees</h1>
+					<h1 class="clubhouseHeading">SAF 2025 Election Online Voting</h1>
 				</div>
 			</div>
 			<div class="fixed-wrap">
@@ -33,16 +37,20 @@ $isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"></p>
 		</div> -->
-		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div>
+		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 3 - 10, 2025</div>
 		<?php 
-		if($bDebug) echo "<div>$now</div>";
+		if( ($bDebug && false)) {
+			echo "<div>$now</div>";
+			echo "<div>$myIP</div>";
+		}
 		// if($sBpex == "" || $sBpex == "/"){
 		if(!$isOpen){
 			
 			?> 
 		
+
 		<div class="container my-4  text-center " style="font-size: 3rem; color: #720608;">
-		Voting polls have now closed.
+		Voting polls are closed.
 		</div>	
 		<!-- <div style="text-align: center;" class="candidate_lineup"><img src="/img/2024candidateLineup.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div> -->
 		<?php } else {
@@ -60,7 +68,8 @@ $isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
 		<form id="election-form" method="post" action="/" style="display: block;">
 			
 			<div style="font-size: large; color: blue;">Please start by entering in your contact information:</div>
-			<input id="form_type" type="hidden" name="type" class="form-control" value="election2024_v1">
+			<!-- <input id="form_type" type="hidden" name="type" class="form-control" value="election2025_v1"> -->
+			<input id="form_type" type="hidden" name="type" class="form-control" value="election1812_v1">
 			<div class="form-group" style="width:350px; ">
 				<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required>
 				<div class="help-block with-errors"></div>
@@ -98,7 +107,7 @@ $isOpen = ($now < '2024-09-11 20:00:00') ? true  : false;
 			<div style="width:200px; margin: auto; padding-top: 20px;">
 				<input id="submitVote" type="submit" class="btn btn-danger btn-md" value="Submit your Vote">
 			</div>
-			<div style="text-align: center;" class="candidate_lineup"><img src="/img/2024candidateLineup.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div>
+			<div style="text-align: center;" class="candidate_lineup"><img src="/img/2025/2025_nominees.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div>
 			</form>
 			<!-- <div style="width:200px; margin: auto; padding-top: 0px;">
 				<button id="submitVote" class="btn btn-danger btn-md" style="">Submit your Vote</button>
