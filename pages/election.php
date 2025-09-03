@@ -74,7 +74,7 @@ at the SAF office during normal office hours on Wednesday Sept. 3rd, and continu
 
 			try {
 				// $sMysql = "SELECT * FROM webform_data WHERE status = '1' AND type = 'election2022_v1'";
-				$stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE status = '1' AND type = 'election1812_v1' ");
+				$stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE status = '1' AND type = 'election2025_v1' ");
 				if($stmt){
 					$stmt->execute();
 					$result = $stmt->get_result(); // get the mysqli result
@@ -127,7 +127,7 @@ at the SAF office during normal office hours on Wednesday Sept. 3rd, and continu
 			
 			try {
 				
-				$stmt = $mysqli->prepare("SELECT id, name, email, phone, status FROM webform_data WHERE type like '%election1812_v1%' ORDER BY name;");
+				$stmt = $mysqli->prepare("SELECT id, name, email, phone, status FROM webform_data WHERE type like '%election2025_v1%' ORDER BY name;");
 				if($stmt){
 					$stmt->execute();
 					$result = $stmt->get_result(); // get the mysqli result

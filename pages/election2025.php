@@ -69,7 +69,7 @@ if($myIP == '108.238.246.76') $isOpen = true; // tucker can always see it
 			
 			<div style="font-size: large; color: blue;">Please start by entering in your contact information:</div>
 			<!-- <input id="form_type" type="hidden" name="type" class="form-control" value="election2025_v1"> -->
-			<input id="form_type" type="hidden" name="type" class="form-control" value="election1812_v1">
+			<input id="form_type" type="hidden" name="type" class="form-control" value="election2025_v1">
 			<div class="form-group" style="width:350px; ">
 				<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required>
 				<div class="help-block with-errors"></div>
