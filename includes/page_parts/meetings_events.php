@@ -73,18 +73,16 @@
 								<p><span class="events_page_dates alt_date">July 23rd</span> <br> <span class="events_page_speakers">Sal</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">July 30th</span> <br> <span class="events_page_speakers">Kiersten I</span><br/><em></em></p> -->
 
-								<p><span class="events_page_dates">August 6th</span> <br> <span class="events_page_speakers">Rachael T</span><br/><em>Straight Pepper Diet<br/>Georgetown YPAA</em></p>
+								<!-- <p><span class="events_page_dates">August 6th</span> <br> <span class="events_page_speakers">Rachael T</span><br/><em>Straight Pepper Diet<br/>Georgetown YPAA</em></p>
 								<p><span class="events_page_dates">August 13th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 								<p><span class="events_page_dates">August 20th</span> <br> <span class="events_page_speakers">Patrick S</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates">August 27th</span> <br> <span class="events_page_speakers">Jessica H</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">August 27th</span> <br> <span class="events_page_speakers">Jessica H</span><br/><em>Northland</em></p> -->
 
-								<!-- <p class="events_page_day">Fridays: 10+ years</p> -->
-								<!-- <p><span class="events_page_dates">October 6th</span> <br> <span class="events_page_speakers">Colonel Dan</span> </br><em>Riverbend</em></p> -->
-								<!-- <p><span class="events_page_dates">October 13th</span> <br> <span class="events_page_speakers">Sherry B.</span> </br><em>Northland Group</em></p> -->
-								<!-- <p><span class="events_page_dates">October 20th</span> <br> <span class="events_page_speakers">tba</span> </br><em></em></p> -->
-								<!-- <p><span class="events_page_dates">May 5th</span> <br> <span class="events_page_speakers">Dana B.</span> (32 years)</br><em>Northland Group Saturday Morning</em></p>
-								<p><span class="events_page_dates">May 12th</span> <br> <span class="events_page_speakers">Sam W.</span> (12 years)</br><em>Northland Group </em></p>
-								<p><span class="events_page_dates">May 19th</span> <br> <span class="events_page_speakers">Mark L.</span> (28 years)</br><em>Northland Group</em></p> -->
+								<p><span class="events_page_dates">September 3rd</span> <br> <span class="events_page_speakers">Laura N.</span><br/><em>Women in Recovery</em></p>
+								<p><span class="events_page_dates">September 10th</span> <br> <span class="events_page_speakers">Ross V.</span><br/><em>Friday Night Lights</em></p>
+								<p><span class="events_page_dates">September 17th</span> <br> <span class="events_page_speakers">Samone C.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">September 24th</span> <br> <span class="events_page_speakers">Rheanna F.</span><br/><em>Straight Pepper Diet</em></p>
+
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Wednesday night features speakers with less than 10 years of sobriety.</p>
 								
@@ -134,10 +132,16 @@
 								<!-- <p><span class="events_page_dates alt_date">July 4th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">July 11th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">July 18th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
-								<p><span class="events_page_dates alt_date">August 1st</span> <br> <span class="events_page_speakers">Don M</span><br/><em>Northland</em></p>
+
+								<!-- <p><span class="events_page_dates alt_date">August 1st</span> <br> <span class="events_page_speakers">Don M</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">August 8th</span> <br> <span class="events_page_speakers">Chris N</span><br/><em>DFW via Northland</em></p>
 								<p><span class="events_page_dates alt_date">August 15th</span> <br> <span class="events_page_speakers">David Mc</span><br/><em>Mesa</em></p>
-								<p><span class="events_page_dates alt_date">August 22nd</span> <br> <span class="events_page_speakers">Kristin B</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">August 22nd</span> <br> <span class="events_page_speakers">Kristin B</span><br/><em>Northland</em></p> -->
+
+								<p><span class="events_page_dates alt_date">September 5th</span> <br> <span class="events_page_speakers">Jack D</span><br/><em>Maryland</em></p>
+								<p><span class="events_page_dates alt_date">September 12th</span> <br> <span class="events_page_speakers">Antonio L</span><br/><em>Boston</em></p>
+								<p><span class="events_page_dates alt_date">September 19th</span> <br> <span class="events_page_speakers">Austin R</span><br/><em>Northland</em></p>
+
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 							</div>
