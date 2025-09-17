@@ -80,7 +80,7 @@
 
 								<p><span class="events_page_dates">September 3rd</span> <br> <span class="events_page_speakers">Laura N.</span><br/><em>Women in Recovery</em></p>
 								<p><span class="events_page_dates">September 10th</span> <br> <span class="events_page_speakers">Ross V.</span><br/><em>Friday Night Lights</em></p>
-								<p><span class="events_page_dates">September 17th</span> <br> <span class="events_page_speakers">Samone C.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">September 17th</span> <br> <span class="events_page_speakers">Ariel</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">September 24th</span> <br> <span class="events_page_speakers">Rheanna F.</span><br/><em>Straight Pepper Diet</em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
