@@ -160,9 +160,14 @@
 
 
 
-							<p><span class="events_page_dates alt_date">September 6th</span> <br>
+							<!-- <p><span class="events_page_dates alt_date">September 6th</span> <br>
 								<span class="events_page_speakers">Natalie and Jordan N.</span><br/><em></em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">Natalie and Jordan, married 8 months, and sober 5 yrs and 4 years, respectively, are very active in their recoveries!</span>
+							</p> -->
+
+							<p><span class="events_page_dates alt_date">October 4th</span> <br>
+								<span class="events_page_speakers">Sam C. and Alex P.</span><br/><em></em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">An AA couple - Sam and Alex’s home group is The Great Fact Group in Buda. Sam’s sobriety date is 4/8/16. <br/>Alex’s is 4/8/16.</span>
 							</p>
 
 							<!-- <p><span class="events_page_dates alt_date">August 2nd</span> <br> 
