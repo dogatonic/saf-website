@@ -17,7 +17,7 @@ $arrMeetingsData[] = [
 	'order'=>10,
 	'time'=>"9:30 am",
 	'title'=>"Beginner's Meeting",
-	'type'=>"O",
+	'type'=>"C",
 	'desc'=>"This meeting is for people with LESS THAN one year of sobriety only. This meeting is open discussion.",
 	'room'=>"Small room"
 ];
@@ -47,7 +47,7 @@ $arrMeetingsData[] = [
 	'order'=>40,
 	'time'=>"5:00 pm",
 	'title'=>"Beginner’s Meeting",
-	'type'=>"O",
+	'type'=>"C",
 	'desc'=>"This meeting is for people with LESS THAN one year of sobriety only. This meeting is open discussion.",
 	'room'=>"Small room"
 ];
@@ -291,7 +291,7 @@ $arrMeetingsData[] = [
 	'order'=>35,
 	'time'=>"5:30 pm",
 	'title'=>"Beginner's Meeting",
-	'type'=>"O",
+	'type'=>"C",
 	'desc'=>"This meeting is for people with LESS THAN one year of sobriety only. This meeting is open discussion.",
 	'room'=>"Small room"
 ];
