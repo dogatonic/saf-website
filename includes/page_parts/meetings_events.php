@@ -167,7 +167,7 @@
 
 							<p><span class="events_page_dates alt_date">October 4th</span> <br>
 								<span class="events_page_speakers">Sam C. and Alex P.</span><br/><em></em><br>
-								<span style="padding: 4px; color: hwb(243 1% 28%);">An AA couple - Sam and Alex’s home group is The Great Fact Group in Buda. Sam’s sobriety date is 4/8/16. <br/>Alex’s is 4/8/16.</span>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">An AA couple - Sam and Alex’s home group is The Great Fact Group in Buda. Sam’s sobriety date is 9/1/21. <br/>Alex’s is 4/8/16.</span>
 							</p>
 
 							<!-- <p><span class="events_page_dates alt_date">August 2nd</span> <br> 
