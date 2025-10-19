@@ -78,10 +78,19 @@
 								<p><span class="events_page_dates">August 20th</span> <br> <span class="events_page_speakers">Patrick S</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">August 27th</span> <br> <span class="events_page_speakers">Jessica H</span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates">September 3rd</span> <br> <span class="events_page_speakers">Laura N.</span><br/><em>Women in Recovery</em></p>
+								<!-- <p><span class="events_page_dates">September 3rd</span> <br> <span class="events_page_speakers">Laura N.</span><br/><em>Women in Recovery</em></p>
 								<p><span class="events_page_dates">September 10th</span> <br> <span class="events_page_speakers">Ross V.</span><br/><em>Friday Night Lights</em></p>
 								<p><span class="events_page_dates">September 17th</span> <br> <span class="events_page_speakers">Ariel</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates">September 24th</span> <br> <span class="events_page_speakers">Rheanna F.</span><br/><em>Straight Pepper Diet</em></p>
+								<p><span class="events_page_dates">September 24th</span> <br> <span class="events_page_speakers">Rheanna F.</span><br/><em>Straight Pepper Diet</em></p> -->
+
+<p><span class="events_page_dates">October 1st</span> <br> <span class="events_page_speakers">Shannon G.</span><br/><em></em></p>
+<p><span class="events_page_dates">October 8th</span> <br> <span class="events_page_speakers">Nick R.</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates">October 15th</span> <br> <span class="events_page_speakers">Ellen O.</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates">October 22nd</span> <br> <span class="events_page_speakers">Lucinda C.</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates">October 29th</span> <br> <span class="events_page_speakers">Karyn M.</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates alt_date">November 5th</span> <br> <span class="events_page_speakers">Matt B.</span><br/><em></em></p>
+<p><span class="events_page_dates alt_date">November 12th</span> <br> <span class="events_page_speakers">Samone C.</span><br/><em>Northland</em></p>
+
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Wednesday night features speakers with less than 10 years of sobriety.</p>
@@ -93,7 +102,9 @@
 						<div class="col-12 col-md-4 mb-4">
 							<div class="basic_3_col pt-2" style="padding: 4px; margin-bottom: 6px;">
 							<h4 class="text-dark text-uppercase">Speaker Night</h4>
-								<h5 style="color: blue;">Fridays at 8pm</h5>
+								<!-- <h5 style="color: blue;">Fridays at 8pm</h5> -->
+								<h5 style="color: blue;">Every Friday at 8pm</h5>
+								<p class=""><em>(except birthday night)</em></p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p class="speaker_continuous">Speakers have 10+ years</p>
 								<!-- <p><span class="events_page_dates">February 9th</span> <br> <span class="events_page_speakers">Troy N. </span> - <em>Northland, 25 years</em></p>
@@ -138,16 +149,16 @@
 								<p><span class="events_page_dates alt_date">August 15th</span> <br> <span class="events_page_speakers">David Mc</span><br/><em>Mesa</em></p>
 								<p><span class="events_page_dates alt_date">August 22nd</span> <br> <span class="events_page_speakers">Kristin B</span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">September 5th</span> <br> <span class="events_page_speakers">Jack D</span><br/><em>Maryland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">September 5th</span> <br> <span class="events_page_speakers">Jack D</span><br/><em>Maryland</em></p>
 								<p><span class="events_page_dates alt_date">September 12th</span> <br> <span class="events_page_speakers">Antonio L</span><br/><em>Boston</em></p>
-								<p><span class="events_page_dates alt_date">September 19th</span> <br> <span class="events_page_speakers">Austin R</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">September 19th</span> <br> <span class="events_page_speakers">Austin R</span><br/><em>Northland</em></p> -->
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 							</div>
 
 							<?php 
-							// require_once(__ROOT__ . "/includes/page_parts/birthday_night_box.php"); 
+							require_once(__ROOT__ . "/includes/page_parts/birthday_night_box.php"); 
 							?>
 						</div>
 
@@ -159,16 +170,20 @@
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 
 
-
+							<p><span class="events_page_dates alt_date">November 1st</span> <br>
+								<span class="events_page_speakers">Hannah M. & Jeff E.</span><br/><em></em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">An AA couple from the Northland Group will be sharing how they have grown their relationship in recovery.</span>
+							</p>
 							<!-- <p><span class="events_page_dates alt_date">September 6th</span> <br>
 								<span class="events_page_speakers">Natalie and Jordan N.</span><br/><em></em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">Natalie and Jordan, married 8 months, and sober 5 yrs and 4 years, respectively, are very active in their recoveries!</span>
 							</p> -->
 
-							<p><span class="events_page_dates alt_date">October 4th</span> <br>
+							<!-- <p><span class="events_page_dates alt_date">October 4th</span> <br>
 								<span class="events_page_speakers">Sam C. and Alex P.</span><br/><em></em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">An AA couple - Sam and Alex’s home group is The Great Fact Group in Buda. Sam’s sobriety date is 9/1/21. <br/>Alex’s is 4/8/16.</span>
-							</p>
+							</p> -->
+
 
 							<!-- <p><span class="events_page_dates alt_date">August 2nd</span> <br> 
 								<span class="events_page_speakers">Marty and Cecil R.</span><br/><em>The Great Fact in Buda</em><br>
