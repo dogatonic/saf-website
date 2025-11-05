@@ -154,7 +154,7 @@
 								<!-- <p><span class="events_page_dates alt_date">September 5th</span> <br> <span class="events_page_speakers">Jack D</span><br/><em>Maryland</em></p>
 								<p><span class="events_page_dates alt_date">September 12th</span> <br> <span class="events_page_speakers">Antonio L</span><br/><em>Boston</em></p>
 								<p><span class="events_page_dates alt_date">September 19th</span> <br> <span class="events_page_speakers">Austin R</span><br/><em>Northland</em></p> -->
-								<p><span class="events_page_dates">November 7th</span> <br> <span class="events_page_speakers">Maggie B</span><br/><em>Being Convinced</em></p>
+							<p><span class="events_page_dates">November 7th</span> <br> <span class="events_page_speakers">Maggie B</span><br/><em>Being Convinced</em></p>
 								<p><span class="events_page_dates">November 14th</span> <br> <span class="events_page_speakers">Carol M</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">November 21st</span> <br> <span class="events_page_speakers">Julie</span><br/><em></em></p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
@@ -175,10 +175,19 @@
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 
 
-							<p><span class="events_page_dates alt_date">November 1st</span> <br>
+							<!-- <p><span class="events_page_dates alt_date">November 1st</span> <br>
 								<span class="events_page_speakers">Hannah M. & Jeff E.</span><br/><em></em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">An AA couple from the Northland Group will be sharing how they have grown their relationship in recovery.</span>
+							</p> -->
+
+							<p><span class="events_page_dates alt_date">December 6th</span> <br>
+								<span class="events_page_speakers">Courtney and Joe S.</span><br/><em></em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">Both AA's, together since 2015 - now married. 
+	Joe's sobriety date is 10/07/02 and home group is Lakeway Men's. 
+	Courtney's sobriety date 4/21/13 and home group is The Main Object. </span>
 							</p>
+
+
 							<!-- <p><span class="events_page_dates alt_date">September 6th</span> <br>
 								<span class="events_page_speakers">Natalie and Jordan N.</span><br/><em></em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">Natalie and Jordan, married 8 months, and sober 5 yrs and 4 years, respectively, are very active in their recoveries!</span>
