@@ -83,13 +83,15 @@
 								<p><span class="events_page_dates">September 17th</span> <br> <span class="events_page_speakers">Ariel</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">September 24th</span> <br> <span class="events_page_speakers">Rheanna F.</span><br/><em>Straight Pepper Diet</em></p> -->
 
-<p><span class="events_page_dates">October 1st</span> <br> <span class="events_page_speakers">Shannon G.</span><br/><em></em></p>
+<!-- <p><span class="events_page_dates">October 1st</span> <br> <span class="events_page_speakers">Shannon G.</span><br/><em></em></p>
 <p><span class="events_page_dates">October 8th</span> <br> <span class="events_page_speakers">Nick R.</span><br/><em>Northland</em></p>
 <p><span class="events_page_dates">October 15th</span> <br> <span class="events_page_speakers">Ellen O.</span><br/><em>Northland</em></p>
 <p><span class="events_page_dates">October 22nd</span> <br> <span class="events_page_speakers">Lucinda C.</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">October 29th</span> <br> <span class="events_page_speakers">Karyn M.</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates">October 29th</span> <br> <span class="events_page_speakers">Karyn M.</span><br/><em>Northland</em></p> -->
 <p><span class="events_page_dates alt_date">November 5th</span> <br> <span class="events_page_speakers">Matt B.</span><br/><em></em></p>
 <p><span class="events_page_dates alt_date">November 12th</span> <br> <span class="events_page_speakers">Samone C.</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates alt_date">November 19th</span> <br> <span class="events_page_speakers">Ralph</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates alt_date">November 26th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
@@ -152,9 +154,12 @@
 								<!-- <p><span class="events_page_dates alt_date">September 5th</span> <br> <span class="events_page_speakers">Jack D</span><br/><em>Maryland</em></p>
 								<p><span class="events_page_dates alt_date">September 12th</span> <br> <span class="events_page_speakers">Antonio L</span><br/><em>Boston</em></p>
 								<p><span class="events_page_dates alt_date">September 19th</span> <br> <span class="events_page_speakers">Austin R</span><br/><em>Northland</em></p> -->
-
+								<p><span class="events_page_dates">November 7th</span> <br> <span class="events_page_speakers">Maggie B</span><br/><em>Being Convinced</em></p>
+								<p><span class="events_page_dates">November 14th</span> <br> <span class="events_page_speakers">Carol M</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">November 21st</span> <br> <span class="events_page_speakers">Julie</span><br/><em></em></p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
+								
 							</div>
 
 							<?php 
