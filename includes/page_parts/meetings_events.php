@@ -196,12 +196,23 @@
 								<span style="padding: 4px; color: hwb(243 1% 28%);">An AA couple from the Northland Group will be sharing how they have grown their relationship in recovery.</span>
 							</p> -->
 
-							<p><span class="events_page_dates alt_date">December 6th</span> <br>
+							<!-- <p><span class="events_page_dates alt_date">December 6th</span> <br>
 								<span class="events_page_speakers">Courtney and Joe S.</span><br/><em></em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">Both AA's, together since 2015 - now married. 
 	Joe's sobriety date is 10/07/02 and home group is Lakeway Men's. 
 	Courtney's sobriety date 4/21/13 and home group is The Main Object. </span>
-							</p>
+							</p> -->
+
+							<p><span class="events_page_dates alt_date">January 3rd</span> <br>
+								<span class="events_page_speakers">Louise and Joe McD.</span><br/><em></em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">An Alanon couple who
+are active in Hilltoppers,
+their home group. In
+Alanon for years, they
+have much to say about
+their recovery!
+								</span>
+							</p>	
 
 
 							<!-- <p><span class="events_page_dates alt_date">September 6th</span> <br>
