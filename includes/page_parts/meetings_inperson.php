@@ -2,10 +2,10 @@
 <div id='divMeetingsIP' class="container my-1" style='border:0px solid #00f;'>
 	<div class="col-12 text-center bodydiv">
 		<h1 class="text-dark pt-4">In Person AA Meetings</h1>
-		<p><strong><span style="color:red; font-weight: bold;">New Women's Meeting:</span> </strong> Every Tuesday at <span style="font-weight: bold;">5:30pm</span>
+		<!-- <p><strong><span style="color:red; font-weight: bold;">New Women's Meeting:</span> </strong> Every Tuesday at <span style="font-weight: bold;">5:30pm</span>
 		<span style="font-style: italic;">in the Small Room.</span>
 		<span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available.</span>
-		</p>
+		</p> -->
 		<div class="border-top border-primary w-25 mx-auto my-3"></div>
 		<p class="lead_x">
 		<span style="font-weight: 600; font-size: 1.2em;">Speaker Meetings:</span> <a href="/meetings/events" class="red_link">Click here for details...</a><br/>
@@ -22,7 +22,10 @@ $sOnlineMessage = 'Visit the <a href="http://www.northlandgroup.org/" target="_b
 // this section will show a list of the In-Person Meetings. The data is in a separate file called "/page_elements/meetings_info.php"
 $arrDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 foreach($arrDays as $sEachDay){
-	$sShowStartingCard = ($sEachDay == 'Sunday') ? 'show' : '';// this class will allow Sunday to be visible on pageload
+	// Jan 2026 - scrap showing Sunday by default, let's change to showing the current day by default
+	// $sShowStartingCard = ($sEachDay == 'Sunday') ? 'show' : '';// this class will allow Sunday to be visible on pageload
+	$sShowStartingCard = ($sEachDay == date('l')) ? 'show' : '';// this class will allow "the current day" to be visible on pageload
+	
 	echo '<div class="card">';
 	echo '<div class="card-header card-header-meetings" id="heading' . $sEachDay . '" data-toggle="collapse" data-target="#collapse' . $sEachDay . '">';
 		echo '<h2 class="mb-0">' . $sEachDay . '</h2>';

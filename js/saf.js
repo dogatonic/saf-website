@@ -8,7 +8,7 @@
 let bShowingAllMeetingGroups = false
 
 $(document).ready(function () {
-	// console.log("ready2! >>>>>>>>>>>>>>>>>>>>>>>>>>!");
+	console.log("ready3! >>>>>>>>>>>>>>>>>>>>>>>>>>!");
 	const urlParams = new URLSearchParams(window.location.search);
 	//const myParam = urlParams.get('myParam');
 	// console.log(divIdClickQuery);
