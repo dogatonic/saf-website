@@ -214,17 +214,17 @@
 	Courtney's sobriety date 4/21/13 and home group is The Main Object. </span>
 							</p> -->
 
-							<p><span class="events_page_dates alt_date">January 3rd</span> <br>
+							<!-- <p><span class="events_page_dates alt_date">January 3rd</span> <br>
 								<span class="events_page_speakers">Louise and Joe McD.</span><br/><em></em><br>
-								<span style="padding: 4px; color: hwb(243 1% 28%);">An Alanon couple who
-are active in Hilltoppers,
-their home group. In
-Alanon for years, they
-have much to say about
-their recovery!
+								<span style="padding: 4px; color: hwb(243 1% 28%);">An Alanon couple who are active in Hilltoppers, their home group. In Alanon for years, they have much to say about their recovery!</span>
+							</p> -->
+							
+							<p><span class="events_page_dates alt_date">February 7th</span> <br>
+								<span class="events_page_speakers">Sherry B. & David B.</span><br/><em></em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">This absolutely fascinating AA couple from Northland have been active members of this group! 
+									Come hear them sharing about how recovery supports their relationship.
 								</span>
-							</p>	
-
+							</p>
 
 							<!-- <p><span class="events_page_dates alt_date">September 6th</span> <br>
 								<span class="events_page_speakers">Natalie and Jordan N.</span><br/><em></em><br>
