@@ -100,11 +100,15 @@
 <p><span class="events_page_dates alt_date">December 24th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 <p><span class="events_page_dates alt_date">December 31st</span> <br> <span class="events_page_speakers">Howard J.</span><br/><em>Northland</em></p> -->
 
-<p><span class="events_page_dates">January 7th</span> <br> <span class="events_page_speakers">Charlie K</span><br/><em>Northland</em></p>
+<!-- <p><span class="events_page_dates">January 7th</span> <br> <span class="events_page_speakers">Charlie K</span><br/><em>Northland</em></p>
 <p><span class="events_page_dates">January 14th</span> <br> <span class="events_page_speakers">Annie G</span><br/><em>Northland</em></p>
 <p><span class="events_page_dates">January 21st</span> <br> <span class="events_page_speakers">Leigh V</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">January 28th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+<p><span class="events_page_dates">January 28th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
 
+<p><span class="events_page_dates">February 4th</span> <br> <span class="events_page_speakers">Eva G</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates">February 11th</span> <br> <span class="events_page_speakers">Josh B</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates">February 18th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+<p><span class="events_page_dates">February 25th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 
 
 
@@ -178,10 +182,14 @@
 								<p><span class="events_page_dates">December 12th</span> <br> <span class="events_page_speakers">Don M</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">December 19th</span> <br> <span class="events_page_speakers">April M</span><br/><em>Northland</em></p>	 -->
 
-<p><span class="events_page_dates alt_date">January 2nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
-<p><span class="events_page_dates alt_date">January 9th</span> <br> <span class="events_page_speakers">Michael T</span><br/><em></em></p>
-<p><span class="events_page_dates alt_date">January 16th</span> <br> <span class="events_page_speakers">Robert M</span><br/><em></em></p>
-<p><span class="events_page_dates alt_date">January 23rd</span> <br> <span class="events_page_speakers">Joel </span><br/><em></em></p>
+								<!-- <p><span class="events_page_dates alt_date">January 2nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">January 9th</span> <br> <span class="events_page_speakers">Michael T</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">January 16th</span> <br> <span class="events_page_speakers">Robert M</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">January 23rd</span> <br> <span class="events_page_speakers">Joel </span><br/><em></em></p> -->
+
+<p><span class="events_page_dates alt_date">February 6th</span> <br> <span class="events_page_speakers">Barbara G</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates alt_date">February 13th</span> <br> <span class="events_page_speakers">Troy N</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates alt_date">February 20th</span> <br> <span class="events_page_speakers">Isabel</span><br/><em>Northland</em></p>
 
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
