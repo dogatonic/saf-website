@@ -417,7 +417,7 @@ $arrMeetingsData[] = [
 	'type'=>"C",
 	'desc'=>"This meeting is closed discussion.",
 	'room'=>"Big room",
-	'new'=>"New",
+	// 'new'=>"New",
 ];
 
 $arrMeetingsData[] = [

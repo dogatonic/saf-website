@@ -105,10 +105,15 @@
 <p><span class="events_page_dates">January 21st</span> <br> <span class="events_page_speakers">Leigh V</span><br/><em>Northland</em></p>
 <p><span class="events_page_dates">January 28th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
 
-<p><span class="events_page_dates">February 4th</span> <br> <span class="events_page_speakers">Eva G</span><br/><em>Northland</em></p>
+<!-- <p><span class="events_page_dates">February 4th</span> <br> <span class="events_page_speakers">Eva G</span><br/><em>Northland</em></p>
 <p><span class="events_page_dates">February 11th</span> <br> <span class="events_page_speakers">Josh B</span><br/><em>Northland</em></p>
 <p><span class="events_page_dates">February 18th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
-<p><span class="events_page_dates">February 25th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+<p><span class="events_page_dates">February 25th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
+
+<p><span class="events_page_dates">March 3rd</span> <br> <span class="events_page_speakers">Brenden S</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates">March 10th</span> <br> <span class="events_page_speakers">Dean M</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates">March 17th</span> <br> <span class="events_page_speakers">Jacob P</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates">March 24th</span> <br> <span class="events_page_speakers">Laura Q</span><br/><em>Northland</em></p>
 
 
 
@@ -187,9 +192,9 @@
 								<p><span class="events_page_dates alt_date">January 16th</span> <br> <span class="events_page_speakers">Robert M</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">January 23rd</span> <br> <span class="events_page_speakers">Joel </span><br/><em></em></p> -->
 
-<p><span class="events_page_dates alt_date">February 6th</span> <br> <span class="events_page_speakers">Barbara G</span><br/><em>Northland</em></p>
+<!-- <p><span class="events_page_dates alt_date">February 6th</span> <br> <span class="events_page_speakers">Barbara G</span><br/><em>Northland</em></p>
 <p><span class="events_page_dates alt_date">February 13th</span> <br> <span class="events_page_speakers">Troy N</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates alt_date">February 20th</span> <br> <span class="events_page_speakers">Isabel</span><br/><em>Northland</em></p>
+<p><span class="events_page_dates alt_date">February 20th</span> <br> <span class="events_page_speakers">Isabel</span><br/><em>Northland</em></p> -->
 
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
@@ -227,12 +232,18 @@
 								<span style="padding: 4px; color: hwb(243 1% 28%);">An Alanon couple who are active in Hilltoppers, their home group. In Alanon for years, they have much to say about their recovery!</span>
 							</p> -->
 							
-							<p><span class="events_page_dates alt_date">February 7th</span> <br>
+							<p><span class="events_page_dates alt_date">March 7th</span> <br>
+								<span class="events_page_speakers">Shana H. & Sam C.</span><br/><em></em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">
+									This AA couple from The Great Fact group have been active members. Both got sober after being in their relationship for awhile – looking forward to hear them share!
+								</span>
+							</p>
+							<!-- <p><span class="events_page_dates alt_date">February 7th</span> <br>
 								<span class="events_page_speakers">Sherry B. & David B.</span><br/><em></em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">This absolutely fascinating AA couple from Northland have been active members of this group! 
 									Come hear them sharing about how recovery supports their relationship.
 								</span>
-							</p>
+							</p> -->
 
 							<!-- <p><span class="events_page_dates alt_date">September 6th</span> <br>
 								<span class="events_page_speakers">Natalie and Jordan N.</span><br/><em></em><br>
