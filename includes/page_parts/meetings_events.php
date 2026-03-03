@@ -16,6 +16,16 @@
 				<!-- Three Column Section -->
 				<div class=" mt-4 mb-5 bodydiv"><!-- remove "container" -->
 					<div class="row">
+						<div class="col-12 mb-4">
+							<div class="basic_3_col pt-2">
+								<h4 class="text-dark text-uppercase">Northland Group Conscience</h4>
+								<p style="font-size: 1.5rem;">Sunday, March 15th @ 10:45am<br/>
+								<span style="font-size: 1.4rem;"><a href="https://www.northlandgroup.org/" ><span style="font-size: .80em;">Click here for details</span></a></span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
 						<div class="col-12 col-md-4 mb-4">
 							<div class="basic_3_col pt-2">
 								<h4 class="text-dark text-uppercase">Speaker Night</h4>
@@ -83,37 +93,37 @@
 								<p><span class="events_page_dates">September 17th</span> <br> <span class="events_page_speakers">Ariel</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">September 24th</span> <br> <span class="events_page_speakers">Rheanna F.</span><br/><em>Straight Pepper Diet</em></p> -->
 
-<!-- <p><span class="events_page_dates">October 1st</span> <br> <span class="events_page_speakers">Shannon G.</span><br/><em></em></p>
-<p><span class="events_page_dates">October 8th</span> <br> <span class="events_page_speakers">Nick R.</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">October 15th</span> <br> <span class="events_page_speakers">Ellen O.</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">October 22nd</span> <br> <span class="events_page_speakers">Lucinda C.</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">October 29th</span> <br> <span class="events_page_speakers">Karyn M.</span><br/><em>Northland</em></p> -->
+							<!-- <p><span class="events_page_dates">October 1st</span> <br> <span class="events_page_speakers">Shannon G.</span><br/><em></em></p>
+							<p><span class="events_page_dates">October 8th</span> <br> <span class="events_page_speakers">Nick R.</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">October 15th</span> <br> <span class="events_page_speakers">Ellen O.</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">October 22nd</span> <br> <span class="events_page_speakers">Lucinda C.</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">October 29th</span> <br> <span class="events_page_speakers">Karyn M.</span><br/><em>Northland</em></p> -->
 
-<!-- <p><span class="events_page_dates alt_date">November 5th</span> <br> <span class="events_page_speakers">Matt B.</span><br/><em></em></p>
-<p><span class="events_page_dates alt_date">November 12th</span> <br> <span class="events_page_speakers">Samone C.</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates alt_date">November 19th</span> <br> <span class="events_page_speakers">Ralph</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates alt_date">November 26th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
+							<!-- <p><span class="events_page_dates alt_date">November 5th</span> <br> <span class="events_page_speakers">Matt B.</span><br/><em></em></p>
+							<p><span class="events_page_dates alt_date">November 12th</span> <br> <span class="events_page_speakers">Samone C.</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates alt_date">November 19th</span> <br> <span class="events_page_speakers">Ralph</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates alt_date">November 26th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
 
-<!-- <p><span class="events_page_dates alt_date">December 3rd</span> <br> <span class="events_page_speakers">Val E</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates alt_date">December 10th</span> <br> <span class="events_page_speakers">Kenny A</span><br/><em>Mesa Group</em></p>
-<p><span class="events_page_dates alt_date">December 17th</span> <br> <span class="events_page_speakers">Amy W</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates alt_date">December 24th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
-<p><span class="events_page_dates alt_date">December 31st</span> <br> <span class="events_page_speakers">Howard J.</span><br/><em>Northland</em></p> -->
+							<!-- <p><span class="events_page_dates alt_date">December 3rd</span> <br> <span class="events_page_speakers">Val E</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates alt_date">December 10th</span> <br> <span class="events_page_speakers">Kenny A</span><br/><em>Mesa Group</em></p>
+							<p><span class="events_page_dates alt_date">December 17th</span> <br> <span class="events_page_speakers">Amy W</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates alt_date">December 24th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+							<p><span class="events_page_dates alt_date">December 31st</span> <br> <span class="events_page_speakers">Howard J.</span><br/><em>Northland</em></p> -->
 
-<!-- <p><span class="events_page_dates">January 7th</span> <br> <span class="events_page_speakers">Charlie K</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">January 14th</span> <br> <span class="events_page_speakers">Annie G</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">January 21st</span> <br> <span class="events_page_speakers">Leigh V</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">January 28th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
+							<!-- <p><span class="events_page_dates">January 7th</span> <br> <span class="events_page_speakers">Charlie K</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">January 14th</span> <br> <span class="events_page_speakers">Annie G</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">January 21st</span> <br> <span class="events_page_speakers">Leigh V</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">January 28th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
 
-<!-- <p><span class="events_page_dates">February 4th</span> <br> <span class="events_page_speakers">Eva G</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">February 11th</span> <br> <span class="events_page_speakers">Josh B</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">February 18th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
-<p><span class="events_page_dates">February 25th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
+							<!-- <p><span class="events_page_dates">February 4th</span> <br> <span class="events_page_speakers">Eva G</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">February 11th</span> <br> <span class="events_page_speakers">Josh B</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">February 18th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+							<p><span class="events_page_dates">February 25th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
 
-<p><span class="events_page_dates">March 3rd</span> <br> <span class="events_page_speakers">Brenden S</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">March 10th</span> <br> <span class="events_page_speakers">Dean M</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">March 17th</span> <br> <span class="events_page_speakers">Jacob P</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates">March 24th</span> <br> <span class="events_page_speakers">Laura Q</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">March 3rd</span> <br> <span class="events_page_speakers">Brenden S</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">March 10th</span> <br> <span class="events_page_speakers">Dean M</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">March 17th</span> <br> <span class="events_page_speakers">Jacob P</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">March 24th</span> <br> <span class="events_page_speakers">Laura Q</span><br/><em>Northland</em></p>
 
 
 
@@ -126,7 +136,7 @@
 
 						<div class="col-12 col-md-4 mb-4">
 							<div class="basic_3_col pt-2" style="padding: 4px; margin-bottom: 6px;">
-							<h4 class="text-dark text-uppercase">Speaker Night</h4>
+								<h4 class="text-dark text-uppercase">Speaker Night</h4>
 								<!-- <h5 style="color: blue;">Fridays at 8pm</h5> -->
 								<h5 style="color: blue;">Every Friday at 8pm</h5>
 								<p class=""><em>(except birthday night)</em></p>
@@ -192,9 +202,9 @@
 								<p><span class="events_page_dates alt_date">January 16th</span> <br> <span class="events_page_speakers">Robert M</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">January 23rd</span> <br> <span class="events_page_speakers">Joel </span><br/><em></em></p> -->
 
-<!-- <p><span class="events_page_dates alt_date">February 6th</span> <br> <span class="events_page_speakers">Barbara G</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates alt_date">February 13th</span> <br> <span class="events_page_speakers">Troy N</span><br/><em>Northland</em></p>
-<p><span class="events_page_dates alt_date">February 20th</span> <br> <span class="events_page_speakers">Isabel</span><br/><em>Northland</em></p> -->
+								<!-- <p><span class="events_page_dates alt_date">February 6th</span> <br> <span class="events_page_speakers">Barbara G</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">February 13th</span> <br> <span class="events_page_speakers">Troy N</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">February 20th</span> <br> <span class="events_page_speakers">Isabel</span><br/><em>Northland</em></p> -->
 
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
