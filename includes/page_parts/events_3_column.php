@@ -30,9 +30,9 @@
 							<!-- <p style="font-weight: 600; font-size: 1.8rem; color: #177525;">4th of July Celebration!</p> -->
 								<!-- <p style="font-weight: 600; font-size: 1.15em;"><a href="/saf_4th" style="">Click here for more details!</a> </p> -->
 
-								<p style="font-weight: 600; font-size: 1.45em; color: #147422;">Northland Group Conscience<br>
+								<!-- <p style="font-weight: 600; font-size: 1.45em; color: #147422;">Northland Group Conscience<br>
 								<span style="font-size: .80em; color: #666;">Sunday, March 15th 10:45am</span><br/>
-								<a href="https://www.northlandgroup.org/" ><span style="font-size: .80em;">Click here for details</span></a> </p>
+								<a href="https://www.northlandgroup.org/" ><span style="font-size: .80em;">Click here for details</span></a> </p> -->
 
 								<p style="font-weight: 600; font-size: 1.15em;">Speaker Meetings on Wednesdays & Fridays: <br>
 								<a href="/meetings/events" >Click here for details</a> </p>

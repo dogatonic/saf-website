@@ -15,7 +15,7 @@
 				</div> -->
 				<!-- Three Column Section -->
 				<div class=" mt-4 mb-5 bodydiv"><!-- remove "container" -->
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-12 mb-4">
 							<div class="basic_3_col pt-2">
 								<h4 class="text-dark text-uppercase">Northland Group Conscience</h4>
@@ -24,7 +24,7 @@
 								</p>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="row">
 						<div class="col-12 col-md-4 mb-4">
 							<div class="basic_3_col pt-2">
