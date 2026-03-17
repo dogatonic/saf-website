@@ -34,16 +34,23 @@
 			<!-- <h1 class="text-dark pt-4">Open Full Capacity, 7 Days a Week.</h1> -->
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="statement">Home of the Northland Group of Alcoholics Anonymous</p>
-			<p class="lead">
-			<!-- We are following City Guidelines for Covid safety -->
-				The SAF facility is open for in-person meetings 7 Days a week.<br>Check the <a class="blue-link" href="/meetings">Meetings page</a> for scheduled times.</p>
+			<!-- <p class="lead">The SAF facility is open for in-person meetings 7 Days a week.<br>Check the <a class="blue-link" href="/meetings">Meetings page</a> for scheduled times.</p> -->
 		</div>
-		<div class="container my-5 bodydiv">
+		<div class="container mt-4 mb-5 bodydiv">
 			<!-- <p class="statement">SAF is having the 2024 election this month, to elect seven new trustees to serve on the Board of Trustees.  SAF members can vote online or in-person at the clubhouse. <a href="/election">More information here...</a> </p> -->
-			<p class="statement2">The <strong>Suburban Alcoholic Foundation</strong> (SAF) was established as a non profit corporation in 1955 to 
+			<!-- <p class="statement2">The <strong>Suburban Alcoholic Foundation</strong> (SAF) was established as a non profit corporation in 1955 to 
 			be a permanent home for the Northland Group of Alcoholics Anonymous in Austin, Texas. 
 			The SAF Facility is open for scheduled meetings, operating at full capacity in both Big and Little rooms.
-			To find Northland Group online meetings and other information, visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website.</a></p>
+			To find Northland Group online meetings and other information, visit the <a href="http://www.northlandgroup.org" target="_blank">Northland Group website.</a></p> -->
+
+			<p class="statement2 text-center" style="width: 1130px;">The <strong><a href="/find_us">Suburban Alcoholic Foundation</a></strong> (SAF) was established as a nonprofit corporation in 1955 to provide a permanent home for 
+			Alcoholics Anonymous meetings in Austin, Texas. For over 40 years, the SAF facility has served as the home of the Northland Group of Alcoholics Anonymous and 
+			hosts regularly scheduled meetings, seven days a week.
+			<!-- in both the Big Room and the Little Room. -->
+		</p>
+
+			<p class="statement2 text-center">For Northland Group online meetings and additional information, please visit the <a href="https://www.northlandgroup.org" target="_blank">Northland Group website.</a></p>
+
 		</div>
 		<!-- END: Main Page Heading -->
 
@@ -56,7 +63,15 @@
 			<div class="row text-light py-5">
 				<div class="col-12 text-center clubmessage">
 					<h1 class="clubhouseHeading">A Permanent Home</h1>
-					<p class="clubhouse">The SAF Clubhouse was built more than 50 years ago to provide a permanent home for AA in Austin. The Northland AA Group meets here seven days a week. If you would like to be a part of the Suburban Alcoholic Foundation's effort to preserve and maintain this clubhouse, we welcome you to join our foundation. You need not be a member of the Foundation to attend Northland AA Group meetings. We are glad you are here!</p>
+					<!-- <p class="clubhouse">The SAF Clubhouse was built more than 50 years ago to provide a permanent home for AA in Austin. 
+						The Northland AA Group meets here seven days a week. If you would like to be a part of the Suburban Alcoholic Foundation's 
+						effort to preserve and maintain this clubhouse, we welcome you to join our foundation. You need not be a member of the Foundation 
+						to attend Northland AA Group meetings. We are glad you are here!
+					</p> -->
+					<p class="clubhouse">The SAF Clubhouse was built more than 50 years ago, providing a permanent home for AA in Austin. 
+						If you would like to be a part of the Suburban Alcoholic Foundation's effort to preserve and maintain this clubhouse, 
+						we welcome you to join our foundation. <br/>
+						You need not be a member of the Foundation to attend Northland AA Group meetings. We are glad you are here!</p>
 				</div>
 			</div>
 			<div class="fixed-wrap">

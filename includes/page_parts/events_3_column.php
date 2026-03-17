@@ -42,6 +42,7 @@
 									echo findLastFriday();
 									?></div>
 							<!-- <p>The anual July 4th Picnic is right around the corner! Stay tuned for more details.</p> -->
+							 <p>&nbsp;</p>
 						</div>
 					</div>
 				</div>
