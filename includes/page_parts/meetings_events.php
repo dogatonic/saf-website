@@ -259,8 +259,8 @@
 							</p> -->
 
 							<p><span class="events_page_dates alt_date">May 2nd</span> <br>
-								<span class="events_page_speakers"></span><br/><em></em><br>
-								<span style="padding: 4px; color: hwb(243 1% 28%);"></span>
+								<span class="events_page_speakers">Jamal W. and Jose V.</span><br/><em></em><br>
+								<span style="padding: 4px; color: hwb(243 1% 28%);">This AA/ACA couple have recovery dates in 2024-They have been together for 3 years. Looking forward to hearing how recovery supports their relationship.</span>
 							</p>
 							<!-- <p><span class="events_page_dates alt_date">February 7th</span> <br>
 								<span class="events_page_speakers">Sherry B. & David B.</span><br/><em></em><br>
