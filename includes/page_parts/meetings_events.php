@@ -125,11 +125,11 @@
 							<p><span class="events_page_dates">March 17th</span> <br> <span class="events_page_speakers">Jacob P</span><br/><em>Northland</em></p>
 							<p><span class="events_page_dates">March 24th</span> <br> <span class="events_page_speakers">Laura Q</span><br/><em>Northland</em></p> -->
 
-							<p><span class="events_page_dates">April 7th</span> <br> <span class="events_page_speakers">Brooke C</span><br/><em>Northland</em></p>
-							<p><span class="events_page_dates">April 14th</span> <br> <span class="events_page_speakers">Laura Q</span><br/><em>Northland</em></p>
-							<p><span class="events_page_dates">April 21st</span> <br> <span class="events_page_speakers">Payton G</span><br/><em>Northland</em></p>
-							<p><span class="events_page_dates">April 28th</span> <br> <span class="events_page_speakers">Ian S</span><br/><em>Northland</em></p>
-							<p><span class="events_page_dates">April 29th</span> <br> <span class="events_page_speakers">TBA</span><br/><em></em></p>
+							<p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Brooke C</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">April 8th</span> <br> <span class="events_page_speakers">Laura Q</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">April 15th</span> <br> <span class="events_page_speakers">Payton G</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">April 22nd</span> <br> <span class="events_page_speakers">Ian S</span><br/><em>Northland</em></p>
+							<p><span class="events_page_dates">April 29th</span> <br> <span class="events_page_speakers">Jane S</span><br/><em></em></p>
 
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
