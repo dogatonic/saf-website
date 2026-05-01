@@ -124,12 +124,17 @@
 							<p><span class="events_page_dates">March 10th</span> <br> <span class="events_page_speakers">Dean M</span><br/><em>Northland</em></p>
 							<p><span class="events_page_dates">March 17th</span> <br> <span class="events_page_speakers">Jacob P</span><br/><em>Northland</em></p>
 							<p><span class="events_page_dates">March 24th</span> <br> <span class="events_page_speakers">Laura Q</span><br/><em>Northland</em></p> -->
-
+<!-- 
 							<p><span class="events_page_dates">April 1st</span> <br> <span class="events_page_speakers">Brooke C</span><br/><em>Northland</em></p>
 							<p><span class="events_page_dates">April 8th</span> <br> <span class="events_page_speakers">Laura Q</span><br/><em>Northland</em></p>
 							<p><span class="events_page_dates">April 15th</span> <br> <span class="events_page_speakers">Payton G</span><br/><em>Northland</em></p>
 							<p><span class="events_page_dates">April 22nd</span> <br> <span class="events_page_speakers">Ian S</span><br/><em>Northland</em></p>
-							<p><span class="events_page_dates">April 29th</span> <br> <span class="events_page_speakers">Jane S</span><br/><em></em></p>
+							<p><span class="events_page_dates">April 29th</span> <br> <span class="events_page_speakers">Jane S</span><br/><em></em></p> -->
+
+								<p><span class="events_page_dates">May 6th</span> <br> <span class="events_page_speakers">Mollie M</span><br/><em>Downtown Austin AA</em></p>
+								<p><span class="events_page_dates">May 13th</span> <br> <span class="events_page_speakers">Brandon F</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">May 20th</span> <br> <span class="events_page_speakers">Corey S</span><br/><em>Friday Night Lights</em></p>
+								<p><span class="events_page_dates">May 27th</span> <br> <span class="events_page_speakers">Tucker T</span><br/><em>Northland</em></p>
 
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
@@ -210,8 +215,13 @@
 								<!-- <p><span class="events_page_dates alt_date">February 6th</span> <br> <span class="events_page_speakers">Barbara G</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">February 13th</span> <br> <span class="events_page_speakers">Troy N</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">February 20th</span> <br> <span class="events_page_speakers">Isabel</span><br/><em>Northland</em></p> -->
-								<p><span class="events_page_dates alt_date">April 10th</span> <br> <span class="events_page_speakers">Brad F</span><br/><em>Northland</em></p>
-								<p><span class="events_page_dates alt_date">April 17th</span> <br> <span class="events_page_speakers">Mark K</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">April 10th</span> <br> <span class="events_page_speakers">Brad F</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">April 17th</span> <br> <span class="events_page_speakers">Mark K</span><br/><em>Northland</em></p> -->
+
+								<p><span class="events_page_dates alt_date">May 1st</span> <br> <span class="events_page_speakers">Mark G</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">May 8th</span> <br> <span class="events_page_speakers">Dana B</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">May 15th</span> <br> <span class="events_page_speakers">Sandy A</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">May 22nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 
 
 
