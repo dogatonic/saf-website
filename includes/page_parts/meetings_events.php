@@ -131,11 +131,15 @@
 							<p><span class="events_page_dates">April 22nd</span> <br> <span class="events_page_speakers">Ian S</span><br/><em>Northland</em></p>
 							<p><span class="events_page_dates">April 29th</span> <br> <span class="events_page_speakers">Jane S</span><br/><em></em></p> -->
 
-								<p><span class="events_page_dates">May 6th</span> <br> <span class="events_page_speakers">Mollie M</span><br/><em>Downtown Austin AA</em></p>
+								<!-- <p><span class="events_page_dates">May 6th</span> <br> <span class="events_page_speakers">Mollie M</span><br/><em>Downtown Austin AA</em></p>
 								<p><span class="events_page_dates">May 13th</span> <br> <span class="events_page_speakers">Brandon F</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">May 20th</span> <br> <span class="events_page_speakers">Corey S</span><br/><em>Friday Night Lights</em></p>
-								<p><span class="events_page_dates">May 27th</span> <br> <span class="events_page_speakers">Tucker T</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">May 27th</span> <br> <span class="events_page_speakers">Tucker T</span><br/><em>Northland</em></p> -->
 
+								<p><span class="events_page_dates alt_date">June 3rd</span> <br> <span class="events_page_speakers">Tegan T</span><br/><em>East Group</em></p>
+								<p><span class="events_page_dates alt_date">June 10th</span> <br> <span class="events_page_speakers">Corey S</span><br/><em>Friday Night Lights</em></p>
+								<p><span class="events_page_dates alt_date">June 17th</span> <br> <span class="events_page_speakers">Cody D</span><br/><em>The Main Object</em></p>
+								<p><span class="events_page_dates alt_date">June 24th</span> <br> <span class="events_page_speakers">Dusty R</span><br/><em>The Great Fact</em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Wednesday night features speakers with less than 10 years of sobriety.</p>
@@ -218,11 +222,12 @@
 								<!-- <p><span class="events_page_dates alt_date">April 10th</span> <br> <span class="events_page_speakers">Brad F</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">April 17th</span> <br> <span class="events_page_speakers">Mark K</span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">May 1st</span> <br> <span class="events_page_speakers">Mark G</span><br/><em></em></p>
+								<!-- <p><span class="events_page_dates alt_date">May 1st</span> <br> <span class="events_page_speakers">Mark G</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">May 8th</span> <br> <span class="events_page_speakers">Dana B</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">May 15th</span> <br> <span class="events_page_speakers">Sandy A</span><br/><em></em></p>
-								<p><span class="events_page_dates alt_date">May 22nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">May 22nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
 
+								
 
 
 
@@ -272,10 +277,7 @@
 								<span class="events_page_speakers">Jamal W. and Jose V.</span><br/><em></em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">This AA/ACA couple have recovery dates in 2024-They have been together for 3 years. Looking forward to hearing how recovery supports their relationship.</span>
 							</p> -->
-							<p><span class="events_page_dates alt_date">June 6th</span> <br>
-								<span class="events_page_speakers">Robyn B. & Austin R.</span><br/><em></em><br>
-								<span style="padding: 4px; color: hwb(243 1% 28%);">This AA couple has been together for 2 ½ years. Their home group is The Great Fact group in Buda. Looking forward to hearing how recovery supports their relationship.</span>
-							</p>
+							
 							<!-- <p><span class="events_page_dates alt_date">February 7th</span> <br>
 								<span class="events_page_speakers">Sherry B. & David B.</span><br/><em></em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">This absolutely fascinating AA couple from Northland have been active members of this group! 
@@ -300,8 +302,6 @@
 very active in AA! They say “yes” to the recovery community and to their relationship!</span>
 							</p> -->
 
-
-
 							<!-- <p><span class="events_page_dates alt_date">July 5th</span> <br> 
 								<span class="events_page_speakers">Brad and Stephanie P.</span><br/><em>Northland & Hilltoppers</em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">Dave and Eva are from
@@ -311,6 +311,16 @@ very active in AA! They say “yes” to the recovery community and to their rel
 							<!-- <p><span class="events_page_dates">April 5th</span> <br> 
 								<span class="events_page_speakers">Kathie and Steve H</span><br/><em>Being Convinced Group<br>Cedar Park</em><br>
 								<span style="padding: 4px; color: hwb(243 1% 28%);">AA's who also attend Alanon, have over 40 years of sobriety.</span></p> -->
+
+							<!-- <p><span class="events_page_dates alt_date">June 6th</span> <br>
+							<span class="events_page_speakers">Robyn B. & Austin R.</span><br/><em></em><br>
+							<span style="padding: 4px; color: hwb(243 1% 28%);">This AA couple has been together for 2 ½ years. Their home group is The Great Fact group in Buda. Looking forward to hearing how recovery supports their relationship.</span>
+							</p> -->
+
+							<p><span class="events_page_dates alt_date">August 1st</span> <br> 
+							<span class="events_page_speakers">Trisha and Shannon</span><br/><em>AA/Alanon couple from Northland</em><br>
+							<span style="padding: 4px; color: hwb(243 1% 28%);">Trisha and Shannon, an AA/Alanon couple from Northland, will be speaking.</span></p>
+
 							<div class="border-top border-primary w-50 mx-auto my-3"></div>
 							<p>This speaker meeting is held in the Big Room at Northland.</p>
 							<h5 style="color: red;">Onsite childcare available.</h5>

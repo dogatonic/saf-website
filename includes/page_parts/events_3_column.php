@@ -67,12 +67,13 @@
 							<span style="font-style: italic;">It's time again for Foundation Members to elect 7 new Members to the SAF Board of Trustees.</span><br>
 							<a href='/election'>Click here for more details!</a></div> -->
 
-							<div><strong>Family Night</strong><br/>
+							<!-- FAMILY NIGHT / REUSABLE !!!! -->
+							<!-- <div><strong>Family Night</strong><br/>
 							<span style="white-space: nowrap;">1st Saturday each month</span><br>
 							<span style="white-space: nowrap; font-weight: bold;">8pm in the Big Room</span><br>
 							<span style="white-space: nowrap; color:red; font-weight: bold;">Childcare available</span><br>
 							<span style="font-style: italic;">Two speakers together: AA & Al-Anon speakers from various 
-								groups sharing how recovery supports their relationship.</span><br><br></div>
+								groups sharing how recovery supports their relationship.</span><br><br></div> -->
 
 							<!-- <p><strong><span style="color:red; font-weight: bold;">New</span> Women's Meeting! </strong>
 							<br>Every Tuesday at <span style="font-weight: bold;">5:30pm</span><br/> <span style="font-style: italic;">in the Small Room</span>
@@ -83,8 +84,15 @@
 							<br>70th Anniversary Celebration!
 							<br>Friday, July 4th at <span style="font-weight: bold;">9:00 am</span><br/> <span style="font-style: italic;"></span>
 							<img src="/img/july4th_square.png" alt="Happy SAF Anniversary!" style='width: 80%; height: auto;'>
-							<!-- <span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available</span><br>
+							<span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available</span><br>
 							</p> -->
+
+							<p style="white-space: nowrap; overflow-x: visible;"><strong><span style="color:red; font-weight: bold;">SAF Event</span></strong>
+							<br>71st Anniversary Celebration!
+							<br>Saturday, July 4th at <span style="font-weight: bold;">9:00 am</span><br/> <span style="font-style: italic;"></span>
+							<img src="/img/july4th_square.png" alt="Happy SAF Anniversary!" style='width: 80%; height: auto;'><br>
+							<!-- <span style="white-space: nowrap; color:#d97705; font-weight: bold;">Childcare available</span><br> -->
+							</p>
 
 							<!-- <p style="white-space: nowrap; overflow-x: visible;"><strong><span style="color:red; font-weight: bold;">SAF Event</span></strong>
 							<br> <span style="font-weight: 600; font-size: 1.15em;">13th Anniversary Family Night!</span>
