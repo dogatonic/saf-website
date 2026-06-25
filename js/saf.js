@@ -125,7 +125,9 @@ function doAboutButtonClick() {
 
 function gotoMeetingsPage() {
 	console.log("click meeting 3 column");
-	window.location = "/meetings";
+	// window.location = "/meetings";
+	window.location = "/meetings/events"; // Alternate choice
+	// window.location = "/saf_4th"; // dont do this. just add the 4th section to the meetings page. 
 }
 
 function ajaxSetVoterStatus(status, id) {

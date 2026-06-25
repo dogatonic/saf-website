@@ -34,8 +34,8 @@ require_once(__ROOT__ . "/includes/data/inperson_meetings.php");
 
 		<div class="container my-1  text-center ">
 			<div class="btn-group buttonGroupMeetings" role="group" aria-label="meetings" style="width: 100%; max-width: 40rem;">
-				<button type="button" id="bMeetingsIP" class="btn bMeetingsGroup btn-secondary">In Person</button>
-				<button type="button" id="bMeetingsOL" class="btn bMeetingsGroup btn-secondary-2">Online</button>
+				<button type="button" id="bMeetingsIP" class="btn bMeetingsGroup btn-secondary">In Person Meetings</button>
+				<button type="button" id="bMeetingsOL" class="btn bMeetingsGroup btn-secondary-2">Online Meetings</button>
 				<button type="button" id="bMeetingsEV" class="btn bMeetingsGroup btn-secondary">Events</button>
 			</div>
 		</div>
