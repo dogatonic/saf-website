@@ -136,11 +136,15 @@
 								<p><span class="events_page_dates">May 20th</span> <br> <span class="events_page_speakers">Corey S</span><br/><em>Friday Night Lights</em></p>
 								<p><span class="events_page_dates">May 27th</span> <br> <span class="events_page_speakers">Tucker T</span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates alt_date">June 3rd</span> <br> <span class="events_page_speakers">Tegan T</span><br/><em>East Group</em></p>
+								<!-- <p><span class="events_page_dates alt_date">June 3rd</span> <br> <span class="events_page_speakers">Tegan T</span><br/><em>East Group</em></p>
 								<p><span class="events_page_dates alt_date">June 10th</span> <br> <span class="events_page_speakers">Corey S</span><br/><em>Friday Night Lights</em></p>
 								<p><span class="events_page_dates alt_date">June 17th</span> <br> <span class="events_page_speakers">Cody D</span><br/><em>The Main Object</em></p>
-								<p><span class="events_page_dates alt_date">June 24th</span> <br> <span class="events_page_speakers">Dusty R</span><br/><em>The Great Fact</em></p>
+								<p><span class="events_page_dates alt_date">June 24th</span> <br> <span class="events_page_speakers">Dusty R</span><br/><em>The Great Fact</em></p> -->
 
+								<p><span class="events_page_dates alt_date">July 8th</span> <br> <span class="events_page_speakers">Chal B.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">July 15th</span> <br> <span class="events_page_speakers">Kathy</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">July 22nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">July 29th</span> <br> <span class="events_page_speakers">Laura</span><br/><em>Northland</em></p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Wednesday night features speakers with less than 10 years of sobriety.</p>
 								
@@ -226,7 +230,10 @@
 								<p><span class="events_page_dates alt_date">May 8th</span> <br> <span class="events_page_speakers">Dana B</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">May 15th</span> <br> <span class="events_page_speakers">Sandy A</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">May 22nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
-
+								<p><span class="events_page_dates alt_date">July 17th</span><br/>
+								<span class="events_page_speakers">Cleo D</span><br/>
+								<em>The Firing Line Group</em><br/>
+								Baltimore, Maryland </p>
 								
 
 
