@@ -8,11 +8,13 @@
 				<p class='statement'>MONDAY July 4th, 2022 - Join us as we celebrate the 67th Anniversary of the Suburban Alcoholic Foundation!</p>
 				<p class='statement'>Special guest Speakers. BBQ Lunch. Raffle with prizes. Bake Sale, Volleyball, Horseshoes and Washers! Babysitting Available!</p> -->
 
-				<div class=" mt-4 mb-5 bodydiv" style="display: flex; justify-content: center; align-items: center;">
+				<!-- July 4th Banner Here!!! -->
+				<!-- <div class=" mt-4 mb-5 bodydiv" style="display: flex; justify-content: center; align-items: center;">
 					<div class="row basic_3_col " style="width: 96%; padding: 6px;">
 					<a href='/saf_4th'><img src="/img/carousel/July4th_banner.png" alt="saf_front" class="w-100"></a>
 					</div>
-				</div>
+				</div> -->
+
 				<!-- Three Column Section -->
 				<div class=" mt-4 mb-5 bodydiv"><!-- remove "container" -->
 					<!-- <div class="row">
@@ -230,11 +232,20 @@
 								<p><span class="events_page_dates alt_date">May 8th</span> <br> <span class="events_page_speakers">Dana B</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">May 15th</span> <br> <span class="events_page_speakers">Sandy A</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">May 22nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
+								<p><span class="events_page_dates alt_date">July 10th</span><br/>
+								<span class="events_page_speakers">Jim L</span><br/>
+								<em>Bridge to Shore Men's</em><br/>
+								</p>
 								<p><span class="events_page_dates alt_date">July 17th</span><br/>
 								<span class="events_page_speakers">Cleo D</span><br/>
 								<em>The Firing Line Group</em><br/>
 								Baltimore, Maryland </p>
-								
+
+								<p><span class="events_page_dates alt_date">July 24th</span><br/>
+								<span class="events_page_speakers">Carry D</span><br/>
+								<em>Fellowship You Crave</em><br/>
+								</p>
+
 
 
 
