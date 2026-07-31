@@ -143,10 +143,18 @@
 								<p><span class="events_page_dates alt_date">June 17th</span> <br> <span class="events_page_speakers">Cody D</span><br/><em>The Main Object</em></p>
 								<p><span class="events_page_dates alt_date">June 24th</span> <br> <span class="events_page_speakers">Dusty R</span><br/><em>The Great Fact</em></p> -->
 
-								<p><span class="events_page_dates alt_date">July 8th</span> <br> <span class="events_page_speakers">Chal B.</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates alt_date">July 8th</span> <br> <span class="events_page_speakers">Chal B.</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">July 15th</span> <br> <span class="events_page_speakers">Kathy</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">July 22nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
-								<p><span class="events_page_dates alt_date">July 29th</span> <br> <span class="events_page_speakers">Laura</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">July 29th</span> <br> <span class="events_page_speakers">Laura</span><br/><em>Northland</em></p> -->
+
+								<p><span class="events_page_dates">August 5th</span> <br> <span class="events_page_speakers">Nick S.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">August 12th</span> <br> <span class="events_page_speakers">Wimberley M.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">August 19th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+								<p><span class="events_page_dates">August 26th</span> <br> <span class="events_page_speakers">Robert R.</span><br/><em>Friday Night Lights</em></p>
+								<p><span class="events_page_dates alt_date">September 2nd</span> <br> <span class="events_page_speakers">Adam K.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">September 9th</span> <br> <span class="events_page_speakers">Paul G.</span><br/><em>Phelan Road Group</em></p>
+
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Wednesday night features speakers with less than 10 years of sobriety.</p>
 								
@@ -232,7 +240,9 @@
 								<p><span class="events_page_dates alt_date">May 8th</span> <br> <span class="events_page_speakers">Dana B</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">May 15th</span> <br> <span class="events_page_speakers">Sandy A</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">May 22nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p> -->
-								<p><span class="events_page_dates alt_date">July 10th</span><br/>
+								
+
+								<!-- <p><span class="events_page_dates alt_date">July 10th</span><br/>
 								<span class="events_page_speakers">Jim L</span><br/>
 								<em>Bridge to Shore Men's</em><br/>
 								</p>
@@ -244,10 +254,10 @@
 								<p><span class="events_page_dates alt_date">July 24th</span><br/>
 								<span class="events_page_speakers">Carry D</span><br/>
 								<em>Fellowship You Crave</em><br/>
-								</p>
-
-
-
+								</p> -->
+								<p><span class="events_page_dates alt_date">August 7th</span> <br> <span class="events_page_speakers">Shannon A</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">August 14th</span> <br> <span class="events_page_speakers">Emma</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">August 21st</span> <br> <span class="events_page_speakers">Buddy B</span><br/><em>Fellowship You Crave</em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
