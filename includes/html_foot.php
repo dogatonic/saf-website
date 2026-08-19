@@ -18,9 +18,11 @@
 <script src="/js/validator.min.js"></script>
 <script>
 <?php
-echo "let divIdClickQuery = false";
+echo "let divIdClickQuery = false; \n";
 if(isset($arrPex['bpex']) && $arrPex['bpex'] == '/events'){
 	echo "divIdClickQuery = 'bMeetingsEV';";
+} elseif(isset($arrPex['bpex']) && $arrPex['bpex'] == '/history'){
+	echo "divIdClickQuery = 'bAboutHistory';";
 }
 
 ?>
