@@ -1,8 +1,8 @@
 <?php
 // $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
-$arrCandidates = ["Leanne Pugh", "Zachary Lynde", "Don Mabry", "Julie Johnson", "Brad Brown", "Jennifer Ivory", "Belinda Boone", "Kelvin Ponton", "Mike Aycock", "Thomas Horne", "Michael Gailinas", "Mitra Foil", "Sandy Ansari", "Eileen Wright"];
+$arrCandidates = ["Brad Brown", "Carol Morgan", "David Brannan", "Denice Cadena", "Jeff Graves", "Jessica Henry", "Lisa Waltke", "Michael Schneider", "Mike Aycock", "Thomas Horne", "Troy Nixon"];
 $now = date_create()->format('Y-m-d H:i:s');
-$isOpen = ($now > '2025-09-03 08:00:01' && $now < '2026-09-10 20:00:00') ? true  : false;
+$isOpen = ($now > '2026-09-02 08:00:01' && $now < '2026-09-09 20:00:00') ? true  : false;
 
 $myIP = $_SERVER['REMOTE_ADDR'];
 // if($myIP == '108.238.246.76') $isOpen = true; // tucker can always see it
@@ -23,7 +23,7 @@ $myIP = $_SERVER['REMOTE_ADDR'];
 		<div class="fixed-background fixed-background-nothome">
 			<div class="row text-light bannerOpaqueLayerOrange" style="height: 6rem; padding-top: 20px;">
 				<div class="col-12 text-center ">
-					<h1 class="clubhouseHeading">SAF 2025 Election Online Voting</h1>
+					<h1 class="clubhouseHeading">SAF 2026 Election Online Voting</h1>
 				</div>
 			</div>
 			<div class="fixed-wrap">
@@ -37,7 +37,7 @@ $myIP = $_SERVER['REMOTE_ADDR'];
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="lead"></p>
 		</div> -->
-		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 3 - 10, 2025</div>
+		<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 2 - 9, 2026</div>
 		<?php 
 		if( ($bDebug && false)) {
 			echo "<div>$now</div>";
@@ -49,8 +49,8 @@ $myIP = $_SERVER['REMOTE_ADDR'];
 			?> 
 		
 
-		<div class="container my-4  text-center " style="font-size: 3rem; color: #720608;">
-		Voting polls are closed.
+		<div class="container my-4  text-center " style="font-size: 2.2rem; color: #720608;">
+		Voting polls are closed at this time..
 		</div>	
 		<!-- <div style="text-align: center;" class="candidate_lineup"><img src="/img/2024candidateLineup.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div> -->
 		<?php } else {
@@ -69,7 +69,7 @@ $myIP = $_SERVER['REMOTE_ADDR'];
 			
 			<div style="font-size: large; color: blue;">Please start by entering in your contact information:</div>
 			<!-- <input id="form_type" type="hidden" name="type" class="form-control" value="election2025_v1"> -->
-			<input id="form_type" type="hidden" name="type" class="form-control" value="election2025_v1">
+			<input id="form_type" type="hidden" name="type" class="form-control" value="election2026_test">
 			<div class="form-group" style="width:350px; ">
 				<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required>
 				<div class="help-block with-errors"></div>
@@ -84,7 +84,7 @@ $myIP = $_SERVER['REMOTE_ADDR'];
 				<div id="emailfound" class="text-center" style="color: red; font-size:large; display: none; ">A ballot has already been submitted using this email address.</div>
 			</div>
 			<br/>
-			<div style="font-size: large; color: blue;">Cast your vote by selecting the seven (7) candidates you want to join the 2024 SAF Board of Trustees<br/> (Pictures below for reference).</div>
+			<div style="font-size: large; color: blue;">Cast your vote by selecting the seven (7) candidates you want to join the 2026 SAF Board of Trustees<br/> (Pictures below for reference).</div>
 			
 			
 			<div id="2024_ballot" class="ballot_container">
@@ -107,7 +107,7 @@ $myIP = $_SERVER['REMOTE_ADDR'];
 			<div style="width:200px; margin: auto; padding-top: 20px;">
 				<input id="submitVote" type="submit" class="btn btn-danger btn-md" value="Submit your Vote">
 			</div>
-			<div style="text-align: center;" class="candidate_lineup"><img src="/img/2025/2025_nominees.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div>
+			<div style="text-align: center;" class="candidate_lineup"><img src="/img/2026/2026_election_WebPics.png" alt="candidate photos" class="" style=" margin: 0px auto;"></div>
 			</form>
 			<!-- <div style="width:200px; margin: auto; padding-top: 0px;">
 				<button id="submitVote" class="btn btn-danger btn-md" style="">Submit your Vote</button>

@@ -1,9 +1,11 @@
 <?php
-$arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
+// Not sure why this is here...
+// $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
 $now = date_create()->format('Y-m-d H:i:s');
-$isOpen = ($now < '2025-09-10 20:00:00') ? true  : false;
-$isOpen = true;
+$isOpen = ($now < '2026-09-09 20:01:00') ? true  : false;
 $bOnDev = true;
+// This is for pulling data from DB
+$sElectionSpecific = "election2026_test";
 ?>
 <body>
 	<div class="big-div">
@@ -21,7 +23,7 @@ $bOnDev = true;
 		<div class="fixed-background fixed-background-nothome">
 			<div class="row text-light bannerOpaqueLayerOrange" style="height: 6rem; padding-top: 20px;">
 				<div class="col-12 text-center ">
-					<h1 class="clubhouseHeading">SAF 2025 Election to Board of Trustees</h1>
+					<h1 class="clubhouseHeading">SAF 2026 Election to Board of Trustees</h1>
 				</div>
 			</div>
 			<div class="fixed-wrap">
@@ -43,13 +45,17 @@ $bOnDev = true;
 			
 			?> 
 		
-		<div class="container my-4  text-center " style="font-size: 3rem; color: #720608;">
-		Voting polls have now closed.
+		<div class="container my-4  text-center " style="font-size: 2.5rem; color: #720608;">
+		Voting polls are closed at this time.
 		</div>	
-		<?php } elseif($sBpex == "closed" || $sBpex == "/"){
+		<?php 
+		// I'm NOT sure what the comparison with "/closed" was for in 2025. Can't remember.
+		// at this elseif, we have already determined that the election is NOT closed. So now, if bpex is "/closed" or "/", we will show the voting instructions.
+		// but not show this if bpex is "/results" or "/audit" (which are handled below)
+		} elseif($sBpex == "/closed" || $sBpex == "/"){
 			?>
 			<div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Current SAF members may cast ballots in person or online*</div>
-			<div class="container my-4  text-center  messages" style="font-size:1.7rem; color: blue;">Voting period is September 3 - 10, 2025</div>
+			<div class="container my-4  text-center  messages" style="font-size:1.7rem; color: blue;">Voting period is September 2 - 9, 2025</div>
 		<!-- <div class="container my-4  text-center  messages" style="font-size:2rem; color: blue;">Voting period is September 4 - 11, 2024</div> -->
 		<div class="container my-4  text-center " style="font-size: large; color: black;">
 		Members of the <strong>Suburban Alcoholic Foundation</strong> will elect seven new trustees this month to serve on the SAF Board of Trustees. 
@@ -57,16 +63,19 @@ $bOnDev = true;
 		 Trustees serve a 3-year term on the Board.
 <br/><br/>
   Members needing to pay "back dues" (up to three months per the SAF bylaws) to become eligible to vote can pay at the office. Voting begins 
-at the SAF office during normal office hours on Wednesday Sept. 3rd, and continues though the 10th. 
-<p style="font-style: italic; margin-top: 6px; color: blue;">* For online voting, all up-to-date SAF members will be sent a voting link in a separate email.</p>
+at the SAF office during normal office hours on Wednesday Sept. 2nd, and continues through the 9th.
+<p style="font-style: italic; margin-top: 6px; color: blue; font-size:1.5rem;">* For online voting, all up-to-date SAF members will be sent a voting link in a separate email.</p>
 		</div>
 
 		<!-- BEGIN: Div for Online meeting schedule -->
 		<div id='' class="container" style='text-align: center;'>
-			<img src="/img/2025/2025_saf_election_poster_web.png" class="" alt="SAF Election" style="margin: 0px auto; border: 1px solid grey;">
+			<img src="/img/2026/2026_election_WebFull.png" class="" alt="SAF Election" style="margin: 0px auto; border: 1px solid grey;">
 		</div>
 			<?php
-		} elseif($sBpex == "/results" && $bOnDev) {
+		}
+		
+		// Results will never be shown on the live site, only on dev. So we can leave this as is for now.
+		if($sBpex == "/results" && $bOnDev) {
 
 			// BPEX: results
 			// BPEX: results
@@ -74,7 +83,8 @@ at the SAF office during normal office hours on Wednesday Sept. 3rd, and continu
 
 			try {
 				// $sMysql = "SELECT * FROM webform_data WHERE status = '1' AND type = 'election2022_v1'";
-				$stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE status = '1' AND type = 'election2025_v1' ");
+				// $stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE status = '1' AND type = 'election2025_v1' ");
+				$stmt = $mysqli->prepare("SELECT * FROM webform_data WHERE status = '1' AND type = '".$sElectionSpecific."' ");
 				if($stmt){
 					$stmt->execute();
 					$result = $stmt->get_result(); // get the mysqli result
@@ -123,11 +133,11 @@ at the SAF office during normal office hours on Wednesday Sept. 3rd, and continu
 		</div>
 
 		<?
+		// Results will never be shown on the live site, only on dev. So we can leave this as is for now.
 		} elseif($sBpex == "/audit" && $bOnDev) { 
 			
 			try {
-				
-				$stmt = $mysqli->prepare("SELECT id, name, email, phone, status FROM webform_data WHERE type like '%election2025_v1%' ORDER BY name;");
+				$stmt = $mysqli->prepare("SELECT id, name, email, phone, status FROM webform_data WHERE type like '%".$sElectionSpecific."%' ORDER BY name;");
 				if($stmt){
 					$stmt->execute();
 					$result = $stmt->get_result(); // get the mysqli result
