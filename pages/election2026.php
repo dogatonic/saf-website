@@ -1,6 +1,6 @@
 <?php
 // $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
-$arrCandidates = ["Brad Brown", "Carol Morgan", "David Brannan", "Denice Cadena", "Jeff Graves", "Jessica Henry", "Lisa Waltke", "Michael Schneider", "Mike Aycock", "Thomas Horne", "Troy Nixon"];
+$arrCandidates = ["Brad Brown", "Carol Morgan", "David Brannan", "Denice Cadena", "Jeff Graves", "Jessica Henry", "Lisa Waltke", "Michael Schneider", "Mike Aycock", "Thomas Horne"];
 $now = date_create()->format('Y-m-d H:i:s');
 $isOpen = ($now > '2026-09-02 08:00:01' && $now < '2026-09-09 20:00:00') ? true  : false;
 
