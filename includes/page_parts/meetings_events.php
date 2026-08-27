@@ -148,7 +148,7 @@
 								<p><span class="events_page_dates alt_date">July 22nd</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">July 29th</span> <br> <span class="events_page_speakers">Laura</span><br/><em>Northland</em></p> -->
 
-								<p><span class="events_page_dates">August 5th</span> <br> <span class="events_page_speakers">Nick S.</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates">August 5th</span> <br> <span class="events_page_speakers">Nick S.</span><br/><em>Northland</em></p> -->
 								<p><span class="events_page_dates">August 12th</span> <br> <span class="events_page_speakers">Wimberley M.</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">August 19th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 								<p><span class="events_page_dates">August 26th</span> <br> <span class="events_page_speakers">Robert R.</span><br/><em>Friday Night Lights</em></p>
