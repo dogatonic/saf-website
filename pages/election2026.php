@@ -4,7 +4,7 @@ $arrCandidates = ["Brad Brown", "Carol Morgan", "David Brannan", "Denice Cadena"
 $now = date_create()->format('Y-m-d H:i:s');
 $isOpen = ($now > '2026-09-02 08:00:01' && $now < '2026-09-09 20:00:00') ? true  : false;
 
-$isOpen = true; // for testing
+// $isOpen = true; // for testing
 
 $myIP = $_SERVER['REMOTE_ADDR'];
 // if($myIP == '108.238.246.76') $isOpen = true; // tucker can always see it

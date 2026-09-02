@@ -3,7 +3,7 @@
 // $arrCandidates = ["Brad Brown", "Casey Switch", "David Ivey", "Derek Whitman", "Heather Powell", "Mike Aycock", "Stacy Morales", "Susan Onufer", "Tim Currens", "Tom Fleshman"];
 $now = date_create()->format('Y-m-d H:i:s');
 $isOpen = ($now < '2026-09-09 20:01:00') ? true  : false;
-$bOnDev = true;
+$bOnDev = false;
 // This is for pulling data from DB
 $sElectionSpecific = "election2026_v1";
 ?>
