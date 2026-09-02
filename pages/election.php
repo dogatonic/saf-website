@@ -5,7 +5,7 @@ $now = date_create()->format('Y-m-d H:i:s');
 $isOpen = ($now < '2026-09-09 20:01:00') ? true  : false;
 $bOnDev = true;
 // This is for pulling data from DB
-$sElectionSpecific = "election2026_test";
+$sElectionSpecific = "election2026_v1";
 ?>
 <body>
 	<div class="big-div">

@@ -4,6 +4,8 @@ $arrCandidates = ["Brad Brown", "Carol Morgan", "David Brannan", "Denice Cadena"
 $now = date_create()->format('Y-m-d H:i:s');
 $isOpen = ($now > '2026-09-02 08:00:01' && $now < '2026-09-09 20:00:00') ? true  : false;
 
+$isOpen = true; // for testing
+
 $myIP = $_SERVER['REMOTE_ADDR'];
 // if($myIP == '108.238.246.76') $isOpen = true; // tucker can always see it
 ?>
@@ -68,8 +70,15 @@ $myIP = $_SERVER['REMOTE_ADDR'];
 		<form id="election-form" method="post" action="/" style="display: block;">
 			
 			<div style="font-size: large; color: blue;">Please start by entering in your contact information:</div>
-			<!-- <input id="form_type" type="hidden" name="type" class="form-control" value="election2025_v1"> -->
-			<input id="form_type" type="hidden" name="type" class="form-control" value="election2026_test">
+
+			<!-- FORM TYPE  -->
+			<!-- FORM TYPE  -->
+			<!-- FORM TYPE  -->
+			<input id="form_type" type="hidden" name="type" class="form-control" value="election2026_v1">
+			<!-- FORM TYPE  -->
+			<!-- FORM TYPE  -->
+			<!-- FORM TYPE  -->
+
 			<div class="form-group" style="width:350px; ">
 				<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name." required>
 				<div class="help-block with-errors"></div>
