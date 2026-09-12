@@ -42,7 +42,8 @@
 						Austin, TX 78757</p>
 						<strong>Contact Info</strong>
 						<p><a class="blue-link" href="tel:15124526784">(512) 452-6784</a></p>
-						<p><img class="whosWhere" src="./img/saf_whos.png"/></p>
+						<p><strong>For general inquiries:</strong> <a class="blue-link" href="mailto:info@safaustin.org">info@safaustin.org</a><br><br>
+						<strong>For SAF Board of Trustees or other technical matters:</strong> <a class="blue-link" href="mailto:web@safaustin.org">web@safaustin.org</a></p>
 					</div>
 
 					<div class="col-md-7" style="background: #ddd; border-radius: 8px;">
