@@ -270,7 +270,7 @@
 								<p><span class="events_page_dates alt_date">August 14th</span> <br> <span class="events_page_speakers">Emma</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">August 21st</span> <br> <span class="events_page_speakers">Buddy B</span><br/><em>Fellowship You Crave</em></p> -->
 
-								<p><span class="events_page_dates alt_date">September 18th</span> <br> <span class="events_page_speakers">Carrie S</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">September 18th</span> <br> <span class="events_page_speakers">Carrie S</span><br/>20 years<br/><em>Northland 8:30am Women's Meeting</em></p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 								
