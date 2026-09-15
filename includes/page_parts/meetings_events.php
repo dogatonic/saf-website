@@ -149,11 +149,22 @@
 								<p><span class="events_page_dates alt_date">July 29th</span> <br> <span class="events_page_speakers">Laura</span><br/><em>Northland</em></p> -->
 
 								<!-- <p><span class="events_page_dates">August 5th</span> <br> <span class="events_page_speakers">Nick S.</span><br/><em>Northland</em></p> -->
-								<p><span class="events_page_dates">August 12th</span> <br> <span class="events_page_speakers">Wimberley M.</span><br/><em>Northland</em></p>
+								<!-- <p><span class="events_page_dates">August 12th</span> <br> <span class="events_page_speakers">Wimberley M.</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates">August 19th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
-								<p><span class="events_page_dates">August 26th</span> <br> <span class="events_page_speakers">Robert R.</span><br/><em>Friday Night Lights</em></p>
+								<p><span class="events_page_dates">August 26th</span> <br> <span class="events_page_speakers">Robert R.</span><br/><em>Friday Night Lights</em></p> -->
 								<p><span class="events_page_dates alt_date">September 2nd</span> <br> <span class="events_page_speakers">Adam K.</span><br/><em>Northland</em></p>
 								<p><span class="events_page_dates alt_date">September 9th</span> <br> <span class="events_page_speakers">Paul G.</span><br/><em>Phelan Road Group</em></p>
+								<p><span class="events_page_dates alt_date">September 16th</span> <br> <span class="events_page_speakers">Paul Jacobs</span><br/><em>Hair of the Dog</em></p>
+								<p><span class="events_page_dates alt_date">September 23rd</span> <br> <span class="events_page_speakers">Renee</span><br/><em>Allendale</em></p>
+								<p><span class="events_page_dates alt_date">September 30th</span> <br> <span class="events_page_speakers">Quink</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">October 7th</span> <br> <span class="events_page_speakers">Karli L.</span><br/><em>Graceland</em></p>
+								<p><span class="events_page_dates">October 14th</span> <br> <span class="events_page_speakers">Jonathan B.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">October 21st</span> <br> <span class="events_page_speakers">Kelsey R.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates">October 28th</span> <br> <span class="events_page_speakers">Emily F.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">November 4th</span> <br> <span class="events_page_speakers">Emily A.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">November 11th</span> <br> <span class="events_page_speakers">Trisha C.</span><br/><em>Northland</em></p>
+								<p><span class="events_page_dates alt_date">November 18th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
+								<p><span class="events_page_dates alt_date">November 25th</span> <br> <span class="events_page_speakers">tba</span><br/><em></em></p>
 
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Wednesday night features speakers with less than 10 years of sobriety.</p>
@@ -255,10 +266,11 @@
 								<span class="events_page_speakers">Carry D</span><br/>
 								<em>Fellowship You Crave</em><br/>
 								</p> -->
-								<p><span class="events_page_dates alt_date">August 7th</span> <br> <span class="events_page_speakers">Shannon A</span><br/><em></em></p>
+								<!-- <p><span class="events_page_dates alt_date">August 7th</span> <br> <span class="events_page_speakers">Shannon A</span><br/><em></em></p>
 								<p><span class="events_page_dates alt_date">August 14th</span> <br> <span class="events_page_speakers">Emma</span><br/><em></em></p>
-								<p><span class="events_page_dates alt_date">August 21st</span> <br> <span class="events_page_speakers">Buddy B</span><br/><em>Fellowship You Crave</em></p>
+								<p><span class="events_page_dates alt_date">August 21st</span> <br> <span class="events_page_speakers">Buddy B</span><br/><em>Fellowship You Crave</em></p> -->
 
+								<p><span class="events_page_dates alt_date">September 18th</span> <br> <span class="events_page_speakers">Carrie S</span><br/><em>Northland</em></p>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<p>Friday night features speakers with 10 years or more of sobriety.</p>
 								
@@ -345,9 +357,9 @@ very active in AA! They say “yes” to the recovery community and to their rel
 							<span style="padding: 4px; color: hwb(243 1% 28%);">This AA couple has been together for 2 ½ years. Their home group is The Great Fact group in Buda. Looking forward to hearing how recovery supports their relationship.</span>
 							</p> -->
 
-							<p><span class="events_page_dates alt_date">August 1st</span> <br> 
+							<!-- <p><span class="events_page_dates alt_date">August 1st</span> <br> 
 							<span class="events_page_speakers">Trisha and Shannon</span><br/><em>AA/Alanon couple from Northland</em><br>
-							<span style="padding: 4px; color: hwb(243 1% 28%);">Trisha and Shannon, an AA/Alanon couple from Northland, will be speaking.</span></p>
+							<span style="padding: 4px; color: hwb(243 1% 28%);">Trisha and Shannon, an AA/Alanon couple from Northland, will be speaking.</span></p> -->
 
 							<div class="border-top border-primary w-50 mx-auto my-3"></div>
 							<p>This speaker meeting is held in the Big Room at Northland.</p>
