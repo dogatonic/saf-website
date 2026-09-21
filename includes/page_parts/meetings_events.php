@@ -360,6 +360,9 @@ very active in AA! They say “yes” to the recovery community and to their rel
 							<!-- <p><span class="events_page_dates alt_date">August 1st</span> <br> 
 							<span class="events_page_speakers">Trisha and Shannon</span><br/><em>AA/Alanon couple from Northland</em><br>
 							<span style="padding: 4px; color: hwb(243 1% 28%);">Trisha and Shannon, an AA/Alanon couple from Northland, will be speaking.</span></p> -->
+							<span class="events_page_dates alt_date">October 3rd</span> <br>
+							<span class="events_page_speakers">Erik B. & Stephen S.</span><br/><em></em><br>
+							<span style="padding: 4px; color: hwb(243 1% 28%);">Erik and Stephen, both AA’s, will be sharing about their relationship and how recovery helps to support it.</span></p>
 
 							<div class="border-top border-primary w-50 mx-auto my-3"></div>
 							<p>This speaker meeting is held in the Big Room at Northland.</p>
