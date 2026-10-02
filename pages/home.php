@@ -34,6 +34,17 @@
 		<!-- Main Page Heading -->
 		<div class="col-12 text-center mt-3 bodydiv">
 			<!-- <h1 class="text-dark pt-4">Open Full Capacity, 7 Days a Week.</h1> -->
+			<div class="statement3">
+				<h2>Clubhouse Closed for Maintenance</h2>
+				<p><strong>Saturday, October 3</strong></p>
+				<p>The SAF building will be closed for scheduled maintenance from<br>
+					<strong>10:00 AM to 5:00 PM</strong>.
+				</p>
+				<p>The building will resume regular operating hours and reopen at 5:00 PM.</p>
+				<p>We apologize for any inconvenience and appreciate your understanding.</p>
+				<p><em>Thank you, Suburban Alcoholic Foundation</em></p>
+			</div>
+
 			<div class="border-top border-primary w-25 mx-auto my-3"></div>
 			<p class="statement">Home of the Northland Group of Alcoholics Anonymous</p>
 			<!-- <p class="lead">The SAF facility is open for in-person meetings 7 Days a week.<br>Check the <a class="blue-link" href="/meetings">Meetings page</a> for scheduled times.</p> -->
